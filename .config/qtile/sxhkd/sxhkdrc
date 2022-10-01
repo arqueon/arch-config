@@ -18,7 +18,7 @@ super + F2
 super + F3
     inkscape
 
-#Gimp
+#Logseq
 super + F4
     logseq
 
@@ -34,15 +34,15 @@ super + F6
 super + F7
     virtualbox
 
-#Thunar
+#Zotero
 super + F8
     zotero
 
-#Evolution
+#Zettlr
 super + F9
     zettlr
 
-#Spotify
+#Youtube Music 
 super + F10
     youtube-music
 
@@ -60,11 +60,11 @@ super + F12
 
 #Atom
 super + e
-    subl
+    geany
 
 #Browser
 super + w
-	google-chrome-stable
+    google-chrome-stable
 
 #Conky-toggle
 super + c
@@ -117,7 +117,7 @@ super + KP_Enter
 
 #File-Manager
 super + shift + Return
-	thunar
+	pcmanfm
 
 #Keyboard dependent
 #File-Manager
@@ -167,7 +167,7 @@ ctrl + alt + c
 
 #Chromium
 ctrl + alt + g
-    google-chrome-stable -no-default-browser-check
+    chromium -no-default-browser-check
 
 #Firefox
 ctrl + alt + f
@@ -215,7 +215,7 @@ ctrl + alt + t
 
 #Vivaldi
 ctrl + alt + v
-    vivaldi-stable
+    google-chrome-stable
 
 #Xfce4-appfinder
 ctrl + alt + a

@@ -17,15 +17,20 @@ function run {
 #xrandr --output LVDS1 --mode 1366x768 --output DP3 --mode 1920x1080 --right-of LVDS1
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 #autorandr horizontal
+xrandr --output DisplayPort-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --output DisplayPort-1 --off --output DisplayPort-2 --off --output HDMI-A-0 --mode 1920x1080 --pos 0x0 --rotate normal
+export BROWSER=/usr/bin/google-chrome-stable
+xsettingsd &
 
 #change your keyboard if you need it
-#setxkbmap -layout be
+#setxkbmap -layout be 
 
 keybLayout=$(setxkbmap -v | awk -F "+" '/symbols/ {print $2}')
 
 if [ $keybLayout = "be" ]; then
   cp $HOME/.config/qtile/config-azerty.py $HOME/.config/qtile/config.py
 fi
+
+setxkbmap -option caps:super
 
 #autostart ArcoLinux Welcome App
 run dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
@@ -36,25 +41,28 @@ feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
 #wallpaper for other Arch based systems
 #feh --bg-fill /usr/share/archlinux-tweak-tool/data/wallpaper/wallpaper.png &
 #start the conky to learn the shortcuts
-(conky -c $HOME/.config/qtile/scripts/system-overview) &
+conky -c $HOME/.config/qtile/scripts/system-overview &
 
 #start sxhkd to replace Qtile native key-bindings
 run sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc &
 
 
 #starting utility applications at boot time
+/usr/lib/geoclue-2.0/demos/agent &
 run variety &
 run nm-applet &
 run pamac-tray &
 run xfce4-power-manager &
 numlockx on &
-blueberry-tray &
+#blueberry-tray &
+blueman-applet &
 picom --config $HOME/.config/qtile/scripts/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 #starting user applications at boot time
-run volumeicon &
+#run volumeicon &
+run pasystray &
 #run discord &
 #nitrogen --restore &
 #run caffeine -a &
@@ -64,9 +72,10 @@ run volumeicon &
 #run dropbox &
 run insync start &
 run copyq &
-run ferdium &
+run /opt/ExpanDrive/expandrive %U &
+run redshift-gtk &
 run flameshot &
-/opt/ExpanDrive/expandrive %Urun pasystray &
+run kdeconnect-indicator &
 #run spotify &
 #run atom &
 #run telegram-desktop &
