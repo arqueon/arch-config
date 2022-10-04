@@ -28,7 +28,8 @@ super + F5
 
 #Vlc
 super + F6
-    vlc --video-on-top
+    #vlc --video-on-top
+    pcamnfm
 
 #Virtualbox
 super + F7
