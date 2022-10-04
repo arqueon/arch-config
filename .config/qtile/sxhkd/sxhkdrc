@@ -117,7 +117,7 @@ super + KP_Enter
 
 #File-Manager
 super + shift + Return
-    pcmanfm
+    thunar
 
 #Keyboard dependent
 #File-Manager
