@@ -20,7 +20,7 @@ function run {
 .screenlayout/monitor.sh &
 export BROWSER=/usr/bin/google-chrome-stable
 xsettingsd &
-systemctl --user restart xidlehook.service
+#systemctl --user restart xidlehook.service
 #change your keyboard if you need it
 #setxkbmap -layout be 
 
