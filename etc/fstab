@@ -11,4 +11,4 @@ tmpfs                                     /tmp           tmpfs   defaults,noatim
 UUID=6bb01126-96df-49db-adbb-480d8c8bb433  /media/medios  ext4    defaults   0    2
 UUID=caa37598-6732-4aee-8dd9-5d330fde1813  /media/insync  ext4    defaults   0    2
 UUID=30DCE287DCE24726 /media/8TB auto nosuid,nodev,nofail,x-gvfs-show 0 0
-UUID=595f2e45-ddb9-490e-a63e-61e61ab6a5cb /media/VMs auto nosuid,nodev,nofail,x-gvfs-show 0 0
+#UUID=595f2e45-ddb9-490e-a63e-61e61ab6a5cb /media/VMs auto nosuid,nodev,nofail,x-gvfs-show 0 0
