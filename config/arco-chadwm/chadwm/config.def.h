@@ -31,8 +31,8 @@ static const int colorfultag        = 1;        /* 0 means use SchemeSel for sel
 #define ICONSIZE 19   /* icon size */
 #define ICONSPACING 8 /* space between icon and title */
 
-static const char *fonts[]          = {"Iosevka:style:medium:size=12" ,"JetBrainsMono Nerd Font:style:medium:size=12",
-                                        "Material Design Icons Desktop:size=12" };
+static const char *fonts[]          = {"Iosevka:style:medium:size=12" ,"JetBrainsMono Nerd Font:style:medium:size=11",
+                                        "Material Design Icons Desktop:size=11" };
 
 // theme
 //#include "themes/onedark.h"
@@ -68,9 +68,9 @@ static const char *colors[][3]      = {
 //static char *tags[] = {"", "", "", "", "", "", "", "", ""};
 //static char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 //static char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
-static char *tags[] = { "", "", "", "", "", "", "", "", "" };
+//static char *tags[] = { "", "", "", "", "", "", "", "", "" };
 //static char *tags[] = { "Web", "Chat", "Edit", "Meld", "Vb", "Mail", "Video", "Image", "Files" };
-//static char *tags[] = {"一", "二", "三", "四", "五", "六", "七", "八", "九"};
+static char *tags[] = {"一", "二", "三", "四", "五", "六", "七", "八", "九"};
 
 static const char* eww[] = { "eww", "open" , "eww", NULL };
 static const char* discord[] = { "discord", "open" , "discord", NULL };
@@ -98,8 +98,8 @@ static const int ulineall               = 0; /* 1 to show underline on all tags,
 
 static const Rule rules[] = {
     /* xprop(1):
-     *  WM_CLASS(STRING) = instance, class
-     *  WM_NAME(STRING) = title
+     *	WM_CLASS(STRING) = instance, class
+     *	WM_NAME(STRING) = title
      */
     /* class      instance    title       tags mask     iscentered   isfloating   monitor */
     { "Gimp",     NULL,       NULL,       0,            0,           0,           -1 },
@@ -152,6 +152,13 @@ static const Layout layouts[] = {
 
 static Key keys[] = {
     /* modifier                         key         function        argument */
+
+    // brightness and audio 
+    {0,                     XF86XK_AudioMute,       spawn,          SHCMD("pamixer -t")},
+    {0,              XF86XK_AudioRaiseVolume,       spawn,          SHCMD("pamixer -i 5")},
+    {0,              XF86XK_AudioLowerVolume,       spawn,          SHCMD("pamixer -d 5")},
+    {0,              XF86XK_MonBrightnessDown,      spawn,          SHCMD("xbacklight -dec 5")},
+    {0,              XF86XK_MonBrightnessUp,        spawn,          SHCMD("xbacklight -inc 5")},
 
     // screenshot fullscreen and cropped
     {MODKEY|ControlMask,                XK_u,       spawn,
@@ -224,8 +231,8 @@ static Key keys[] = {
     { MODKEY|ShiftMask,                 XK_0,       tag,            {.ui = ~0 } },
     { MODKEY,                           XK_comma,   focusmon,       {.i = -1 } },
     { MODKEY,                           XK_period,  focusmon,       {.i = +1 } },
-    { MODKEY|ShiftMask,                 XK_Left,    tagmon,         {.i = -1 } },
-    { MODKEY|ShiftMask,                 XK_Right,   tagmon,         {.i = +1 } },
+    { MODKEY|ShiftMask,                 XK_comma,   tagmon,         {.i = -1 } },
+    { MODKEY|ShiftMask,                 XK_period,  tagmon,         {.i = +1 } },
 
     // change border size
     { MODKEY|ShiftMask,                 XK_minus,   setborderpx,    {.i = -1 } },
@@ -296,8 +303,8 @@ static Button buttons[] = {
     { ClkClientWin,         MODKEY,         Button1,        moveorplace,    {.i = 0} },
     { ClkClientWin,         MODKEY,         Button2,        togglefloating, {0} },
     { ClkClientWin,         MODKEY,         Button3,        resizemouse,    {0} },
-    //{ ClkClientWin,         ControlMask,    Button1,        dragmfact,      {0} },
-    //{ ClkClientWin,         ControlMask,    Button3,        dragcfact,      {0} },
+    { ClkClientWin,         ControlMask,    Button1,        dragmfact,      {0} },
+    { ClkClientWin,         ControlMask,    Button3,        dragcfact,      {0} },
     { ClkTagBar,            0,              Button1,        view,           {0} },
     { ClkTagBar,            0,              Button3,        toggleview,     {0} },
     { ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
