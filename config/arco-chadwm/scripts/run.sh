@@ -25,7 +25,7 @@ export BROWSER=/usr/bin/google-chrome-stable
 xsettingsd &
 
 setxkbmap -option caps:super
-wmname LG3D
+run "wmname LG3D"
 /usr/lib/geoclue-2.0/demos/agent &
 run "nm-applet"
 run "pamac-tray"
