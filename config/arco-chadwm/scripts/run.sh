@@ -25,7 +25,7 @@ export BROWSER=/usr/bin/google-chrome-stable
 xsettingsd &
 
 setxkbmap -option caps:super
-run "wmname LG3D"
+
 /usr/lib/geoclue-2.0/demos/agent &
 run "nm-applet"
 run "pamac-tray"
@@ -59,6 +59,7 @@ run /opt/ExpanDrive/expandrive %U &
 run redshift-gtk &
 run flameshot &
 run kdeconnect-indicator &
+run wmname LG3D &
 #run "spotify"
 #run "ckb-next -b"
 #run "discord"
