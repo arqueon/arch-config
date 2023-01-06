@@ -12,7 +12,10 @@ super + F1
 
 # Atom
 super + F2
-    /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=ferdium --file-forwarding org.ferdium.Ferdium @@u %U @@
+    ferdium
+
+# /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=ferdium --file-forwarding org.ferdium.Ferdium @@u %U @@
+
 
 #Inkscape
 super + F3
