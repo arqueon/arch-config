@@ -35,11 +35,11 @@ static const char *fonts[]          = {"Iosevka:style:medium:size=12" ,"JetBrain
                                         "Material Design Icons Desktop:size=11" };
 
 // theme
-//#include "themes/onedark.h"
+#include "themes/onedark.h"
 //#include "themes/catppuccin.h"
 //#include "themes/nord.h"
 //#include "themes/gruvchad.h"
-#include "themes/dracula.h"
+//include "themes/dracula.h"
 
 static const char *colors[][3]      = {
     /*                     fg       bg      border */

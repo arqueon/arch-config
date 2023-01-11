@@ -59,7 +59,7 @@ run /opt/ExpanDrive/expandrive %U &
 run redshift-gtk &
 run flameshot &
 run kdeconnect-indicator &
-run wmname LG3D &
+wmname LG3D &
 #run "spotify"
 #run "ckb-next -b"
 #run "discord"
