@@ -16,7 +16,7 @@ super + F2
 
 #Inkscape
 super + F3
-    inkscape
+    zotero
 
 #Logseq
 super + F4
@@ -24,24 +24,24 @@ super + F4
 
 #Meld
 super + F5
-    meld
+    zettlr
 
 #Vlc
 super + F6
     #vlc --video-on-top
-    pcamnfm
+    dolphin
 
 #Virtualbox
 super + F7
-    virtualbox
+    virt-manager
 
 #Zotero
 super + F8
-    zotero
+    qbittorrent
 
 #Zettlr
 super + F9
-    zettlr
+    jdownloader
 
 #Youtube Music 
 super + F10
