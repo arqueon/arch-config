@@ -141,7 +141,7 @@ keys = [
         lazy.next_screen(),
         desc='Move focus to next monitor'),
     Key([mod], "comma",
-        lazy.prev_scrSeen(),
+        lazy.prev_screen(),
         desc='Move focus to prev monitor'),
 ]
 
@@ -174,7 +174,6 @@ groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "minus", "equal"]
 
 group_labels = ["", "", "", "", "", "", "", "", "", "", "", "",]
-#group_labels = ["", "", "", "", "", "", "", "", "ﭮ", "", "", "﨣"]
 # group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
 
 group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "matrix", "monadtall", "monadtall", "monadtall", "monadtall"]
@@ -225,7 +224,7 @@ colors, backgroundColor, foregroundColor, workspaceColor, chordColor = colors.do
 # Define layouts and layout themes
 layout_theme = {
         "margin":5,
-        "border_width": 4,
+        "border_width": 3,
         "border_focus": colors[4],
         "border_normal": backgroundColor
     }
@@ -238,6 +237,8 @@ layouts = [
     layout.Floating(**layout_theme),
     layout.RatioTile(**layout_theme),
     layout.Max(**layout_theme)
+    layout.Slice(**layout_theme)
+    layout.Spiral(**layout_theme)
 ]
 
 # Mouse callback functions
@@ -284,8 +285,8 @@ def init_widgets_list(monitor_num):
         widget.TaskList(
             icon_size = 0,
             font = "JetBrainsMono Nerd Font",
-            foreground = colors[10],
-            background = colors[4],
+            foreground = colors[5],
+            background = colors[2],
             borderwidth = 0,
             border = colors[1],
             margin = 0,
@@ -456,7 +457,7 @@ floating_layout = layout.Floating(float_rules=[
     Match(wm_class='Mailspring'), # Mail client
 ], fullscreen_border_width = 0, border_width = 0)
 auto_fullscreen = True
-focus_on_window_activation = "focus"
+focus_on_window_activation = "smart"
 reconfigure_screens = True
 
 # If things like steam games want to auto-minimize themselves when losing

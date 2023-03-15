@@ -68,7 +68,7 @@ super + w
     google-chrome-stable
 
 #Conky-toggle
-#super + c
+super + c
     conky-toggle
 
 #killall conky
@@ -96,7 +96,7 @@ super + v
     pavucontrol
 
 #Pragha
-#super + m
+super + m
     pragha
 
 #alacritty
