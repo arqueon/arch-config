@@ -306,10 +306,10 @@ def init_widgets_list(monitor_num):
             background = backgroundColor
         ),
         widget.OpenWeather(
-            app_key = "4cf3731a25d1d1f4e4a00207afd451a2",
-            cityid = "4997193",
+            app_key = "eef70be9b67cd504291fc5b2319f40cd",
+            cityid = "4005539",
             format = '{icon} {main_temp}°',
-            metric = False,
+            metric = True,
             font = "JetBrainsMono Nerd Font",
             foreground = foregroundColor,
         ),
@@ -358,7 +358,7 @@ def init_widgets_list(monitor_num):
             foreground = colors[10],
         ),
         widget.Clock(
-            format='%I:%M %p',
+            format='%d/%m/%y %H:%M',
             font = "JetBrainsMono Nerd Font",
             padding = 10,
             foreground = foregroundColor

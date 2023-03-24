@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 function run {
   if ! pgrep -x $(basename $1 | head -c 15) 1>/dev/null;
@@ -61,7 +61,8 @@ picom --config $HOME/.config/qtile/scripts/picom.conf &
 
 #starting user applications at boot time
 #run volumeicon &
-run pasystray &
+#run pasystray &
+run pnmixer &
 #run discord &
 #nitrogen --restore &
 #run caffeine -a &
