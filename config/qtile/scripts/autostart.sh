@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 function run {
   if ! pgrep -x $(basename $1 | head -c 15) 1>/dev/null;
@@ -22,7 +22,7 @@ export BROWSER=/usr/bin/google-chrome-stable
 xsettingsd &
 #systemctl --user restart xidlehook.service
 #change your keyboard if you need it
-#setxkbmap -layout be 
+#setxkbmap -layout be
 
 keybLayout=$(setxkbmap -v | awk -F "+" '/symbols/ {print $2}')
 
@@ -37,6 +37,7 @@ run dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
 
 #Some ways to set your wallpaper besides variety or nitrogen
 feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
+feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
 #wallpaper for other Arch based systems
 #feh --bg-fill /usr/share/archlinux-tweak-tool/data/wallpaper/wallpaper.png &
 #start the conky to learn the shortcuts
