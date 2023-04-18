@@ -221,8 +221,8 @@
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>
     </Editor>
-    <Differ Enabled="False">
-      <Path/>
+    <Differ Enabled="True">
+      <Path>meld</Path>
       <Parameters/>
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>
@@ -714,7 +714,7 @@
     <DfltRightGoTo>1</DfltRightGoTo>
     <DfltKeep>5</DfltKeep>
     <DfltSaveDirHistory>False</DfltSaveDirHistory>
-    <FavTabsLastUniqueID>{EA090D1D-575B-4EE8-9580-D65071937381}</FavTabsLastUniqueID>
+    <FavTabsLastUniqueID>{1CCA04FB-D788-469C-8914-EEF8EF35C107}</FavTabsLastUniqueID>
   </FavoriteTabsOptions>
   <Lua>
     <PathToLibrary>liblua5.1.so.0</PathToLibrary>

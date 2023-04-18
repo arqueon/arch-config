@@ -4,6 +4,7 @@
     <FavoriteTabs UniqueID="{EA090D1D-575B-4EE8-9580-D65071937381}" Name="General" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
     <FavoriteTabs UniqueID="{3AAE7EA0-0870-4F4F-91E8-1A0E35AAF2BC}" Name="Plex - torrents" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
     <FavoriteTabs UniqueID="{20ADA601-F635-4E0B-A28D-87AD18C391F5}" Name="Arch-config" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
+    <FavoriteTabs UniqueID="{1CCA04FB-D788-469C-8914-EEF8EF35C107}" Name="Qtile" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
   </FavoriteTabsList>
   <ActualTabs>
     <GUIDEA090D1D-575B-4EE8-9580-D65071937381>
@@ -126,5 +127,49 @@
         </Tab>
       </Right>
     </GUID20ADA601-F635-4E0B-A28D-87AD18C391F5>
+    <GUID1CCA04FB-D788-469C-8914-EEF8EF35C107>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>1</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/media/insync/arch-config/config/qtile/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/home/ruben/.config/qtile/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </GUID1CCA04FB-D788-469C-8914-EEF8EF35C107>
   </ActualTabs>
 </doublecmd>
