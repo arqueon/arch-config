@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <FavoriteTabsList>
+    <FavoriteTabs UniqueID="{EA090D1D-575B-4EE8-9580-D65071937381}" Name="General" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
+    <FavoriteTabs UniqueID="{3AAE7EA0-0870-4F4F-91E8-1A0E35AAF2BC}" Name="Plex - torrents" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
+    <FavoriteTabs UniqueID="{20ADA601-F635-4E0B-A28D-87AD18C391F5}" Name="Arch-config" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
+  </FavoriteTabsList>
+  <ActualTabs>
+    <GUIDEA090D1D-575B-4EE8-9580-D65071937381>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/home/ruben/Descargas/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/media/medios/organizar/1.series/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </GUIDEA090D1D-575B-4EE8-9580-D65071937381>
+    <GUID3AAE7EA0-0870-4F4F-91E8-1A0E35AAF2BC>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/media/8TB/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/media/medios/organizar/1.series/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </GUID3AAE7EA0-0870-4F4F-91E8-1A0E35AAF2BC>
+    <GUID20ADA601-F635-4E0B-A28D-87AD18C391F5>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>1</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/media/insync/arch-config/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/home/ruben/.config/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </GUID20ADA601-F635-4E0B-A28D-87AD18C391F5>
+  </ActualTabs>
+</doublecmd>
