@@ -152,7 +152,15 @@
     </MiddleToolbar>
   </Toolbars>
   <MainWindow>
-    <Position Save="True"/>
+    <Position Save="True">
+      <Left>80</Left>
+      <Top>48</Top>
+      <Width>800</Width>
+      <Height>480</Height>
+      <PixelsPerInch>96</PixelsPerInch>
+      <Maximized>True</Maximized>
+      <Splitter>50</Splitter>
+    </Position>
   </MainWindow>
   <Language>
     <POFileName>doublecmd.es.po</POFileName>
@@ -200,7 +208,7 @@
     <DateTimeFormat>dd/mm/yy hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>False</ExtendCellWidth>
-    <ShowSystemFiles>False</ShowSystemFiles>
+    <ShowSystemFiles>True</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>
@@ -479,6 +487,74 @@
     <CharacterLimit>32</CharacterLimit>
     <Position>0</Position>
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="">/home/ruben/Descargas/</Path>
+                  <Path Filename="rubeng">/home/</Path>
+                  <Path Filename="Descargas">/home/rubeng/</Path>
+                  <Path Filename="..">/home/rubeng/Descargas/</Path>
+                  <Path Filename="DATA">/home/rubeng/</Path>
+                  <Path Filename="arch-config">/home/rubeng/DATA/</Path>
+                  <Path Filename="config">/home/rubeng/DATA/arch-config/</Path>
+                  <Path Filename="qtile">/home/rubeng/DATA/arch-config/config/</Path>
+                  <Path Filename="sxhkd">/home/rubeng/DATA/arch-config/config/qtile/</Path>
+                  <Path Filename="..">/home/rubeng/DATA/arch-config/config/qtile/sxhkd/</Path>
+                  <Path Filename="..">/home/rubeng/DATA/arch-config/config/qtile/</Path>
+                  <Path Filename="..">/home/rubeng/DATA/arch-config/config/</Path>
+                  <Path Filename="..">/home/rubeng/DATA/arch-config/</Path>
+                  <Path Filename="..">/home/rubeng/DATA/</Path>
+                  <Path Filename="Descargas">/home/rubeng/</Path>
+                  <Path Filename="2023-02-22_situatedmonad_1628491660551393280.txt">/home/rubeng/Descargas/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="">/media/medios/organizar/1.series/</Path>
+                  <Path Filename="insync">/media/</Path>
+                  <Path Filename="..">/media/insync/</Path>
+                  <Path Filename="insync">/media/</Path>
+                  <Path Filename="..">/media/insync/</Path>
+                  <Path Filename="insync">/media/</Path>
+                  <Path Filename="..">/home/rubeng/ExpanDrive/Google Drive/</Path>
+                  <Path Filename="..">/home/rubeng/ExpanDrive/</Path>
+                  <Path Filename=".config">/home/rubeng/</Path>
+                  <Path Filename="qtile">/home/rubeng/.config/</Path>
+                  <Path Filename="sxhkd">/home/rubeng/.config/qtile/</Path>
+                  <Path Filename="..">/home/rubeng/.config/qtile/sxhkd/</Path>
+                  <Path Filename="..">/home/rubeng/.config/qtile/</Path>
+                  <Path Filename="..">/home/rubeng/.config/</Path>
+                  <Path Filename="Descargas">/home/rubeng/</Path>
+                  <Path Filename="..">/home/rubeng/Descargas/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
   </Tabs>
   <Log Enabled="False" Count="0" LogFileWithDateInName="False">
     <FileName>%DC_CONFIG_PATH%/doublecmd.log</FileName>
@@ -714,7 +790,7 @@
     <DfltRightGoTo>1</DfltRightGoTo>
     <DfltKeep>5</DfltKeep>
     <DfltSaveDirHistory>False</DfltSaveDirHistory>
-    <FavTabsLastUniqueID>{1CCA04FB-D788-469C-8914-EEF8EF35C107}</FavTabsLastUniqueID>
+    <FavTabsLastUniqueID>{F18E9AC4-A9B1-4720-AB2A-E12807E99366}</FavTabsLastUniqueID>
   </FavoriteTabsOptions>
   <Lua>
     <PathToLibrary>liblua5.1.so.0</PathToLibrary>

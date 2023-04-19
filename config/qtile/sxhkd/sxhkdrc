@@ -28,8 +28,6 @@ super + F5
 
 #Vlc
 super + F6
-    #vlc --video-on-top
-    #dolphin
     doublecmd
 
 #Virtualbox

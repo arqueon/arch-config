@@ -5,6 +5,9 @@
     <FavoriteTabs UniqueID="{3AAE7EA0-0870-4F4F-91E8-1A0E35AAF2BC}" Name="Plex - torrents" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
     <FavoriteTabs UniqueID="{20ADA601-F635-4E0B-A28D-87AD18C391F5}" Name="Arch-config" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
     <FavoriteTabs UniqueID="{1CCA04FB-D788-469C-8914-EEF8EF35C107}" Name="Qtile" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
+    <FavoriteTabs UniqueID="{F18E9AC4-A9B1-4720-AB2A-E12807E99366}" Name="Descargas" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
+    <FavoriteTabs UniqueID="{29097706-A3B3-4EE1-A346-9355F531D261}" Name="of DATA" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
+    <FavoriteTabs UniqueID="{F20A0043-A85E-4FA8-A665-0244D2B4D4D6}" Name="of Qtile" DestLeft="0" DestRight="1" ExistingKeep="5" SaveDirHistory="False"/>
   </FavoriteTabsList>
   <ActualTabs>
     <GUIDEA090D1D-575B-4EE8-9580-D65071937381>
@@ -171,5 +174,143 @@
         </Tab>
       </Right>
     </GUID1CCA04FB-D788-469C-8914-EEF8EF35C107>
+    <GUIDF18E9AC4-A9B1-4720-AB2A-E12807E99366>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/home/rubeng/Descargas/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/home/rubeng/Descargas/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </GUIDF18E9AC4-A9B1-4720-AB2A-E12807E99366>
+    <GUID29097706-A3B3-4EE1-A346-9355F531D261>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>1</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/home/rubeng/DATA/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/home/rubeng/.config/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </GUID29097706-A3B3-4EE1-A346-9355F531D261>
+    <GUIDF20A0043-A85E-4FA8-A665-0244D2B4D4D6>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>1</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/home/rubeng/DATA/arch-config/config/qtile/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/home/rubeng/.config/qtile/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </GUIDF20A0043-A85E-4FA8-A665-0244D2B4D4D6>
   </ActualTabs>
 </doublecmd>
