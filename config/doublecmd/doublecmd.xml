@@ -503,8 +503,8 @@
     <NtfsHourTimeDelay>False</NtfsHourTimeDelay>
     <AutoExtractOpenMask/>
     <SearchDefaultTemplate/>
-    <ProgressKind>0</ProgressKind>
-    <Confirmations>15</Confirmations>
+    <ProgressKind>2</ProgressKind>
+    <Confirmations>4</Confirmations>
     <Options>
       <Symlink>0</Symlink>
       <CorrectLinks>False</CorrectLinks>
@@ -615,13 +615,13 @@
     <IgnoreListFile>%DC_CONFIG_PATH%/ignorelist.txt</IgnoreListFile>
   </IgnoreList>
   <DirectoryHotList>
-    <HotDir Name="Descargas" Path="/home/ruben/Descargas/"/>
-    <HotDir Name="Insync" Path="/media/insync/Insync/"/>
-    <HotDir Name="1.transferir.archivos" Path="/media/insync/Insync/Transfer.Arqueonautis/1.transferir.archivos/"/>
-    <HotDir Name="8TB" Path="/media/8TB/"/>
-    <HotDir Name="1.series" Path="/media/medios/organizar/1.series/"/>
-    <HotDir Name="1.ordenar" Path="/media/medios/organizar/1.ordenar/"/>
-    <HotDir Name="arch-config" Path="/media/insync/arch-config/"/>
+    <HotDir Name="Descargas" Path="/home/ruben/Descargas"/>
+    <HotDir Name="Insync" Path="/media/insync/Insync"/>
+    <HotDir Name="1.transferir.archivos" Path="/media/insync/Insync/Transfer.Arqueonautis/1.transferir.archivos"/>
+    <HotDir Name="8TB" Path="/media/8TB"/>
+    <HotDir Name="1.series" Path="/media/medios/organizar/1.series"/>
+    <HotDir Name="1.ordenar" Path="/media/medios/organizar/1.ordenar"/>
+    <HotDir Name="arch-config" Path="/media/insync/arch-config"/>
   </DirectoryHotList>
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
