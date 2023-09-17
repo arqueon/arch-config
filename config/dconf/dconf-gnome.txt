@@ -1,0 +1,2 @@
+dconf comes from arcolinux-gnome-dconf for consistency
+arcolinux-gnome will be used if more settings are needed
