@@ -1,3 +1,7 @@
+[Appearance]
+Blur=false
+Translucency=false
+
 [Desktop Entry]
 DefaultProfile=arcolinux.profile
 
@@ -9,10 +13,4 @@ Favorites=
 
 [Window]
 Height=60
-ShowSystrayIcon=false
-ShowTabBar=false
 Width=80
-
-[Appearance]
-Blur=false
-Translucency=false
