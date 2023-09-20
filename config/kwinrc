@@ -26,6 +26,12 @@ screenGapTop=8
 tileLayoutGap=10
 untileByDragging=false
 
+[TabBox]
+DesktopMode=0
+
+[TabBoxAlternative]
+DesktopMode=0
+
 [Tiling]
 padding=4
 
@@ -39,7 +45,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
-FocusPolicy=FocusUnderMouse
+FocusPolicy=FocusFollowsMouse
 RollOverDesktops=true
 SeparateScreenFocus=true
 

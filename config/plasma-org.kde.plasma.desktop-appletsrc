@@ -41,8 +41,9 @@ DialogHeight=690
 DialogWidth=920
 
 [Containments][2][Applets][43][Configuration][General]
+forceStripes=true
 iconSpacing=0
-launchers=applications:google-chrome.desktop,applications:ferdium.desktop,applications:zotero.desktop,applications:logseq-desktop.desktop,applications:zettlr.desktop,applications:org.kde.krusader.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop
+launchers=applications:google-chrome.desktop,applications:ferdium.desktop,applications:zotero.desktop,applications:logseq-desktop.desktop?iconData=iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEmElEQVRYhe2Y309bZRjHn-c9lP7eKGthhXVUVhCkE61AppGMTTRmccp2sYsxE7lQb-YSb_wLvNLohckujNFIdDF6oSFkCeqSiWMhI47BSjf51cmoa9na0hYK40ffx4vSDiin7TmcRC745tyc933Pez7P87zv8z7nINQ1wE4S-78BNmsXKJd2gXJpxwEVKDkZbbxFOXMoBiQIgs1eYdlfqiosjEYiU3-Pzy8uKAwkAFY5n6moOgQA_mnf6JB7aWUZcLPhKpXq2OuvNbQ2GwyGdOPKysrV7l97L_ds8pp8II1We-78u_aa6nRLbDbS1fnD2O0RWsekN-g7Pjxvtds2YapUqtZTb_h9vtHhEUlAIoua6GT7mcqaagaQvopMRec-eN_Z4AJ6YvaJM6czaZJCoNJy6_rB8oF0RoOz6YXMdkFgbR3txqK96RbH4VqxqYnzcbcnM8RygMwWiyBs3aXWahpbXk7f-u5NbeYASCAkOO_-_if__X8l0YgCLS0vZWziNSGAY93C6vrm0pjbQ-viQgnuHfZ89fGnN3r7pLoHxBZ10D-zEIsb9hgyu5BAq9Olb2Pz852fX7Ts21dit2lUhfOxuQdT03PxODCUQSMKxBO8_8rVV06fxIz0RgChmUcbGYVgOBoMR5O9CFweSlJbh4wA-nquTI9PZoaNAG792b8RiAh58gLklGmEFAlQUrZFMwIn8gwMFlvMlnIrpizmRH2Xf-vvvbYdH2QXZithCRiR7amKWtezJpMpFot5_hq67_2Hsyc0SAAAeqPBaj9QbDZrDXrG2NLi42h4NuB7EHr4iDjH5Kj8TMgKlHwfEYCQXB2InAAoNbVGrXY1v_Tckcb9dhswYITJFcCTYzhEI5G7g8M3e_tmfH5SBEj0McZePNZ8tO2EUafPOZiIRm4O9fz4y2wolDPWImsoq3Ra3dsX3ms6flStKszHbEQsKbM-33wk6J8J-gPZmSQDadWajo8u2KsOSdpMCKBSqeoaXJFgyD_ty8IkrWJEgrc6zh6osEl6Ki1BwLaO9oOOyixjpAE5aqqdDS55NCkm4dQ7Z5lSHmpqbdlmEY4IpWXWWle9AkCMsaq6p7eThdNyNoq6WQLQHqOxUK1WAAegrLxcrEsCECp3XGjEDcsXCAnmorHl1VWuBNB8PC5W2uYLRACrPOG7O6YED0x7vWKvzjtkCIA48EcfilSSknT7-oBYbpS2i923PN47o9uJGgeYcHvuTXiRtp5GGhAB__nLb-dCYQ4gAyuBEI9Eu76-BIhifpZ4liE8Xl6aGHTX1Ds1er3UXRePRDs_-SIYChGiWD6TcdpjfHFx-PoNk7l4fTGZRUSEgF73ne8-uxgMhynrIzLrISDGeKLSUdny5qv2w3WAAiPgCGslAAGk6jgC8k9OXuv-fWTITayAgEA0XNsBWnsrIeemvUU19c6D1Q6zzWo0mdQa9eryykI09tAf8I17x4ZGAoEAMEYAxHK7cxtAG8USRMSJOPC1HIGMAWN5Vq5pKfZ_iAsIVACASJAq6bmMlKXoH7TkJ0HKJfIS6I77x7gLlEu7QLm044D-A8UFpeJxmVtYAAAAAElFTkSuQmCC,applications:zettlr.desktop,applications:org.kde.krusader.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop
 middleClickAction=Close
 showOnlyCurrentDesktop=false
 
@@ -64,7 +65,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=80
+PreloadWeight=100
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -72,7 +73,9 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=0
+PreloadWeight=15
+popupHeight=550
+popupWidth=484
 
 [Containments][2][Applets][9]
 immutability=1
@@ -83,7 +86,7 @@ PreloadWeight=0
 
 [Containments][2][ConfigDialog]
 DialogHeight=1080
-DialogWidth=260
+DialogWidth=270
 
 [Containments][2][Configuration]
 PreloadWeight=0
@@ -101,11 +104,15 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][22][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
+
 [Containments][22][Configuration]
 PreloadWeight=0
 
 [Containments][22][Wallpaper][org.kde.image][General]
-Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-489e1cc0ed04f984765aac4cb3b45d26.jpg
+Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-657246ca26ae7a6127c676415d96ebc1.jpg
 
 [Containments][26]
 ItemGeometries-1920x1080=
@@ -118,11 +125,15 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][26][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
+
 [Containments][26][Configuration]
 PreloadWeight=0
 
 [Containments][26][Wallpaper][org.kde.image][General]
-Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-489e1cc0ed04f984765aac4cb3b45d26.jpg
+Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-657246ca26ae7a6127c676415d96ebc1.jpg
 
 [Containments][7]
 activityId=
@@ -140,9 +151,10 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][10][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][7][Applets][10][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][7][Applets][11]
@@ -157,7 +169,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=0
+PreloadWeight=35
 
 [Containments][7][Applets][13]
 immutability=1
@@ -178,7 +190,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=20
+PreloadWeight=25
 
 [Containments][7][Applets][16]
 immutability=1

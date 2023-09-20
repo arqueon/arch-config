@@ -1,0 +1,10 @@
+[MainWindow]
+2 screens: Height=1056
+2 screens: Width=1846
+2 screens: XPosition=1982
+2 screens: YPosition=12
+DisplayPort-0 HDMI-A-0=DisplayPort-0
+MenuBar=Disabled
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAABzYAAAQgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled

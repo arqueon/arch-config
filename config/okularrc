@@ -1,0 +1,39 @@
+[Desktop Entry]
+FullScreen=false
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=true
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+2 screens: Height=1056
+2 screens: Width=914
+2 screens: XPosition=2914
+2 screens: YPosition=12
+DisplayPort-0 HDMI-A-0=DisplayPort-0
+State=AAAA/wAAAAD9AAAAAQAAAAAAAABaAAAD1/wCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAABJAAAD1wAAASIA///+AAADNAAAA9cAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Descargas/Jalisco_a_medio_camino_Vol_II.pdf
+File10[$e]=$HOME/Descargas/Dearth_Deconstruction_after_Speculative.pdf
+File2[$e]=$HOME/Descargas/HAI_AI-Index_Report_2023.pdf
+File3[$e]=$HOME/Descargas/Correspondence.1919.1973.epub
+File4[$e]=$HOME/Descargas/0367566982.epub
+File5[$e]=$HOME/Descargas/M. J. Kaufman et al - The Methuen Drama Book of Trans Plays (2021).epub
+File6[$e]=$HOME/Descargas/Affirmative_Nomadology_and_the_War_Machi.pdf
+File7[$e]=gdrive:/google1/Taller prepa 2 modelo híbrido/Learning Center.pdf?id=1-5LOhxBnQei0cshxPbCHbYyTc_V-MSQx
+File8[$e]=/run/media/ruben/fb71fd00-826a-4d77-9f6f-42228e910ead/home/ruben/Descargas/RP 230911.pdf
+File9[$e]=$HOME/Descargas/Carta Solicitud Espacios Coursera - GDL.pdf
+Name1[$e]=Jalisco_a_medio_camino_Vol_II.pdf
+Name10[$e]=Dearth_Deconstruction_after_Speculative.pdf
+Name2[$e]=HAI_AI-Index_Report_2023.pdf
+Name3[$e]=Correspondence.1919.1973.epub
+Name4[$e]=0367566982.epub
+Name5[$e]=M. J. Kaufman et al - The Methuen Drama Book of Trans Plays (2021).epub
+Name6[$e]=Affirmative_Nomadology_and_the_War_Machi.pdf
+Name7[$e]=Learning Center.pdf
+Name8[$e]=RP 230911.pdf
+Name9[$e]=Carta Solicitud Espacios Coursera - GDL.pdf

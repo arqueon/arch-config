@@ -168,20 +168,21 @@
         <ActiveTab>0</ActiveTab>
         <Tab>
           <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>1</Function>
+              </Sorting>
+            </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/usr/lib/doublecmd/</Path>
-                  <Path Filename="doublecmd">/usr/lib/</Path>
-                  <Path Filename="bin">/</Path>
-                  <Path Filename="..">/home/ruben/</Path>
-                  <Path Filename="..">/home/</Path>
-                  <Path Filename="media">/</Path>
-                  <Path Filename="insync">/media/</Path>
-                  <Path Filename="arch-config">/media/insync/</Path>
-                  <Path Filename="config">/media/insync/arch-config/</Path>
-                  <Path Filename="doublecmd">/media/insync/arch-config/config/</Path>
+                  <Path Filename="..">/media/insync/arch-config/config/qtile/</Path>
+                  <Path Filename="..">/media/insync/arch-config/config/</Path>
+                  <Path Filename="DATA">/home/ruben/</Path>
+                  <Path Filename="arch-config">/home/ruben/DATA/</Path>
+                  <Path Filename=".git">/home/ruben/DATA/arch-config/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -199,9 +200,9 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/usr/lib/doublecmd/</Path>
-                  <Path Filename="Escritorio">/home/ruben/</Path>
+                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
                   <Path Filename="..">/home/ruben/.config/</Path>
+                  <Path Filename=".config-att">/home/ruben/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -212,7 +213,7 @@
         </Tab>
       </Right>
     </OpenedTabs>
-    <Options>54033</Options>
+    <Options>49937</Options>
     <CharacterLimit>32</CharacterLimit>
     <Position>0</Position>
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
@@ -230,7 +231,7 @@
     <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
     <JustRunTerminal>alacritty</JustRunTerminal>
     <JustRunTermParams/>
-    <OnlyOneAppInstance>False</OnlyOneAppInstance>
+    <OnlyOneAppInstance>True</OnlyOneAppInstance>
     <LynxLike>True</LynxLike>
     <FileSizeFormat>0</FileSizeFormat>
     <OperationSizeFormat>0</OperationSizeFormat>
@@ -246,7 +247,7 @@
     <PersonalizedGiga>GB</PersonalizedGiga>
     <PersonalizedTera>TB</PersonalizedTera>
     <MinimizeToTray>False</MinimizeToTray>
-    <AlwaysShowTrayIcon>False</AlwaysShowTrayIcon>
+    <AlwaysShowTrayIcon>True</AlwaysShowTrayIcon>
     <Mouse>
       <Selection Enabled="True">
         <Button>0</Button>
@@ -262,8 +263,8 @@
     <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
     <DateTimeFormat>dd/mm/yy hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
-    <ExtendCellWidth>False</ExtendCellWidth>
-    <ShowSystemFiles>False</ShowSystemFiles>
+    <ExtendCellWidth>True</ExtendCellWidth>
+    <ShowSystemFiles>True</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>
@@ -400,7 +401,7 @@
     <ButtonBar Enabled="True">
       <FlatIcons>True</FlatIcons>
       <ButtonHeight>24</ButtonHeight>
-      <IconSize>16</IconSize>
+      <IconSize>32</IconSize>
       <ShowCaptions>False</ShowCaptions>
       <ReportErrorWithCommands>False</ReportErrorWithCommands>
       <FilenameStyle>0</FilenameStyle>
@@ -492,7 +493,7 @@
     <UseTrash>True</UseTrash>
     <SkipFileOpError>False</SkipFileOpError>
     <TypeOfDuplicatedRename>0</TypeOfDuplicatedRename>
-    <ShowDialogOnDragDrop>True</ShowDialogOnDragDrop>
+    <ShowDialogOnDragDrop>False</ShowDialogOnDragDrop>
     <DragAndDropTextRichtextDesireLevel>0</DragAndDropTextRichtextDesireLevel>
     <DragAndDropTextHtmlDesireLevel>1</DragAndDropTextHtmlDesireLevel>
     <DragAndDropTextUnicodeDesireLevel>2</DragAndDropTextUnicodeDesireLevel>
@@ -566,7 +567,7 @@
     <ShowWarningMessages>True</ShowWarningMessages>
     <SpaceMovesDown>False</SpaceMovesDown>
     <DirBrackets>True</DirBrackets>
-    <InplaceRename>True</InplaceRename>
+    <InplaceRename>False</InplaceRename>
     <InplaceRenameButton>True</InplaceRenameButton>
     <DblClickToParent>True</DblClickToParent>
     <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>

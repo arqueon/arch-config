@@ -1,0 +1,29 @@
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAO3AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+2 screens: Height=519
+2 screens: Width=914
+2 screens: XPosition=2914
+2 screens: YPosition=549
+DisplayPort-0 HDMI-A-0=DisplayPort-0
+Height 1080=480
+State=AAAA/wAAAAD9AAAAAAAAA5IAAAG8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Window-Maximized 1080x1920=true
+
+[Recent Files]
+File1[$e]=$HOME/Descargas/diablanna_☀️_14_9_2023/2850410729648766376_199426060.jpg
+File2[$e]=$HOME/Descargas/diablanna_☀️_14_9_2023/2990510296055844008_199426060.jpg
+File3[$e]=$HOME/.cache/.fr-YKEBB2/Screenshots/bspwm-themes/bspwm_theme_8.png
+Name1[$e]=2850410729648766376_199426060.jpg
+Name2[$e]=2990510296055844008_199426060.jpg
+Name3[$e]=bspwm_theme_8.png
+
+[SideBar]
+InformationSplitterSizes=233,234

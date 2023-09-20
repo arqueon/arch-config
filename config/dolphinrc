@@ -10,6 +10,9 @@ PreviewSize=64
 ShowCopyMoveMenu=true
 
 [General]
+AutoExpandFolders=true
+BrowseThroughArchives=true
+OpenNewTabAfterLastTab=true
 SplitView=true
 UseTabForSwitchingSplitView=true
 Version=202
