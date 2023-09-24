@@ -67,12 +67,16 @@ favoritesPortedToKAstats=true
 [Containments][2][Applets][47][Shortcuts]
 global=Alt+F1
 
-[Containments][2][Applets][49]
+[Containments][2][Applets][56]
 immutability=1
-plugin=org.kde.plasma.calculator
+plugin=com.pajuelo.plasmaConfSaver
 
-[Containments][2][Applets][49][Configuration]
-PreloadWeight=95
+[Containments][2][Applets][56][Configuration]
+PreloadWeight=100
+
+[Containments][2][Applets][56][Configuration][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
 
 [Containments][2][Applets][6]
 immutability=1
@@ -82,21 +86,22 @@ plugin=org.kde.plasma.systemtray
 PreloadWeight=100
 SystrayContainmentId=7
 
+[Containments][2][Applets][61]
+immutability=1
+plugin=org.kde.plasma.showActivityManager
+
+[Containments][2][Applets][61][Configuration][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
+
 [Containments][2][Applets][8]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=15
+PreloadWeight=20
 popupHeight=550
 popupWidth=484
-
-[Containments][2][Applets][9]
-immutability=1
-plugin=org.kde.plasma.showdesktop
-
-[Containments][2][Applets][9][Configuration]
-PreloadWeight=0
 
 [Containments][2][ConfigDialog]
 DialogHeight=1080
@@ -106,7 +111,7 @@ DialogWidth=270
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=47;4;43;6;49;8;9
+AppletOrder=47;4;43;61;6;56;8
 
 [Containments][22]
 ItemGeometries-0x0=
@@ -127,10 +132,10 @@ DialogWidth=880
 PreloadWeight=0
 
 [Containments][22][Wallpaper][org.kde.image][General]
-Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-d8b69679f48ce7e3853dc9994dd19f8a.jpg
+Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-8c2b4d746877fc5fd60aa589ff7498a5.jpg
 
 [Containments][26]
-ItemGeometries-0x0=
+ItemGeometries-0x0=Applet-62:816,384,544,528,0;
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=1fe86127-d67b-4797-816f-87c2194fc798
@@ -153,7 +158,7 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=237
 
 [Containments][26][Wallpaper][org.kde.image][General]
-Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-d8b69679f48ce7e3853dc9994dd19f8a.jpg
+Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-8c2b4d746877fc5fd60aa589ff7498a5.jpg
 
 [Containments][50]
 ItemGeometries-0x0=
@@ -167,7 +172,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][50][Wallpaper][org.kde.image][General]
-Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-d8b69679f48ce7e3853dc9994dd19f8a.jpg
+Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-8c2b4d746877fc5fd60aa589ff7498a5.jpg
 
 [Containments][51]
 ItemGeometries-0x0=
@@ -181,7 +186,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][51][Wallpaper][org.kde.image][General]
-Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-d8b69679f48ce7e3853dc9994dd19f8a.jpg
+Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-8c2b4d746877fc5fd60aa589ff7498a5.jpg
 
 [Containments][52]
 ItemGeometries-1920x1080=
@@ -195,9 +200,10 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][52][Wallpaper][org.kde.image][General]
-Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-d8b69679f48ce7e3853dc9994dd19f8a.jpg
+Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-8c2b4d746877fc5fd60aa589ff7498a5.jpg
 
 [Containments][53]
+ItemGeometries-0x0=
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=3d21ee71-021f-4008-87ff-15605f5a02bd
@@ -208,11 +214,15 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][53][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=237
+
 [Containments][53][Wallpaper][org.kde.image][General]
-Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-d8b69679f48ce7e3853dc9994dd19f8a.jpg
+Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-8c2b4d746877fc5fd60aa589ff7498a5.jpg
 
 [Containments][54]
-ItemGeometries-0x0=
+ItemGeometries-0x0=Applet-56:880,288,96,96,0;
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=ee99a461-f6bf-4669-8440-4bec9b509655
@@ -224,7 +234,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][54][Wallpaper][org.kde.image][General]
-Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-d8b69679f48ce7e3853dc9994dd19f8a.jpg
+Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-8c2b4d746877fc5fd60aa589ff7498a5.jpg
 
 [Containments][55]
 ItemGeometries-0x0=
@@ -239,7 +249,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][55][Wallpaper][org.kde.image][General]
-Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-d8b69679f48ce7e3853dc9994dd19f8a.jpg
+Image=file:///home/ruben/.config/variety/wallpaper/wallpaper-auto-rotated-8c2b4d746877fc5fd60aa589ff7498a5.jpg
 
 [Containments][7]
 activityId=
@@ -257,7 +267,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][10][Configuration]
-PreloadWeight=25
+PreloadWeight=40
 
 [Containments][7][Applets][10][Configuration][General]
 currentTab=streams
@@ -345,7 +355,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][7][Applets][37][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][7][Applets][39]
 immutability=1
@@ -377,7 +387,7 @@ immutability=1
 plugin=touchpad
 
 [Containments][7][Applets][48][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][7][Applets][48][Configuration][ConfigDialog]
 DialogHeight=660

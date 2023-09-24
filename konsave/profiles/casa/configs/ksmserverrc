@@ -2,10 +2,67 @@
 update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
 
 [General]
-loginMode=restoreSavedSession
+loginMode=emptySession
 
 [LegacySession: saved at previous logout]
 count=0
 
+[LegacySession: saved by user]
+clientMachine1=localhost
+command1=pamac-manager
+count=1
+
 [Session: saved at previous logout]
 count=0
+
+[Session: saved by user]
+clientId1=10153103c5c6000169551276200000022650004
+clientId2=10153103c5c6000169551276300000022650006
+clientId3=10153103c5c6000169551276300000022650007
+clientId4=10153103c5c6000169551276400000022650009
+clientId5=10153103c5c6000169551276500000022650011
+clientId6=10153103c5c6000169551288300000022650012
+clientId7=10153103c5c6000169551288500000022650013
+clientId8=10153103c5c6000169551336200000022650018
+clientId9=10153103c5c6000169551424600000022650025
+count=9
+discardCommand3[$e]=rm,$HOME/.config/session/yakuake_10153103c5c6000169551276300000022650007_1695519241_512428
+discardCommand6[$e]=rm,$HOME/.config/session/systemsettings_10153103c5c6000169551288300000022650012_1695519241_512584
+discardCommand7[$e]=rm,$HOME/.config/session/krusader_10153103c5c6000169551288500000022650013_1695519241_512509
+discardCommand9[$e]=rm,$HOME/.config/session/juk_10153103c5c6000169551424600000022650025_1695519241_512503
+program1=/usr/bin/copyq
+program2=/usr/lib/DiscoverNotifier
+program3=/usr/bin/yakuake
+program4=/usr/bin/copyq
+program5=pulseaudio
+program6=/usr/bin/systemsettings
+program7=/usr/bin/krusader
+program8=zotero
+program9=/usr/bin/juk
+restartCommand1=/usr/bin/copyq,-session,10153103c5c6000169551276200000022650004_1695519241_512470
+restartCommand2=/usr/lib/DiscoverNotifier,-session,10153103c5c6000169551276300000022650006_1695519241_512434
+restartCommand3=/usr/bin/yakuake,-session,10153103c5c6000169551276300000022650007_1695519241_512428
+restartCommand4=/usr/bin/copyq,-session,10153103c5c6000169551276400000022650009_1695519241_512463
+restartCommand5=
+restartCommand6=/usr/bin/systemsettings,-session,10153103c5c6000169551288300000022650012_1695519241_512584
+restartCommand7=/usr/bin/krusader,-session,10153103c5c6000169551288500000022650013_1695519241_512509
+restartCommand8=/usr/lib/zotero/zotero,--sm-client-id,10153103c5c6000169551336200000022650018
+restartCommand9=/usr/bin/juk,-session,10153103c5c6000169551424600000022650025_1695519241_512503
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+restartStyleHint5=0
+restartStyleHint6=0
+restartStyleHint7=0
+restartStyleHint8=0
+restartStyleHint9=0
+userId1=ruben
+userId2=ruben
+userId3=ruben
+userId4=ruben
+userId5=ruben
+userId6=ruben
+userId7=ruben
+userId8=ruben
+userId9=ruben

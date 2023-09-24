@@ -3,12 +3,12 @@ update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_sh
 
 [ActivityManager]
 _k_friendly_name=Gestor de actividades
-switch-to-activity-1fe86127-d67b-4797-816f-87c2194fc798=Meta+Alt+1,none,Cambiar a la actividad «Trabajo»
-switch-to-activity-3d21ee71-021f-4008-87ff-15605f5a02bd=Meta+Alt+3,none,Cambiar a la actividad «Entretenimiento»
-switch-to-activity-4a7e00b9-8933-43e1-93bb-e2ba6c2f7154=Meta+Alt+2,none,Cambiar a la actividad «Academia»
+switch-to-activity-1fe86127-d67b-4797-816f-87c2194fc798=Meta+Alt+1,none,Cambiar a la actividad «1»
+switch-to-activity-3d21ee71-021f-4008-87ff-15605f5a02bd=Meta+Alt+3,none,Cambiar a la actividad «3»
+switch-to-activity-4a7e00b9-8933-43e1-93bb-e2ba6c2f7154=Meta+Alt+2,none,Cambiar a la actividad «2»
 switch-to-activity-702edd4c-953e-4343-b9b7-37b80f029431=none,none,Switch to activity "Default"
 switch-to-activity-799fea17-cff7-46d0-9aac-8d71c6bf41fc=none,none,Switch to activity "Default"
-switch-to-activity-ee99a461-f6bf-4669-8440-4bec9b509655=Meta+Alt+4,none,Cambiar a la actividad «Mantenimiento»
+switch-to-activity-ee99a461-f6bf-4669-8440-4bec9b509655=Meta+Alt+4,none,Cambiar a la actividad «4»
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Belgian=none,none,Switch keyboard layout to Belgian
@@ -71,6 +71,19 @@ new-window=none,none,Nueva ventana
 [jdownloader.desktop]
 _k_friendly_name=JDownloader
 _launch=Meta+F9,none,JDownloader
+
+[juk]
+_k_friendly_name=JuK
+back=none,Ctrl+Alt+Left,Anterior
+forward=none,Ctrl+Alt+Right,Siguiente
+forwardAlbum=none,Ctrl+Alt+Up,Reproducir el siguiente álbum
+mute=none,Ctrl+Alt+M,Silenciar
+playPause=none,Ctrl+Alt+P,Reproducir / Pausar
+seekBack=Ctrl+Alt+Shift+Left,Ctrl+Alt+Shift+Left,Buscar hacia atrás
+seekForward=Ctrl+Alt+Shift+Right,Ctrl+Alt+Shift+Right,Buscar hacia delante
+stop=none,Ctrl+Alt+S,Detener
+volumeDown=Ctrl+Alt+Shift+Down,Ctrl+Alt+Shift+Down,Bajar el volumen
+volumeUp=Ctrl+Alt+Shift+Up,Ctrl+Alt+Shift+Up,Subir el volumen
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Activar o desactivar el lector de pantalla
@@ -314,11 +327,11 @@ _launch=Meta+F4,none,Logseq
 
 [mediacontrol]
 _k_friendly_name=Controlador multimedia
-mediavolumedown=none,,Bajar volumen multimedia
-mediavolumeup=none,,Subir volumen multimedia
+mediavolumedown=none,none,Bajar volumen multimedia
+mediavolumeup=none,none,Subir volumen multimedia
 nextmedia=Media Next,Media Next,Siguiente reproducción multimedia
 pausemedia=Media Pause,Media Pause,Pausar la reproducción multimedia
-playmedia=none,,Reproducir la reproducción multimedia
+playmedia=none,none,Reproducir la reproducción multimedia
 playpausemedia=Media Play,Media Play,Reproducir/pausar la reproducción multimedia
 previousmedia=Media Previous,Media Previous,Anterior reproducción multimedia
 stopmedia=Media Stop,Media Stop,Detener la reproducción multimedia
@@ -394,6 +407,7 @@ activate widget 28=none,none,Activate Application Launcher Widget
 activate widget 4=none,none,Activar el elemento gráfico Paginador
 activate widget 43=none,none,Activar el elemento gráfico Gestor de tareas con solo iconos
 activate widget 47=Alt+F1,none,Activar el elemento gráfico Lanzador de aplicaciones
+activate widget 61=none,none,Activar el elemento gráfico Actividades
 clear-history=none,,Borrar historial del portapapeles
 clipboard_action=Ctrl+Alt+X,Meta+Ctrl+X,Menú emergente de acciones automático
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Mover el foco del teclado entre paneles

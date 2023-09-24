@@ -8,6 +8,13 @@ ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxYAAAACAQAAAQAA
 [General]
 Number of Actions=0
 
+[PlasmaTransientsConfig]
+PreloadWeight=0
+
+[PlasmaViews][Panel 2]
+panelOpacity=2
+panelVisibility=0
+
 [PlasmaViews][Panel 2][Defaults]
 thickness=50
 
