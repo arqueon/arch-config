@@ -4,10 +4,8 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 [Desktops]
 Id_1=3ecc69d2-d092-4829-89bf-f52f0f24af30
 Id_2=ff89bc8b-7e5f-4fd2-b268-d8481580aa97
-Id_3=f03e7e33-b797-4a04-b569-52377fe1095d
-Id_4=e20f2039-598d-4f12-8e11-3fe6503780bb
-Number=4
-Rows=4
+Number=2
+Rows=2
 
 [Effect-desktopgrid]
 BorderActivate=3
@@ -48,7 +46,6 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Windows]
 FocusPolicy=FocusFollowsMouse
-RollOverDesktops=true
 SeparateScreenFocus=true
 
 [Xwayland]
