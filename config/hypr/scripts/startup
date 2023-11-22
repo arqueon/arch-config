@@ -29,14 +29,11 @@ ${SCRIPTSDIR}/xauthority &
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
 
 insync start &
-#dropbox &
-#telegram-desktop &
-#discord &
-nm-applet --indicator
 copyq &
-/opt/ExpanDrive/expandrive %U &
 flameshot &
-kdeconnect-indicator &
 /usr/lib/geoclue-2.0/demos/agent &
 redshift-gtk &
 variety &
+/opt/ExpanDrive/expandrive %U &
+kdeconnect-indicator &
+nm-applet --indicator
