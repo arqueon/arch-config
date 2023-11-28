@@ -28,6 +28,11 @@ ${SCRIPTSDIR}/xauthority &
 
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
 
+#insync start &
+#dropbox &
+#telegram-desktop &
+#discord &
+#nm-applet --indicator
 insync start &
 copyq &
 flameshot &
