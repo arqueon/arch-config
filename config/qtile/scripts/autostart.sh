@@ -19,6 +19,7 @@ function run {
 #autorandr horizontal
 .screenlayout/monitor.sh &
 export BROWSER=/usr/bin/google-chrome-stable
+export QT_QPA_PLATFORM="wayland;xcb"
 xsettingsd &
 #systemctl --user restart xidlehook.service
 #change your keyboard if you need it
