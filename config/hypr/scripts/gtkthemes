@@ -2,7 +2,7 @@
 
 ## Set GTK Themes, Icons, Cursor and Fonts
 
-THEME='Arc-Nice-blue-Dark'
+THEME='Arc-Evopop'
 ICONS='Sardi-Evopop'
 FONT='Noto Sans 11'
 CURSOR='Catppuccin-Blue-Cursors'
