@@ -271,7 +271,7 @@
             "car": "",
             "default": ["", " ", " "]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pamixer -t"
     },
 
     // Bluetooth
