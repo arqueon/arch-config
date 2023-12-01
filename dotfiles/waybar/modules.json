@@ -258,8 +258,8 @@
         // "scroll-step": 1, // %, can be a float
         "format": "{icon} {volume}%",
         "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
+        "format-bluetooth-muted": "󰖁 {icon} {format_source}",
+        "format-muted": "󰖁 {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",
         "format-icons": {
@@ -271,7 +271,12 @@
             "car": "",
             "default": ["", " ", " "]
         },
+<<<<<<< HEAD
         "on-click": "pamixer -t"
+=======
+        "on-click": "pamixer -t",
+        "on-click-right": "pavucontrol"
+>>>>>>> 18a4fa489a52ab0205cf678438a2d329fac713e5
     },
 
     // Bluetooth
