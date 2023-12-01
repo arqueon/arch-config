@@ -1,4 +1,3 @@
-
 insync start &
 copyq &
 flameshot &
