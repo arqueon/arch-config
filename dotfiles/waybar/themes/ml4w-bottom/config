@@ -48,6 +48,7 @@
 
     // Modules Right    
     "modules-right": [
+        "tray",
         "custom/updates",
         "pulseaudio",
         "bluetooth",
