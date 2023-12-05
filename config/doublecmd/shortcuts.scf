@@ -387,6 +387,14 @@
         <Param>index=9</Param>
       </Hotkey>
       <Hotkey>
+        <Shortcut>Ctrl+G</Shortcut>
+        <Command>cm_CompareContents</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>Ctrl+Y</Shortcut>
+        <Command>cm_CompareDirectories</Command>
+      </Hotkey>
+      <Hotkey>
         <Shortcut>Del</Shortcut>
         <Command>cm_Delete</Command>
         <Control>Files Panel</Control>
