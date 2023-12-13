@@ -6,4 +6,4 @@ copyq &
 variety &
 /opt/ExpanDrive/expandrive %U &
 #kdeconnect-indicator &
-nm-applet --indicator
+#nm-applet --indicator
