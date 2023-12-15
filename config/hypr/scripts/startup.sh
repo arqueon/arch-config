@@ -5,5 +5,6 @@ copyq &
 #redshift-gtk &
 variety &
 /opt/ExpanDrive/expandrive %U &
+ferdium &
 #kdeconnect-indicator &
 #nm-applet --indicator
