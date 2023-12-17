@@ -1,0 +1,30 @@
+[
+    {
+        "command": "poweroff",
+        "name": "Apagar"
+    },
+    {
+        "command": "swaylock -f -c 000000",
+        "name": "Bloquear pantalla"
+    },
+    {
+        "command": "systemctl suspend",
+        "name": "Suspender"
+    },
+    {
+        "command": "hyprctl dispatch dpms off",
+        "name": "oscurecer pantalla"
+    },
+    {
+        "command": "qbittorrent",
+        "name": "qbittorrent"
+    },
+    {
+        "command": "shutdown +60",
+        "name": "shutdown 60"
+    },
+    {
+        "command": "",
+        "name": ""
+    }
+]

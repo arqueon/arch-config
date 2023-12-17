@@ -1,3 +1,4 @@
+kdeconnectd &
 insync start &
 copyq &
 #flameshot &
@@ -6,5 +7,5 @@ copyq &
 variety &
 /opt/ExpanDrive/expandrive %U &
 ferdium &
-#kdeconnect-indicator &
+kdeconnect-indicator &
 #nm-applet --indicator
