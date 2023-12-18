@@ -12,6 +12,10 @@
         "name": "Suspender"
     },
     {
+        "command": "hyprctl dispatch dpms on",
+        "name": "activar pantalls"
+    },
+    {
         "command": "hyprctl dispatch dpms off",
         "name": "oscurecer pantalla"
     },
