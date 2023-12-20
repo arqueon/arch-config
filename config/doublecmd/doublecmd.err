@@ -1,0 +1,40 @@
+--------------- 19-12-2023, 12:08:57 ---------------
+| DC v1.0.11 Rev. 272 -- x86_64-Linux-gtk2
+| ArcoLinux -- GTK 2.24.33 | PID 4082
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FA6D1B32683
+  $0000000000004A4A
+
+--------------- 19-12-2023, 12:09:08 ---------------
+| DC v1.0.11 Rev. 272 -- x86_64-Linux-gtk2
+| ArcoLinux -- GTK 2.24.33 | PID 4082
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FA6D1B32683
+  $0000000000004A4A
+
+--------------- 19-12-2023, 12:09:12 ---------------
+| DC v1.0.11 Rev. 272 -- x86_64-Linux-gtk2
+| ArcoLinux -- GTK 2.24.33 | PID 4082
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FA6D1B32683
+  $0000000000004A4A
+
+--------------- 19-12-2023, 12:09:31 ---------------
+| DC v1.0.11 Rev. 272 -- x86_64-Linux-gtk2
+| ArcoLinux -- GTK 2.24.33 | PID 4082
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FA6D1B32683
+  $0000000000004A4A
+
+--------------- 19-12-2023, 12:09:33 ---------------
+| DC v1.0.11 Rev. 272 -- x86_64-Linux-gtk2
+| ArcoLinux -- GTK 2.24.33 | PID 4082
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FA6D1B32683
+  $0000000000004A4A
+
