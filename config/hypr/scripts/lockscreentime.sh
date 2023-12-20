@@ -9,12 +9,12 @@
 # by Stephan Raabe (2023) 
 # ----------------------------------------------------- 
 
-timeswaylock=120
-timeoff=125
+timeswaylock=300
+timeoff=360
 
 if [ -f "/usr/bin/swayidle" ]; then
     echo "swayidle is installed."
-    swayidle -w timeout $timeswaylock 'swaylock -f -c 000000' timeout $timeoff 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on' timeout 7500 'systemctl suspend'
+    swayidle -w timeout $timeswaylock 'swaylock -f -c 000000' timeout $timeoff 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on' timeout 7200 'systemctl suspend'
 else
     echo "swayidle not installed."
 fi;
