@@ -1,9 +1,0 @@
-insync start &
-copyq &
-#flameshot &
-#/usr/lib/geoclue-2.0/demos/agent &
-#redshift-gtk &
-variety &
-/opt/ExpanDrive/expandrive %U &
-#kdeconnect-indicator &
-nm-applet --indicator

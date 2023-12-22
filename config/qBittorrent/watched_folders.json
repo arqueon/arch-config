@@ -5,6 +5,7 @@
             "content_layout": "Original",
             "download_limit": -1,
             "download_path": "/home/ruben/Descargas/temp",
+            "inactive_seeding_time_limit": -2,
             "operating_mode": "AutoManaged",
             "ratio_limit": -2,
             "save_path": "/home/ruben/Descargas",

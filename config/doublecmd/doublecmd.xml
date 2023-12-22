@@ -178,56 +178,12 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="themes">/media/insync/DATA/waybar/</Path>
-                  <Path Filename="..">/media/insync/DATA/waybar/themes/</Path>
-                  <Path Filename="..">/media/insync/DATA/waybar/</Path>
-                  <Path Filename="..">/media/insync/DATA/</Path>
-                  <Path Filename="DATA">/media/insync/</Path>
-                  <Path Filename="arch-config">/media/insync/DATA/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
                   <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
                   <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="qtile">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile/</Path>
-                  <Path Filename="qtile">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile/</Path>
-                  <Path Filename="qtile">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile/</Path>
-                  <Path Filename="qtile">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="variety">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="scripts">/media/insync/DATA/arch-config/config/variety/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/variety/scripts/</Path>
-                  <Path Filename="scripts">/media/insync/DATA/arch-config/config/variety/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/variety/scripts/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/variety/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="dotfiles">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="hypr">/media/insync/DATA/arch-config/dotfiles/</Path>
-                  <Path Filename="conf">/media/insync/DATA/arch-config/dotfiles/hypr/</Path>
-                  <Path Filename="environments">/media/insync/DATA/arch-config/dotfiles/hypr/conf/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/hypr/conf/environments/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/hypr/conf/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/hypr/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="hypr">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/hypr/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="hypr_">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="scripts">/media/insync/DATA/arch-config/config/hypr_/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/hypr_/scripts/</Path>
-                  <Path Filename="scripts">/media/insync/DATA/arch-config/config/hypr_/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/hypr_/scripts/</Path>
-                  <Path Filename="scripts">/media/insync/DATA/arch-config/config/hypr_/</Path>
-                  <Path Filename="gamemode.sh">/media/insync/DATA/arch-config/config/hypr_/scripts/</Path>
+                  <Path Filename="kdeconnect">/media/insync/DATA/arch-config/config/</Path>
+                  <Path Filename="9f09fa5e6484b45b">/media/insync/DATA/arch-config/config/kdeconnect/</Path>
+                  <Path Filename="kdeconnect_runcommand">/media/insync/DATA/arch-config/config/kdeconnect/9f09fa5e6484b45b/</Path>
+                  <Path Filename="config">/media/insync/DATA/arch-config/config/kdeconnect/9f09fa5e6484b45b/kdeconnect_runcommand/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -248,56 +204,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="dotfiles">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/</Path>
-                  <Path Filename="dotfiles">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="hypr">/media/insync/DATA/arch-config/dotfiles/</Path>
-                  <Path Filename="scripts">/media/insync/DATA/arch-config/dotfiles/hypr/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/hypr/scripts/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/hypr/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="doublecmd">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/doublecmd/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="waybar">/media/insync/DATA/</Path>
-                  <Path Filename="themes">/media/insync/DATA/waybar/</Path>
-                  <Path Filename="..">/media/insync/DATA/waybar/themes/</Path>
-                  <Path Filename="assets">/media/insync/DATA/waybar/</Path>
-                  <Path Filename="..">/media/insync/DATA/waybar/assets/</Path>
-                  <Path Filename="..">/media/insync/DATA/waybar/</Path>
-                  <Path Filename="waybar">/media/insync/DATA/</Path>
-                  <Path Filename="themes">/media/insync/DATA/waybar/</Path>
-                  <Path Filename="..">/media/insync/DATA/waybar/themes/</Path>
-                  <Path Filename="..">/media/insync/DATA/waybar/</Path>
-                  <Path Filename="..">/media/insync/DATA/</Path>
-                  <Path Filename="DATA">/media/insync/</Path>
-                  <Path Filename="arch-config">/media/insync/DATA/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="qtile">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile/</Path>
-                  <Path Filename="qtile">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile/</Path>
-                  <Path Filename="qtile">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile/</Path>
-                  <Path Filename="qtile">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/</Path>
-                  <Path Filename="..">/media/insync/</Path>
-                  <Path Filename="..">/media/</Path>
-                  <Path Filename="etc">/</Path>
-                  <Path Filename="skel">/etc/</Path>
-                  <Path Filename="..">/etc/skel/</Path>
-                  <Path Filename="variety">/etc/skel/.config/</Path>
+                  <Path Filename="">/etc/skel/.config/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -315,56 +222,26 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="mocha">/home/ruben/.config/waybar/themes/catppuccin/</Path>
-                  <Path Filename="..">/home/ruben/.config/waybar/themes/catppuccin/mocha/</Path>
-                  <Path Filename="..">/home/ruben/.config/waybar/themes/catppuccin/</Path>
-                  <Path Filename="ml4w">/home/ruben/.config/waybar/themes/</Path>
-                  <Path Filename="frappe">/home/ruben/.config/waybar/themes/ml4w/</Path>
-                  <Path Filename="..">/home/ruben/.config/waybar/themes/ml4w/frappe/</Path>
-                  <Path Filename="frappe">/home/ruben/.config/waybar/themes/ml4w/</Path>
-                  <Path Filename="..">/home/ruben/.config/waybar/themes/ml4w/frappe/</Path>
-                  <Path Filename="..">/home/ruben/.config/waybar/themes/ml4w/</Path>
-                  <Path Filename="..">/home/ruben/.config/waybar/themes/</Path>
-                  <Path Filename="..">/home/ruben/.config/waybar/</Path>
-                  <Path Filename="hypr">/home/ruben/.config/</Path>
                   <Path Filename="..">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="hypr">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="gtk-4.0">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/gtk-4.0/</Path>
-                  <Path Filename="hypr">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="gtk-4.0">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/gtk-4.0/</Path>
-                  <Path Filename="hypr">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="hypr">/home/ruben/.config/</Path>
-                  <Path Filename="scripts">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/scripts/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="hypr">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="swaylock">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/swaylock/</Path>
-                  <Path Filename="swaylock">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/swaylock/</Path>
-                  <Path Filename="hypr">/home/ruben/.config/</Path>
-                  <Path Filename="keybindings.conf">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="hypr">/home/ruben/.config/</Path>
-                  <Path Filename="configs">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/configs/</Path>
-                  <Path Filename="scripts">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/scripts/</Path>
-                  <Path Filename="configs">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/configs/</Path>
-                  <Path Filename="scripts">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/scripts/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="swaylock">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/swaylock/</Path>
-                  <Path Filename="hypr">/home/ruben/.config/</Path>
-                  <Path Filename="scripts">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="LockScreen.sh">/home/ruben/.config/hypr/scripts/</Path>
+                  <Path Filename="kdeconnect">/home/ruben/.config/</Path>
+                  <Path Filename="9f09fa5e6484b45b">/home/ruben/.config/kdeconnect/</Path>
+                  <Path Filename="kdeconnect_runcommand">/home/ruben/.config/kdeconnect/9f09fa5e6484b45b/</Path>
+                  <Path Filename="..">/home/ruben/.config/kdeconnect/9f09fa5e6484b45b/kdeconnect_runcommand/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="">/home/ruben/.config/waybar/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -387,11 +264,11 @@
     <GoToRoot>False</GoToRoot>
     <ShowCurDirTitleBar>False</ShowCurDirTitleBar>
     <ActiveRight>False</ActiveRight>
-    <RunInTerminalStayOpenCmd>alacritty</RunInTerminalStayOpenCmd>
+    <RunInTerminalStayOpenCmd>kitty</RunInTerminalStayOpenCmd>
     <RunInTerminalStayOpenParams>-e sh -c '{command}; echo -n Press ENTER to exit... ; read a'</RunInTerminalStayOpenParams>
-    <RunInTerminalCloseCmd>alacritty</RunInTerminalCloseCmd>
+    <RunInTerminalCloseCmd>kitty</RunInTerminalCloseCmd>
     <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
-    <JustRunTerminal>alacritty</JustRunTerminal>
+    <JustRunTerminal>kitty</JustRunTerminal>
     <JustRunTermParams/>
     <OnlyOneAppInstance>True</OnlyOneAppInstance>
     <LynxLike>True</LynxLike>
@@ -784,8 +661,8 @@
     <HotDir Name="DATA" Path="/media/insync/DATA"/>
     <HotDir Name="1.transferir.archivos" Path="/media/insync/Insync/Transfer.Arqueonautis/1.transferir.archivos"/>
     <HotDir Name="8TB" Path="/media/8TB"/>
-    <HotDir Name="1.series" Path="/media/medios/organizar/1.series"/>
-    <HotDir Name="1.ordenar" Path="/media/medios/organizar/1.ordenar"/>
+    <HotDir Name="1.series" Path="/media/8TB/organizar/1.series"/>
+    <HotDir Name="1.ordenar" Path="/media/8TB/organizar/1.ordenar"/>
     <HotDir Name="arch-config" Path="/media/insync/DATA/arch-config"/>
   </DirectoryHotList>
   <Viewer>
@@ -936,7 +813,7 @@
     <DfltRightGoTo>1</DfltRightGoTo>
     <DfltKeep>5</DfltKeep>
     <DfltSaveDirHistory>False</DfltSaveDirHistory>
-    <FavTabsLastUniqueID>{20ADA601-F635-4E0B-A28D-87AD18C391F5}</FavTabsLastUniqueID>
+    <FavTabsLastUniqueID>{DB686D82-CBC6-42CD-8239-C485E308704F}</FavTabsLastUniqueID>
   </FavoriteTabsOptions>
   <Lua>
     <PathToLibrary>liblua5.1.so.0</PathToLibrary>
