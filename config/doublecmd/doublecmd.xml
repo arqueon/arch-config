@@ -813,7 +813,7 @@
     <DfltRightGoTo>1</DfltRightGoTo>
     <DfltKeep>5</DfltKeep>
     <DfltSaveDirHistory>False</DfltSaveDirHistory>
-    <FavTabsLastUniqueID>{DB686D82-CBC6-42CD-8239-C485E308704F}</FavTabsLastUniqueID>
+    <FavTabsLastUniqueID>{2F470E9D-ED9D-4EA8-9AAC-1E7BC64952FE}</FavTabsLastUniqueID>
   </FavoriteTabsOptions>
   <Lua>
     <PathToLibrary>liblua5.1.so.0</PathToLibrary>

@@ -2,14 +2,19 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/media/8TB/</Item>
-      <Item>/media/8TB/organizar/</Item>
       <Item>/media/8TB/organizar/1.series/</Item>
+      <Item>/media/8TB/organizar/</Item>
+      <Item>/media/8TB/</Item>
+      <Item>/media/</Item>
+      <Item>/media/insync/DATA/</Item>
+      <Item>/media/insync/</Item>
+      <Item>/media/insync/DATA/Arch-Hyprland/</Item>
+      <Item>/media/insync/DATA/arcolinux-nemesis/</Item>
+      <Item>/run/media/ruben/Ventoy/</Item>
       <Item>/media/8TB/organizar/1.series/x/</Item>
       <Item>/home/ruben/Descargas/</Item>
       <Item>/home/ruben/</Item>
       <Item>/</Item>
-      <Item>/media/</Item>
       <Item>/media/8TB/Tv/</Item>
       <Item>/media/8TB/organizar/1.series/.tmp/</Item>
       <Item>/media/8TB/Tv/Monarch.Legacy.of.Monsters/</Item>
@@ -37,7 +42,6 @@
       <Item>/home/ruben/ExpanDrive/Google Drive/</Item>
       <Item>/run/media/ruben/9800b64a-67d3-4820-bd7a-866a84bcbe1b/home/ruben/.config/</Item>
       <Item>/run/media/ruben/9800b64a-67d3-4820-bd7a-866a84bcbe1b/home/ruben/.config/alacritty/</Item>
-      <Item>/media/insync/DATA/</Item>
       <Item>/run/media/ruben/9800b64a-67d3-4820-bd7a-866a84bcbe1b/home/ruben/</Item>
       <Item>/run/media/ruben/9800b64a-67d3-4820-bd7a-866a84bcbe1b/home/ruben/.local/</Item>
       <Item>/run/media/ruben/9800b64a-67d3-4820-bd7a-866a84bcbe1b/home/ruben/.local/share/</Item>
@@ -49,10 +53,6 @@
       <Item>/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/DATA/</Item>
       <Item>/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/</Item>
       <Item>/run/media/ruben/9800b64a-67d3-4820-bd7a-866a84bcbe1b/</Item>
-      <Item>/run/media/ruben/9800b64a-67d3-4820-bd7a-866a84bcbe1b/home/ruben/Descargas/</Item>
-      <Item>/media/insync/DATA/arch-config/config/fontconfig/</Item>
-      <Item>/home/ruben/.config/autostart/</Item>
-      <Item>/media/insync/DATA/arch-config/config/autostart/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask>
