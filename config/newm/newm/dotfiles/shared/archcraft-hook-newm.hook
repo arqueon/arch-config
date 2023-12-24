@@ -1,0 +1,17 @@
+## Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com>
+
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = archcraft-newm
+Target = archcraft-newm-blur
+Target = newm
+Target = newm-git
+Target = newm-atha
+Target = newm-atha-git
+
+[Action]
+Description = Modifying NEWM Desktop file...
+When = PostTransaction
+Exec = /usr/bin/sed -i -e 's/Exec=.*/Exec=run-newm/g' /usr/share/wayland-sessions/newm.desktop
