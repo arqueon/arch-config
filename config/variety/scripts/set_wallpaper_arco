@@ -255,6 +255,19 @@ if [[ -n $SWAYSOCK || $XDG_CURRENT_DESKTOP == "Hyprland" ]]; then
     fi
 fi
 
+if [ "$XDG_CURRENT_DESKTOP" == "wayfire" ]; then
+    if command -v "swaybg" >/dev/null 2>&1; then
+        PID=`pidof swaybg`
+        swaybg -i "$WP" -m fill &
+        if [ ! -z "$PID" ]; then
+            sleep 1
+            kill $PID 2>/dev/null
+        fi
+    else
+        swaymsg output "*" bg "$WP" fill 2> /dev/null
+    fi
+fi
+
 # trinity
 if [ "$XDG_CURRENT_DESKTOP" == "Trinity" ]; then
     # The 4 refers to display mode 4; valid ones are 1-8
