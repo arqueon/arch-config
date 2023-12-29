@@ -2,10 +2,10 @@
 
 ## Set GTK Themes, Icons, Cursor and Fonts
 
-THEME='Arc-Evopop'
-ICONS='Sardi-Evopop'
+THEME='Arc-Dark'
+ICONS='a-candy-beauty-icon-theme'
 FONT='Noto Sans 11'
-CURSOR='Catppuccin-Blue-Cursors'
+CURSOR='Bibata-Modern-Ice'
 
 SCHEMA='gsettings set org.gnome.desktop.interface'
 
