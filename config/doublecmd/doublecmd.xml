@@ -165,15 +165,78 @@
   <Tabs>
     <OpenedTabs>
       <Left>
-        <ActiveTab>0</ActiveTab>
+        <ActiveTab>2</ActiveTab>
         <Tab>
           <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="Tv">/media/8TB/</Path>
-                  <Path Filename="..">/media/8TB/Tv/</Path>
+                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
+                  <Path Filename="dotfiles">/media/insync/DATA/arch-config/</Path>
+                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/</Path>
+                  <Path Filename="etc">/media/insync/DATA/arch-config/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="">/etc/skel/.config/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
+                  <Path Filename="dotfiles">/media/insync/DATA/arch-config/</Path>
+                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/</Path>
+                  <Path Filename="etc">/media/insync/DATA/arch-config/</Path>
+                  <Path Filename="insync">/media/</Path>
+                  <Path Filename="Insync">/media/insync/</Path>
+                  <Path Filename="..">/media/insync/Insync/</Path>
+                  <Path Filename="Insync">/media/insync/</Path>
+                  <Path Filename="Transfer.Arqueonautis">/media/insync/Insync/</Path>
+                  <Path Filename="logseq">/media/insync/Insync/Transfer.Arqueonautis/</Path>
+                  <Path Filename="pages">/media/insync/Insync/Transfer.Arqueonautis/logseq/</Path>
+                  <Path Filename="..">/media/insync/Insync/Transfer.Arqueonautis/logseq/pages/</Path>
+                  <Path Filename="..">/media/insync/Insync/Transfer.Arqueonautis/logseq/</Path>
+                  <Path Filename="assets">/media/insync/Insync/Transfer.Arqueonautis/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -191,13 +254,40 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="(無修正) FC2 PPV 1864525【個人撮影】可愛すぎる美少女が目隠し調教される高画質ビデオ。">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/(無修正) FC2 PPV 1864525【個人撮影】可愛すぎる美少女が目隠し調教される高画質ビデオ。/</Path>
-                  <Path Filename="What.If.S02E01.What.if.Nebula.Joined.the.Nova.Corps.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/What.If.S02E01.What.if.Nebula.Joined.the.Nova.Corps.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb[TGx]/</Path>
-                  <Path Filename="What.If.2021.S02E02.720p.WEB.h264-EDITH[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/What.If.2021.S02E02.720p.WEB.h264-EDITH[TGx]/</Path>
-                  <Path Filename="x">/media/8TB/organizar/1.series/</Path>
+                  <Path Filename="conf">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="keybindings">/home/ruben/.config/hypr/conf/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/conf/keybindings/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/conf/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/.config/</Path>
+                  <Path Filename="Descargas">/home/ruben/</Path>
+                  <Path Filename="..">/home/ruben/Descargas/</Path>
+                  <Path Filename="dotfiles-versions">/home/ruben/</Path>
+                  <Path Filename="backups">/home/ruben/dotfiles-versions/</Path>
+                  <Path Filename="..">/home/ruben/dotfiles-versions/backups/</Path>
+                  <Path Filename="..">/home/ruben/dotfiles-versions/</Path>
+                  <Path Filename="dotfiles-versions">/home/ruben/</Path>
+                  <Path Filename="backups">/home/ruben/dotfiles-versions/</Path>
+                  <Path Filename="20231229163836">/home/ruben/dotfiles-versions/backups/</Path>
+                  <Path Filename="..">/home/ruben/dotfiles-versions/backups/20231229163836/</Path>
+                  <Path Filename="..">/home/ruben/dotfiles-versions/backups/</Path>
+                  <Path Filename="..">/home/ruben/dotfiles-versions/</Path>
+                  <Path Filename="ExpanDrive">/home/ruben/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="">/home/ruben/.config/waybar/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -220,11 +310,11 @@
     <GoToRoot>False</GoToRoot>
     <ShowCurDirTitleBar>False</ShowCurDirTitleBar>
     <ActiveRight>False</ActiveRight>
-    <RunInTerminalStayOpenCmd>kitty</RunInTerminalStayOpenCmd>
+    <RunInTerminalStayOpenCmd>alacritty</RunInTerminalStayOpenCmd>
     <RunInTerminalStayOpenParams>-e sh -c '{command}; echo -n Press ENTER to exit... ; read a'</RunInTerminalStayOpenParams>
-    <RunInTerminalCloseCmd>kitty</RunInTerminalCloseCmd>
+    <RunInTerminalCloseCmd>alacritty</RunInTerminalCloseCmd>
     <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
-    <JustRunTerminal>kitty</JustRunTerminal>
+    <JustRunTerminal>alacritty</JustRunTerminal>
     <JustRunTermParams/>
     <OnlyOneAppInstance>True</OnlyOneAppInstance>
     <LynxLike>True</LynxLike>
@@ -259,7 +349,7 @@
     <DateTimeFormat>dd/mm/yy hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>True</ExtendCellWidth>
-    <ShowSystemFiles>False</ShowSystemFiles>
+    <ShowSystemFiles>True</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>
@@ -769,7 +859,7 @@
     <DfltRightGoTo>1</DfltRightGoTo>
     <DfltKeep>5</DfltKeep>
     <DfltSaveDirHistory>False</DfltSaveDirHistory>
-    <FavTabsLastUniqueID>{20ADA601-F635-4E0B-A28D-87AD18C391F5}</FavTabsLastUniqueID>
+    <FavTabsLastUniqueID>{DB686D82-CBC6-42CD-8239-C485E308704F}</FavTabsLastUniqueID>
   </FavoriteTabsOptions>
   <Lua>
     <PathToLibrary>liblua5.1.so.0</PathToLibrary>
