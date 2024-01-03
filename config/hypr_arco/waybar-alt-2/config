@@ -8,7 +8,7 @@
 
     // Choose the order of the modules
 
-    "modules-left": ["custom/launcher", "hyprland/workspaces", "hyprland/window"],
+    "modules-left": ["custom/launcher","custom/changewaybar", "hyprland/workspaces", "hyprland/window"],
     "modules-right": [ "custom/pacman", "custom/weather","backlight", "custom/keyboard-layout",  "temperature",  "cpu", "memory", "battery", "pulseaudio", "tray", "idle_inhibitor", "clock","custom/power"],
 
  // Modules configuration
@@ -101,8 +101,8 @@
       "network": {
         //"interface": "wlp0s20f3", // (Optional) To force the use of this interface  "format-wifi": "  {essid}",
         "format": "⚠Disabled",
-        "format-wifi": " ",
-        "format-ethernet": "{ifname}: {ipaddr}/{cidr}",
+        "format-wifi": "",
+        "format-ethernet": "",
         "format-linked": "{ifname} (No IP)",
         "format-disconnected": "⚠Disabled",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
@@ -165,8 +165,14 @@
         },
         // https://github.com/chubin/wttr.in
         "custom/weather": {
-        "exec": "curl 'https://wttr.in/Essen?format=2'",
+        "exec": "curl 'https://wttr.in/Antwerp?format=2'",
         "interval": 900,
-	    "on-click": "yad --html --uri='https://wttr.in/Essen' --center --fixed --width=1000 --height=680 --timeout=60 --timeout-indicator=right"
+	    "on-click": "yad --html --uri='https://wttr.in/Antwerp' --center --fixed --width=1000 --height=680 --timeout=60 --timeout-indicator=right"
+        },
+        "custom/changewaybar": {
+            "on-click": "~/.bin/change-waybar-hyprland",
+            "tooltip": true,
+            "tooltip-format": "Swap between waybar configs",
+            "format": "CW "
         },
     }
