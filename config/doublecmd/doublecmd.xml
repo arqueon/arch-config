@@ -4,17 +4,17 @@
     <MainToolbar>
       <Row>
         <Command>
-          <ID>{C2CCDC78-39CA-494E-B5AA-CC2366CCDAD0}</ID>
+          <ID>{C8B92E87-30F9-450B-B479-D963F72425E8}</ID>
           <Icon>cm_refresh</Icon>
           <Command>cm_Refresh</Command>
         </Command>
         <Command>
-          <ID>{CA77AAA5-3F69-4169-9C2F-3D632DBECE2D}</ID>
+          <ID>{20785F7C-A388-4142-870B-18571A8CDE53}</ID>
           <Icon>cm_runterm</Icon>
           <Command>cm_RunTerm</Command>
         </Command>
         <Command>
-          <ID>{34B55735-4216-4193-8480-BC3B2E0E78D0}</ID>
+          <ID>{55A51BCB-AF6C-41F8-8943-44905AD053C8}</ID>
           <Icon>cm_options</Icon>
           <Command>cm_Options</Command>
         </Command>
@@ -22,17 +22,17 @@
           <Style>False</Style>
         </Separator>
         <Command>
-          <ID>{D869CCBD-3D84-4A5A-90EE-47DE1C34DF69}</ID>
+          <ID>{CB52DD3C-4DF5-4D88-ADA9-66C73BB1D0BE}</ID>
           <Icon>cm_briefview</Icon>
           <Command>cm_BriefView</Command>
         </Command>
         <Command>
-          <ID>{AF3BE52C-5C12-46CA-B528-D82C7BF37956}</ID>
+          <ID>{297B614A-E35B-4521-9F1A-801C0CBA64F4}</ID>
           <Icon>cm_columnsview</Icon>
           <Command>cm_ColumnsView</Command>
         </Command>
         <Command>
-          <ID>{F68408CC-911B-4984-AEE9-DC059DEE9D10}</ID>
+          <ID>{F20F05AB-90B5-4242-AE48-FD619841964B}</ID>
           <Icon>cm_thumbnailsview</Icon>
           <Command>cm_ThumbnailsView</Command>
         </Command>
@@ -40,7 +40,7 @@
           <Style>False</Style>
         </Separator>
         <Command>
-          <ID>{B2C83E88-4C00-49C6-A0E0-F817BE29D82D}</ID>
+          <ID>{61231CCC-10BD-4AD1-A475-CD862D2EFA36}</ID>
           <Icon>cm_flatview</Icon>
           <Command>cm_FlatView</Command>
         </Command>
@@ -48,12 +48,12 @@
           <Style>False</Style>
         </Separator>
         <Command>
-          <ID>{796A124F-7624-47F3-B74B-1494DCB7E288}</ID>
+          <ID>{29325F5F-0781-4233-BD2D-13EE2E82FEF0}</ID>
           <Icon>cm_viewhistoryprev</Icon>
           <Command>cm_ViewHistoryPrev</Command>
         </Command>
         <Command>
-          <ID>{68ED8AA4-C3CF-474F-A0D2-666E9DA95E60}</ID>
+          <ID>{DA9F7258-E3CD-4416-B3C9-DD4FA2A40EC0}</ID>
           <Icon>cm_viewhistorynext</Icon>
           <Command>cm_ViewHistoryNext</Command>
         </Command>
@@ -61,17 +61,17 @@
           <Style>False</Style>
         </Separator>
         <Command>
-          <ID>{EA68B5D8-DAB6-4479-8125-47AC18D7788A}</ID>
+          <ID>{32C75AFE-0267-44B1-AFA9-F11A30AED9E6}</ID>
           <Icon>cm_markplus</Icon>
           <Command>cm_MarkPlus</Command>
         </Command>
         <Command>
-          <ID>{499AD0F2-D3C4-4430-B453-D9DF968A4434}</ID>
+          <ID>{36532D72-DACE-4950-81C1-89790CDD1ABE}</ID>
           <Icon>cm_markminus</Icon>
           <Command>cm_MarkMinus</Command>
         </Command>
         <Command>
-          <ID>{90B5B168-E3EA-4D38-9225-262FB9E1563A}</ID>
+          <ID>{262B86D2-36C1-451E-973B-A38527FEBF5C}</ID>
           <Icon>cm_markinvert</Icon>
           <Command>cm_MarkInvert</Command>
         </Command>
@@ -79,12 +79,12 @@
           <Style>False</Style>
         </Separator>
         <Command>
-          <ID>{926F4CE9-CE5D-408A-9C29-C06F653F00BB}</ID>
+          <ID>{2A2A7B39-8213-4EDB-B992-3C21805581EB}</ID>
           <Icon>cm_packfiles</Icon>
           <Command>cm_PackFiles</Command>
         </Command>
         <Command>
-          <ID>{DCA426B8-893F-49F6-9167-68FCB3585D02}</ID>
+          <ID>{0B746D62-B95A-4445-9EE5-1F6891F0EA0F}</ID>
           <Icon>cm_extractfiles</Icon>
           <Command>cm_ExtractFiles</Command>
         </Command>
@@ -92,22 +92,22 @@
           <Style>False</Style>
         </Separator>
         <Command>
-          <ID>{D4C3678C-86A3-4209-89E1-3A69696A8A11}</ID>
+          <ID>{52AF53F3-7AC5-48DE-ACFB-0ED68A1294AF}</ID>
           <Icon>cm_search</Icon>
           <Command>cm_Search</Command>
         </Command>
         <Command>
-          <ID>{A695E794-B1E4-4841-A1DA-E0A70895E6A7}</ID>
+          <ID>{9AA9ED55-D521-4DC0-B209-B608AE76AADB}</ID>
           <Icon>cm_multirename</Icon>
           <Command>cm_MultiRename</Command>
         </Command>
         <Command>
-          <ID>{2C7B0600-7223-4468-ADB7-9DE273B48AC5}</ID>
+          <ID>{ABA9842F-BA0A-474B-A0DB-B31461E86AC0}</ID>
           <Icon>cm_syncdirs</Icon>
           <Command>cm_SyncDirs</Command>
         </Command>
         <Command>
-          <ID>{CB9D8DDE-ED55-41F0-B715-3B89C97A3949}</ID>
+          <ID>{49A485CC-7DEE-4AAA-8574-2E818860A60B}</ID>
           <Icon>cm_copyfullnamestoclip</Icon>
           <Command>cm_CopyFullNamesToClip</Command>
         </Command>
@@ -116,22 +116,22 @@
     <MiddleToolbar>
       <Row>
         <Command>
-          <ID>{B10626CD-618D-46DC-AAF7-A47A204CF325}</ID>
+          <ID>{A23DAF16-A560-4B54-8D6C-82590DAC5DC9}</ID>
           <Icon>cm_view</Icon>
           <Command>cm_View</Command>
         </Command>
         <Command>
-          <ID>{EE23D854-389D-44ED-8F78-CEB0E5A8BA9A}</ID>
+          <ID>{7D0D8912-9DB7-462D-A074-ACC24C4BDE81}</ID>
           <Icon>cm_edit</Icon>
           <Command>cm_Edit</Command>
         </Command>
         <Command>
-          <ID>{542FAAFE-E3E2-486B-8256-0392C1FCBC94}</ID>
+          <ID>{629E9F58-DCEA-4DDC-AA82-313BF0F0DD3B}</ID>
           <Icon>cm_copy</Icon>
           <Command>cm_Copy</Command>
         </Command>
         <Command>
-          <ID>{ABB06D66-7186-4958-85BF-12EF5CEA9480}</ID>
+          <ID>{07118C21-C11D-4E9E-A9A8-3A9A3F7498F4}</ID>
           <Icon>cm_rename</Icon>
           <Command>cm_Rename</Command>
         </Command>
@@ -139,12 +139,12 @@
           <Style>True</Style>
         </Separator>
         <Command>
-          <ID>{64CCD450-0DB9-49E5-B340-D84052C013A7}</ID>
+          <ID>{C43DB3D8-464B-4161-BA7B-711ACF144CC6}</ID>
           <Icon>cm_packfiles</Icon>
           <Command>cm_PackFiles</Command>
         </Command>
         <Command>
-          <ID>{EB44DCDB-B3C5-48B6-8CEB-23247560120E}</ID>
+          <ID>{B594F63E-6721-4EB9-8F3A-7A45FDB18AEB}</ID>
           <Icon>cm_makedir</Icon>
           <Command>cm_MakeDir</Command>
         </Command>
@@ -162,147 +162,6 @@
       <Splitter>50</Splitter>
     </Position>
   </MainWindow>
-  <Tabs>
-    <OpenedTabs>
-      <Left>
-        <ActiveTab>2</ActiveTab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="dotfiles">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/</Path>
-                  <Path Filename="etc">/media/insync/DATA/arch-config/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="">/etc/skel/.config/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="dotfiles">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/</Path>
-                  <Path Filename="etc">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="insync">/media/</Path>
-                  <Path Filename="Insync">/media/insync/</Path>
-                  <Path Filename="..">/media/insync/Insync/</Path>
-                  <Path Filename="Insync">/media/insync/</Path>
-                  <Path Filename="Transfer.Arqueonautis">/media/insync/Insync/</Path>
-                  <Path Filename="logseq">/media/insync/Insync/Transfer.Arqueonautis/</Path>
-                  <Path Filename="pages">/media/insync/Insync/Transfer.Arqueonautis/logseq/</Path>
-                  <Path Filename="..">/media/insync/Insync/Transfer.Arqueonautis/logseq/pages/</Path>
-                  <Path Filename="..">/media/insync/Insync/Transfer.Arqueonautis/logseq/</Path>
-                  <Path Filename="assets">/media/insync/Insync/Transfer.Arqueonautis/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-      </Left>
-      <Right>
-        <ActiveTab>0</ActiveTab>
-        <Tab>
-          <FileView Type="columns">
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="conf">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="keybindings">/home/ruben/.config/hypr/conf/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/conf/keybindings/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/conf/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="..">/home/ruben/.config/</Path>
-                  <Path Filename="Descargas">/home/ruben/</Path>
-                  <Path Filename="..">/home/ruben/Descargas/</Path>
-                  <Path Filename="dotfiles-versions">/home/ruben/</Path>
-                  <Path Filename="backups">/home/ruben/dotfiles-versions/</Path>
-                  <Path Filename="..">/home/ruben/dotfiles-versions/backups/</Path>
-                  <Path Filename="..">/home/ruben/dotfiles-versions/</Path>
-                  <Path Filename="dotfiles-versions">/home/ruben/</Path>
-                  <Path Filename="backups">/home/ruben/dotfiles-versions/</Path>
-                  <Path Filename="20231229163836">/home/ruben/dotfiles-versions/backups/</Path>
-                  <Path Filename="..">/home/ruben/dotfiles-versions/backups/20231229163836/</Path>
-                  <Path Filename="..">/home/ruben/dotfiles-versions/backups/</Path>
-                  <Path Filename="..">/home/ruben/dotfiles-versions/</Path>
-                  <Path Filename="ExpanDrive">/home/ruben/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="">/home/ruben/.config/waybar/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-      </Right>
-    </OpenedTabs>
-    <Options>49937</Options>
-    <CharacterLimit>32</CharacterLimit>
-    <Position>0</Position>
-    <ActionOnDoubleClick>2</ActionOnDoubleClick>
-  </Tabs>
   <Language>
     <POFileName>doublecmd.es.po</POFileName>
   </Language>
@@ -316,7 +175,7 @@
     <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
     <JustRunTerminal>alacritty</JustRunTerminal>
     <JustRunTermParams/>
-    <OnlyOneAppInstance>True</OnlyOneAppInstance>
+    <OnlyOneAppInstance>False</OnlyOneAppInstance>
     <LynxLike>True</LynxLike>
     <FileSizeFormat>0</FileSizeFormat>
     <OperationSizeFormat>0</OperationSizeFormat>
@@ -332,7 +191,7 @@
     <PersonalizedGiga>GB</PersonalizedGiga>
     <PersonalizedTera>TB</PersonalizedTera>
     <MinimizeToTray>False</MinimizeToTray>
-    <AlwaysShowTrayIcon>True</AlwaysShowTrayIcon>
+    <AlwaysShowTrayIcon>False</AlwaysShowTrayIcon>
     <Mouse>
       <Selection Enabled="True">
         <Button>0</Button>
@@ -340,7 +199,7 @@
       </Selection>
       <SingleClickStart>0</SingleClickStart>
       <ScrollMode>1</ScrollMode>
-      <WheelScrollLines>1</WheelScrollLines>
+      <WheelScrollLines>3</WheelScrollLines>
     </Mouse>
     <AutoFillColumns>False</AutoFillColumns>
     <AutoSizeColumn>1</AutoSizeColumn>
@@ -348,7 +207,7 @@
     <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
     <DateTimeFormat>dd/mm/yy hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
-    <ExtendCellWidth>True</ExtendCellWidth>
+    <ExtendCellWidth>False</ExtendCellWidth>
     <ShowSystemFiles>True</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
@@ -399,7 +258,7 @@
     </Viewer>
     <ViewerBook>
       <Name>default</Name>
-      <Size>14</Size>
+      <Size>16</Size>
       <Style>1</Style>
       <Quality>0</Quality>
     </ViewerBook>
@@ -486,7 +345,7 @@
     <ButtonBar Enabled="True">
       <FlatIcons>True</FlatIcons>
       <ButtonHeight>24</ButtonHeight>
-      <IconSize>32</IconSize>
+      <IconSize>16</IconSize>
       <ShowCaptions>False</ShowCaptions>
       <ReportErrorWithCommands>False</ReportErrorWithCommands>
       <FilenameStyle>0</FilenameStyle>
@@ -513,14 +372,14 @@
     <CurrentDirectory>True</CurrentDirectory>
     <TabHeader>True</TabHeader>
     <StatusBar>True</StatusBar>
-    <CmdLine>False</CmdLine>
+    <CmdLine>True</CmdLine>
     <LogWindow>False</LogWindow>
     <TermWindow>False</TermWindow>
     <KeyButtons>True</KeyButtons>
     <InterfaceFlat>True</InterfaceFlat>
     <DriveFreeSpace>True</DriveFreeSpace>
     <DriveIndicator>False</DriveIndicator>
-    <ProgressInMenuBar>True</ProgressInMenuBar>
+    <ProgressInMenuBar>False</ProgressInMenuBar>
     <PanelOfOperationsInBackground>True</PanelOfOperationsInBackground>
     <HorizontalFilePanels>False</HorizontalFilePanels>
     <ShortFormatDriveInfo>True</ShortFormatDriveInfo>
@@ -578,7 +437,7 @@
     <UseTrash>True</UseTrash>
     <SkipFileOpError>False</SkipFileOpError>
     <TypeOfDuplicatedRename>0</TypeOfDuplicatedRename>
-    <ShowDialogOnDragDrop>False</ShowDialogOnDragDrop>
+    <ShowDialogOnDragDrop>True</ShowDialogOnDragDrop>
     <DragAndDropTextRichtextDesireLevel>0</DragAndDropTextRichtextDesireLevel>
     <DragAndDropTextHtmlDesireLevel>1</DragAndDropTextHtmlDesireLevel>
     <DragAndDropTextUnicodeDesireLevel>2</DragAndDropTextUnicodeDesireLevel>
@@ -623,6 +482,56 @@
       <MulRenPathRangeSeparator>- </MulRenPathRangeSeparator>
     </MultiRename>
   </FileOperations>
+  <Tabs>
+    <Options>49937</Options>
+    <CharacterLimit>32</CharacterLimit>
+    <Position>0</Position>
+    <ActionOnDoubleClick>2</ActionOnDoubleClick>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/usr/lib/doublecmd/</Path>
+                  <Path Filename="DATA">/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/</Path>
+                  <Path Filename="arch-config">/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/DATA/</Path>
+                  <Path Filename="config">/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/DATA/arch-config/</Path>
+                  <Path Filename="doublecmd">/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/DATA/arch-config/config/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/usr/lib/doublecmd/</Path>
+                  <Path Filename=".config">/home/ruben/</Path>
+                  <Path Filename="kitty">/home/ruben/.config/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+  </Tabs>
   <Log Enabled="False" Count="0" LogFileWithDateInName="False">
     <FileName>%DC_CONFIG_PATH%/doublecmd.log</FileName>
     <Options>1023</Options>
@@ -654,7 +563,7 @@
     <DirBrackets>True</DirBrackets>
     <InplaceRename>False</InplaceRename>
     <InplaceRenameButton>True</InplaceRenameButton>
-    <DblClickToParent>True</DblClickToParent>
+    <DblClickToParent>False</DblClickToParent>
     <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>
     <HotDirFullExpandOrNot>False</HotDirFullExpandOrNot>
     <ShowPathInPopup>False</ShowPathInPopup>
@@ -700,17 +609,7 @@
   <IgnoreList Enabled="False">
     <IgnoreListFile>%DC_CONFIG_PATH%/ignorelist.txt</IgnoreListFile>
   </IgnoreList>
-  <DirectoryHotList>
-    <HotDir Name="Descargas" Path="/home/ruben/Descargas"/>
-    <HotDir Name=".config" Path="/home/ruben/.config"/>
-    <HotDir Name="Insync" Path="/media/insync/Insync"/>
-    <HotDir Name="DATA" Path="/media/insync/DATA"/>
-    <HotDir Name="1.transferir.archivos" Path="/media/insync/Insync/Transfer.Arqueonautis/1.transferir.archivos"/>
-    <HotDir Name="8TB" Path="/media/8TB"/>
-    <HotDir Name="1.series" Path="/media/8TB/organizar/1.series"/>
-    <HotDir Name="1.ordenar" Path="/media/8TB/organizar/1.ordenar"/>
-    <HotDir Name="arch-config" Path="/media/insync/DATA/arch-config"/>
-  </DirectoryHotList>
+  <DirectoryHotList/>
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
     <ImageStretch>False</ImageStretch>
@@ -883,13 +782,13 @@
       <FileSystem>&lt;General&gt;</FileSystem>
       <PixelsPerInch>96</PixelsPerInch>
       <CursorBorder Enabled="False">
-        <Color>-2147483635</Color>
+        <Color>0</Color>
       </CursorBorder>
       <Columns>
         <Column>
           <Title>Nombre</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>703</Width>
+          <Width>250</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -904,7 +803,7 @@
           <CursorColor>-2147483635</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>255</InactiveMarkColor>
+          <InactiveMarkColor>128</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -927,7 +826,7 @@
           <CursorColor>-2147483635</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>255</InactiveMarkColor>
+          <InactiveMarkColor>128</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -950,7 +849,7 @@
           <CursorColor>-2147483635</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>255</InactiveMarkColor>
+          <InactiveMarkColor>128</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -973,7 +872,7 @@
           <CursorColor>-2147483635</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>255</InactiveMarkColor>
+          <InactiveMarkColor>128</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -996,7 +895,7 @@
           <CursorColor>-2147483635</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>255</InactiveMarkColor>
+          <InactiveMarkColor>128</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>

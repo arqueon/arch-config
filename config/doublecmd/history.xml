@@ -2,70 +2,22 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/media/insync/Insync/Transfer.Arqueonautis/</Item>
-      <Item>/media/insync/Insync/Transfer.Arqueonautis/logseq/</Item>
-      <Item>/home/ruben/</Item>
-      <Item>/home/ruben/dotfiles-versions/</Item>
-      <Item>/home/ruben/dotfiles-versions/backups/</Item>
-      <Item>/home/ruben/dotfiles-versions/backups/20231229163836/</Item>
-      <Item>/media/insync/Insync/Transfer.Arqueonautis/logseq/pages/</Item>
-      <Item>/media/insync/Insync/</Item>
-      <Item>/media/insync/</Item>
-      <Item>/media/</Item>
-      <Item>/home/ruben/Descargas/</Item>
+      <Item>/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/DATA/arch-config/config/</Item>
       <Item>/home/ruben/.config/</Item>
       <Item>/home/ruben/.config/hypr/</Item>
-      <Item>/home/ruben/.config/hypr/conf/</Item>
-      <Item>/media/insync/DATA/arch-config/</Item>
-      <Item>/media/insync/DATA/arch-config/dotfiles/</Item>
-      <Item>/home/ruben/.config/hypr/conf/keybindings/</Item>
-      <Item>/media/8TB/organizar/1.series/</Item>
-      <Item>/media/8TB/organizar/1.series/x/</Item>
-      <Item>/media/medios/</Item>
-      <Item>/home/ruben/.config/swaylock/</Item>
-      <Item>/media/insync/DATA/arch-config/config/</Item>
-      <Item>/home/</Item>
-      <Item>/home/ruben/Hyprdots/</Item>
-      <Item>/home/ruben/.config/waybar/</Item>
-      <Item>/home/ruben/.config/waybar/modules/</Item>
-      <Item>/home/ruben/.config/waybar/themes/</Item>
-      <Item>/media/insync/DATA/</Item>
-      <Item>/media/insync/DATA/arcolinux-nemesis/</Item>
-      <Item>/media/insync/DATA/arcolinux-nemesis/AUR/</Item>
-      <Item>/media/8TB/organizar/</Item>
-      <Item>/media/8TB/</Item>
-      <Item>/media/insync/DATA/Arch-Hyprland/</Item>
-      <Item>/run/media/ruben/Ventoy/</Item>
-      <Item>/</Item>
-      <Item>/media/8TB/Tv/</Item>
-      <Item>/media/8TB/organizar/1.series/.tmp/</Item>
-      <Item>/media/8TB/Tv/Monarch.Legacy.of.Monsters/</Item>
-      <Item>/media/8TB/organizar/1.series/Monarch.Legacy.of.Monsters.S01E06.Terrifying.Miracles.1080p.ATVP.WEB-DL.DDP5.1.H.264-NTb[TGx]/</Item>
-      <Item>/media/8TB/Anime/</Item>
-      <Item>/media/8TB/Tv/Neil Gaimans Likely Stories -/</Item>
-      <Item>/media/8TB/Tv/Kosti/</Item>
-      <Item>/media/8TB/Tv/The.Panthers/</Item>
-      <Item>/media/8TB/Tv/Deadloch.S01.COMPLETE.720p.AMZN.WEBRip.x264-GalaxyTV[TGx]/</Item>
-      <Item>/media/8TB/Tv/Love.And.Death.S01.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rartv]/</Item>
-      <Item>/media/8TB/Anime/The Shivering Truth (2018)/</Item>
-      <Item>/media/8TB/Anime/Resident.Evil.Death.Island.2023.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG[TGx]/</Item>
-      <Item>/media/insync/DATA/arch-config/config/kdeconnect/9f09fa5e6484b45b/kdeconnect_runcommand/</Item>
-      <Item>/media/insync/DATA/arch-config/config/kdeconnect/9f09fa5e6484b45b/</Item>
-      <Item>/media/insync/DATA/arch-config/config/kdeconnect/</Item>
+      <Item>/home/ruben/.config/hypr/bg/</Item>
+      <Item>/home/ruben/</Item>
+      <Item>/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/DATA/arch-config/</Item>
+      <Item>/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/DATA/</Item>
+      <Item>/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/</Item>
     </Navigation>
     <CommandLine/>
-    <FileMask>
-      <Item>*.*</Item>
-    </FileMask>
+    <FileMask/>
     <SearchText/>
     <SearchTextPath/>
     <ReplaceText/>
     <ReplaceTextPath/>
-    <CreateDirectories>
-      <Item>HOME</Item>
-      <Item>Entrega recepción</Item>
-      <Item>2023</Item>
-    </CreateDirectories>
+    <CreateDirectories/>
     <RenameNameMask/>
     <RenameExtMask/>
     <SearchDirectories/>
