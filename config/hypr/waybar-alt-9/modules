@@ -441,15 +441,16 @@
 },
       
 "wlr/taskbar": {
-    "format": "{icon} {name} ",
+    "format": "{icon} ",
     "icon-size": 15,
-    "all-outputs": false,
+    "all-outputs": true,
     "tooltip-format": "{title}",
     "on-click": "activate",
     "on-click-middle": "close",
     "ignore-list": [
           "wofi",
-          "rofi",  
+          "rofi",
+          "alacritty"  
                    ]
 },
       
