@@ -492,15 +492,39 @@
         <ActiveTab>0</ActiveTab>
         <Tab>
           <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/usr/lib/doublecmd/</Path>
-                  <Path Filename="DATA">/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/</Path>
-                  <Path Filename="arch-config">/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/DATA/</Path>
-                  <Path Filename="config">/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/DATA/arch-config/</Path>
-                  <Path Filename="doublecmd">/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/DATA/arch-config/config/</Path>
+                  <Path Filename="">/media/insync/DATA/arch-config/config/</Path>
+                  <Path Filename="..">/media/8TB/organizar/1.series/Fermenting, 3 in 1 - Guide to Delicious Fermenting Recipes for Vegetables and Herbs+ Fermenting Recipes/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="">/etc/skel/.config/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -518,9 +542,24 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/usr/lib/doublecmd/</Path>
-                  <Path Filename=".config">/home/ruben/</Path>
-                  <Path Filename="kitty">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="">/home/ruben/.config/waybar/</Path>
+                  <Path Filename="">/home/ruben/.config/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -609,7 +648,11 @@
   <IgnoreList Enabled="False">
     <IgnoreListFile>%DC_CONFIG_PATH%/ignorelist.txt</IgnoreListFile>
   </IgnoreList>
-  <DirectoryHotList/>
+  <DirectoryHotList>
+    <HotDir Name="arch-config" Path="/media/insync/DATA/arch-config"/>
+    <HotDir Name=".config" Path="/home/ruben/.config"/>
+    <HotDir Name="Descargas" Path="/home/ruben/Descargas"/>
+  </DirectoryHotList>
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
     <ImageStretch>False</ImageStretch>
@@ -788,7 +831,7 @@
         <Column>
           <Title>Nombre</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>250</Width>
+          <Width>618</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
