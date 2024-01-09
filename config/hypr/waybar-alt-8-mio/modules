@@ -435,7 +435,7 @@
           "rofi",
           "kitty",
           "alacritty",
-                   ]
+                    ]
 },
       
 "custom/cycle_wall":{
@@ -702,7 +702,6 @@
     "tooltip-format": "Swap between waybar css",
     "format": "CSS"
 },
-
 
 "custom/weather": {
     "format": "{} °",
