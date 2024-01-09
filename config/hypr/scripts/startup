@@ -48,3 +48,5 @@ variety &
 ferdium &
 kdeconnect-indicator &
 nm-applet --indicator
+export BROWSER=google-chrome-stable
+
