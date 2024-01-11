@@ -8,3 +8,12 @@ swipe:
     #   command: 'xdotool key ctrl+t'
     # down:
     #   command: 'xdotool key ctrl+w'
+  4:
+    up:
+      command: 'xdotool key super+ctrl+up'
+    down:
+      command: 'xdotool key super+ctrl+down'
+    left:
+      command: 'xdotool key super+ctrl+left'
+    right:
+      command: 'xdotool key super+ctrl+right'

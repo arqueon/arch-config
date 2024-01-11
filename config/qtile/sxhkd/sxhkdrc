@@ -44,15 +44,18 @@ super + F9
 
 #Youtube Music 
 super + F10
-    youtube-music
+    amixer -D pulse set Master 1+ toggle
+#    youtube-music
 
 #Rofi Fullscreen
 super + F11
-    rofi -theme-str 'window \{width: 100%;height: 100%;\}' -show drun
+    amixer set Master 5%-
+#    rofi -theme-str 'window \{width: 100%;height: 100%;\}' -show drun
 
 #Rofi
 super + F12
-    rofi -show drun
+    amixer set Master 5%+
+#    rofi -show drun
 
 #################################################################
 # SUPER + ... KEYS
@@ -328,8 +331,8 @@ ctrl + shift + Print
 #################################################################
 
 #xfce4-terminal dropdown
-F12
-    xfce4-terminal --drop-down
+# F12
+#    xfce4-terminal --drop-down
 
 
 #################################################################

@@ -20,11 +20,11 @@ EnableHotKeys=false
 VolMuteMods=0
 VolUpMods=0
 VolDownMods=0
-EnableNotifications=false
+EnableNotifications=true
 HotkeyNotifications=true
-MouseNotifications=true
+MouseNotifications=false
 PopupNotifications=false
-ExternalNotifications=false
+ExternalNotifications=true
 NotificationTimeout=1500
 
 [(default)]
