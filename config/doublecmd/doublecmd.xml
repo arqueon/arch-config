@@ -162,6 +162,60 @@
       <Splitter>50</Splitter>
     </Position>
   </MainWindow>
+  <Tabs>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/usr/lib/doublecmd/</Path>
+                  <Path Filename="..">/usr/lib/</Path>
+                  <Path Filename="..">/usr/</Path>
+                  <Path Filename="media">/</Path>
+                  <Path Filename="insync">/media/</Path>
+                  <Path Filename="DATA">/media/insync/</Path>
+                  <Path Filename="arch-config">/media/insync/DATA/</Path>
+                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
+                  <Path Filename="mimeapps.list">/media/insync/DATA/arch-config/config/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/usr/lib/doublecmd/</Path>
+                  <Path Filename="..">/home/ruben/</Path>
+                  <Path Filename="volumeicon">/home/ruben/.config/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+    <Options>54033</Options>
+    <CharacterLimit>32</CharacterLimit>
+    <Position>0</Position>
+    <ActionOnDoubleClick>2</ActionOnDoubleClick>
+  </Tabs>
   <Language>
     <POFileName>doublecmd.es.po</POFileName>
   </Language>
