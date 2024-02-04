@@ -1,27 +1,4 @@
-#!/usr/bin/env bash 
-
-COLORSCHEME=DoomOne
-
-
-### AUTOSTART PROGRAMS ###
-# lxsession &
-picom --daemon &
-#/usr/bin/emacs --daemon &
-#nm-applet &
-#"$HOME"/.screenlayout/layout.sh &
-#sleep 1
-#conky -c "$HOME"/.config/conky/qtile/01/"$COLORSCHEME".conf || echo "Couldn't start conky."
-
-### UNCOMMENT ONLY ONE OF THE FOLLOWING THREE OPTIONS! ###
-# 1. Uncomment to restore last saved wallpaper
-#xargs xwallpaper --stretch < ~/.cache/wall &
-# 2. Uncomment to set a random wallpaper on login
-# find /usr/share/backgrounds/dtos-backgrounds/ -type f | shuf -n 1 | xargs xwallpaper --stretch &
-# 3. Uncomment to set wallpaper with nitrogen
-# nitrogen --restore &
-
-# extra from ArcoLinux
-
+#!/bin/bash
 
 function run {
   if ! pgrep -x $(basename $1 | head -c 15) 1>/dev/null;
@@ -45,10 +22,16 @@ export BROWSER=/usr/bin/google-chrome-stable
 export QT_QPA_PLATFORM="wayland;xcb"
 xsettingsd &
 #systemctl --user restart xidlehook.service
+#change your keyboard if you need it
+#setxkbmap -layout be
 
+keybLayout=$(setxkbmap -v | awk -F "+" '/symbols/ {print $2}')
 
-##changed via give-me-azerty-qtile
-#setxkbmap be
+if [ $keybLayout = "be" ]; then
+  cp $HOME/.config/qtile/config-azerty.py $HOME/.config/qtile/config.py
+fi
+
+setxkbmap -option caps:super
 
 #autostart ArcoLinux Welcome App
 run dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
@@ -58,9 +41,12 @@ feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
 feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
 #wallpaper for other Arch based systems
 #feh --bg-fill /usr/share/archlinux-tweak-tool/data/wallpaper/wallpaper.png &
+#start the conky to learn the shortcuts
+conky -c $HOME/.config/qtile/scripts/system-overview &
 
 #start sxhkd to replace Qtile native key-bindings
 run sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc &
+
 
 #starting utility applications at boot time
 /usr/lib/geoclue-2.0/demos/agent &
@@ -92,8 +78,6 @@ run /opt/ExpanDrive/expandrive %U &
 run redshift-gtk &
 run flameshot &
 run kdeconnect-indicator &
-run fusuma -d &
 #run spotify &
 #run atom &
 #run telegram-desktop &
-#run /usr/bin/octopi-notifier &

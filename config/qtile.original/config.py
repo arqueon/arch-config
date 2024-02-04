@@ -37,7 +37,7 @@ import colors
 
 mod = "mod4"              # Sets mod key to SUPER/WINDOWS
 myTerm = "alacritty"      # My terminal of choice
-myBrowser = "firefox"     # My browser of choice
+myBrowser = "google-chrome-stable"     # My browser of choice
 myEmacs = "emacsclient -c -a 'emacs' " # The space at the end is IMPORTANT!
 
 # Allows you to input a name when adding treetab section.
@@ -182,13 +182,14 @@ keys = [
 ]
 
 groups = []
-group_names = ["ampersand", "eacute", "quotedbl", "apostrophe", "parenleft", "section", "egrave", "exclam", "ccedilla", "agrave",]
+group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
+group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
+group_layouts = ["monadtall", "monadtall", "tile", "tile", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall"]
 
-group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9",]
-#group_labels = ["DEV", "WWW", "SYS", "DOC", "VBOX", "CHAT", "MUS", "VID", "GFX",]
-#group_labels = ["", "", "", "", "", "", "", "", "",]
+#group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "minus", "equal"]
+#group_labels = ["", "", "", "", "", "", "", "", "", "", "", "",]
+#group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadwide", "monadtall", "monadtall", "monadtall", "monadtall"]
 
-group_layouts = ["monadtall", "monadtall", "tile", "tile", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall"]
 
 for i in range(len(group_names)):
     groups.append(
@@ -218,7 +219,7 @@ for i in groups:
         ]
     )
 
-colors = colors.DoomOne
+colors = colors.Dracula
 
 layout_theme = {"border_width": 2,
                 "margin": 8,

@@ -1,163 +1,122 @@
-#Dracula
-def dracula():
-	colors = [["#282a36", "#282a36"],  #background (dark grey) [0]
-			   ["#44475a", "#44475a"],  #light grey [1]
-			   ["#f8f8f2", "#f8f8f2"],  #foreground (white) [2]
-			   ["#6272a4", "#6272a4"],  #blue/grey) [3]
-			   ["#8be9fd", "#8be9fd"],  #cyan [4]
-			   ["#50fa7b", "#50fa7b"],  #green [5]
-			   ["#ffb86c", "#ffb86c"],  #orange [6]
-			   ["#ff79c6", "#ff79c6"],  #pink [7]
-			   ["#bd93f9", "#bd93f9"],  #purple [8]
-			   ['#ff5555', '#ff5555'],  #red [9]
-			   ["#f1fa8c", "#f1fa8c"]]  #yellow [10]
-			   
-	backgroundColor = "#282a36"
-	foregroundColor = "#f8f8f2"
-	workspaceColor = "#bd93f9"
-	foregroundColorTwo = "#44475a"
-	return colors, backgroundColor, foregroundColor, workspaceColor, foregroundColorTwo
+# If using transparency, make sure you add (background="#00000000") to 'Screen' line(s).
+# Then, you can use RGBA color codes to add transparency to the colors below.
+# For ex: colors = [["#282c34ee", "#282c34dd"], ...
 
-#Everforest
-def everforest():
-	colors = [["#2B3339", "#2B3339"],  #background (dark grey) [0]
-			  ["#7C8377", "#7C8377"],  #light grey [1]
-			  ["#D5C9AB", "#D5C9AB"],  #foreground (beige) [2]
-			  ["#6272a4", "#6272a4"],  #blue/grey) [3]
-			  ["#7FBBB3", "#7FBBB3"],  #blue [4]
-			  ["#A7C080", "#A7C080"],  #green [5]
-			  ["#E69875", "#E69875"],  #orange [6]
-			  ["#D196B3", "#D196B3"],  #pink [7]
-			  ["#A7C080", "#A7C080"],  #green [8]
-			  ['#ED8082', '#ED8080'],  #red [9]
-			  ["#D5C9AB", "#D5C9AB"]]  #beige [10]
-			  
-	backgroundColor = "#2B3339"
-	foregroundColor = "#D5C9AB"
-	workspaceColor = "#A7C080"
-	foregroundColorTwo = "#7c8377"
-	return colors, backgroundColor, foregroundColor, workspaceColor, foregroundColorTwo
+DoomOne = [
+    ["#282c34", "#282c34"], # bg
+    ["#bbc2cf", "#bbc2cf"], # fg
+    ["#1c1f24", "#1c1f24"], # color01
+    ["#ff6c6b", "#ff6c6b"], # color02
+    ["#98be65", "#98be65"], # color03
+    ["#da8548", "#da8548"], # color04
+    ["#51afef", "#51afef"], # color05
+    ["#c678dd", "#c678dd"], # color06
+    ["#46d9ff", "#46d9ff"]  # color15
+    ]
 
-#Doom-One
-def doomone():
-	colors = [["#282c34", "#282c34"],  #background (dark grey) [0]
-			   ["#44475a", "#44475a"],  #light grey [1]
-			   ["#bbc2cf", "#bbc2cf"],  #foreground (white) [2]
-			   ["#3071db", "#3071db"],  #dark blue) [3]
-			   ["#51afef", "#51afef"],  #blue [4]
-			   ["#98be65", "#98be65"],  #green [5]
-			   ["#da8548", "#da8548"],  #orange [6]
-			   ["#a9a1e1", "#a9a1e1"],  #pink [7]
-			   ["#c678dd", "#c678dd"],  #purple [8]
-			   ['#ff6c6b', '#ff6c6b'],  #red [9]
-			   ["#ecbe7b", "#ecbe7b"]]  #yellow [10]
-			   
-	backgroundColor = "#282a36"
-	foregroundColor = "#bbc2cf"
-	workspaceColor = "#51afef"
-	foregroundColorTwo = "#44475a"
-	return colors, backgroundColor, foregroundColor, workspaceColor, foregroundColorTwo
+Dracula  = [
+    ["#282a36", "#282a36"], # bg
+    ["#f8f8f2", "#f8f8f2"], # fg
+    ["#000000", "#000000"], # color01
+    ["#ff5555", "#ff5555"], # color02
+    ["#50fa7b", "#50fa7b"], # color03
+    ["#f1fa8c", "#f1fa8c"], # color04
+    ["#bd93f9", "#bd93f9"], # color05
+    ["#ff79c6", "#ff79c6"], # color06
+    ["#9aedfe", "#9aedfe"]  # color15
+    ]
 
-#Nord
-def nord():
-	colors = [["#2e3440", "#2e3440"],  #background (dark grey) [0]
-			  ["#4c556a", "#4c566a"],  #grey [1]
-			  ["#d8dee9", "#d8dee9"],  #foreground (beige) [2]
-			  ["#81a1c1", "#81a1c1"],  #blue/grey) [3]
-			  ["#88c0d0", "#88c0d0"],  #blue [4]
-			  ["#a3be8c", "#a3be8c"],  #green [5]
-			  ["#e69875", "#e69875"],  #orange [6]
-			  ["#D196B3", "#D196B3"],  #pink [7]
-			  ["#a3be8c", "#a3be8c"],  #green [8]
-			  ['#bf616a', '#bf616a'],  #red [9]
-			  ["#ebcb8b", "#ebcb8b"]]  #yellow [10]
-			   
-	backgroundColor = "#2e3440"
-	foregroundColor = "#d8dee9"
-	workspaceColor = "#a3be8c"
-	foregroundColorTwo = "#4c566a"
-	return colors, backgroundColor, foregroundColor, workspaceColor, foregroundColorTwo
+GruvboxDark  = [
+    ["#282828", "#282828"], # bg
+    ["#ebdbb2", "#ebdbb2"], # fg
+    ["#000000", "#000000"], # color01
+    ["#fb4934", "#fb4934"], # color02
+    ["#98971a", "#98971a"], # color03
+    ["#d79921", "#d79921"], # color04
+    ["#83a598", "#83a598"], # color05
+    ["#d3869b", "#d3869b"], # color06
+    ["#b8bb26", "#b8bb26"], # color11
+    ]
+MonokaiPro = [
+    ["#2D2A2E", "#2D2A2E"], # bg
+    ["#FCFCFA", "#FCFCFA"], # fg
+    ["#403E41", "#403E41"], # color01
+    ["#FF6188", "#FF6188"], # color02
+    ["#A9DC76", "#A9DC76"], # color03
+    ["#FFD866", "#FFD866"], # color04
+    ["#FC9867", "#FC9867"], # color05
+    ["#AB9DF2", "#AB9DF2"], # color06
+    ["#78DCE8", "#78DCE8"]  # color07
+    ]
 
-#Gruvbox
-def gruvbox():
-	colors = [["#282828", "#282828"],  #background (dark grey) [0]
-			   ["#928374", "#928374"],  #light grey [1]
-			   ["#ebdbb2", "#ebddb2"],  #foreground (white) [2]
-			   ["#458588", "#458588"],  #blue) [3]
-			   ["#83a598", "#83a598"],  #light blue [4]
-			   ["#b8bb26", "#b8bb26"],  #green [5]
-			   ["#d79921", "#d79921"],  #orange [6]
-			   ["#d3869b", "#d3869b"],  #pink [7]
-			   ["#b16286", "#b16286"],  #purple [8]
-			   ['#cc241d', '#cc241d'],  #red [9]
-			   ["#fabd2f", "#fabd2f"]]  #yellow [10]
-			   
-	backgroundColor = "#282828"
-	foregroundColor = "#ebddb2"
-	workspaceColor = "#b8bb26"
-	foregroundColorTwo = "#928375"
-	return colors, backgroundColor, foregroundColor, workspaceColor, foregroundColorTwo
+Nord = [
+    ["#2E3440", "#2E3440"], # bg
+    ["#D8DEE9", "#D8DEE9"], # fg
+    ["#3B4252", "#3B4252"], # color01
+    ["#BF616A", "#BF616A"], # color02
+    ["#A3BE8C", "#A3BE8C"], # color03
+    ["#EBCB8B", "#EBCB8B"], # color04
+    ["#81A1C1", "#81A1C1"], # color05
+    ["#B48EAD", "#B48EAD"], # color06
+    ["#88C0D0", "#88C0D0"]  # color07
+    ]
 
-#catppucin
-def catppuccin():
-	colors = [["#232634", "#232634"],  #background (dark grey) [0]
-			   ["#51576d", "#51576d"],  #light grey [1]
-			   ["#f2d5cf", "#f2d5cf"],  #foreground (white) [2]
-			   ["#8caaee", "#8caaee"],  #blue) [3]
-			   ["#b5bfe2", "#b5bfe2"],  #light blue [4]
-			   ["#a6d189", "#a6d189"],  #green [5]
-			   ["#ef9f76", "#ef9f76"],  #orange [6]
-			   ["#f4b8e4", "#f4b8e4"],  #pink [7]
-			   ["#ca9ee6", "#ca9ee6"],  #purple [8]
-			   ['#e78284', '#e78284'],  #red [9]
-			   ["#e5c890", "#e5c890"]]  #yellow [10]
-			   
-	backgroundColor = "#232634"
-	foregroundColor = "#c6d0f5"
-	workspaceColor = "#e5c890"
-	foregroundColorTwo = "#babbf1"
-	return colors, backgroundColor, foregroundColor, workspaceColor, foregroundColorTwo
+OceanicNext = [
+    ["#1b2b34", "#1b2b34"], # bg
+    ["#d8dee9", "#d8dee9"], # fg
+    ["#29414f", "#29414f"], # color01
+    ["#ec5f67", "#ec5f67"], # color02
+    ["#99c794", "#99c794"], # color03
+    ["#fac863", "#fac863"], # color04
+    ["#6699cc", "#6699cc"], # color05
+    ["#c594c5", "#c594c5"], # color06
+    ["#5fb3b3", "#5fb3b3"]  # color07
+    ]
 
-#moonfly
-def moonfly():
-	colors = [["#323437", "#323437"],  #background (dark grey) [0]
-			   ["#9e9e9e", "#9e9e9e"],  #light grey [1]
-			   ["#b2b2b2", "#b2b2b2"],  #foreground (white) [2]
-			   ["#80a0ff", "#80a0ff"],  #blue) [3]
-			   ["#b2ceee", "#b2ceee"],  #light blue [4]
-			   ["#8cc85f", "#8cc85f"],  #green [5]
-			   ["#ef9f76", "#ef9f76"],  #orange [6]
-			   ["#ff5189", "#ff5189"],  #pink [7]
-			   ["#d183e8", "#d183e8"],  #purple [8]
-			   ['#ff5454', '#ff5454'],  #red [9]
-			   ["#e3c78a", "#e3c78a"]]  #yellow [10]
-			   
-	backgroundColor = "#080808"
-	foregroundColor = "#b2b2b2"
-	workspaceColor = "#e3c78a"
-	foregroundColorTwo = "#9e9e9e"
-	return colors, backgroundColor, foregroundColor, workspaceColor, foregroundColorTwo
+Palenight = [
+    ["#292d3e", "#292d3e"], # bg
+    ["#d0d0d0", "#d0d0d0"], # fg
+    ["#434758", "#434758"], # color01
+    ["#f07178", "#f07178"], # color02
+    ["#c3e88d", "#c3e88d"], # color03
+    ["#ffcb6b", "#ffcb6b"], # color04
+    ["#82aaff", "#82aaff"], # color05
+    ["#c792ea", "#c792ea"], # color06
+    ["#89ddff", "#89ddff"]  # color15
+    ]
 
-#retro
-def retro():
-	colors = [["#160B00", "#160B00"],  #background (dark grey) [0]
-			   ["#663300", "#663300"],  #darkorange [1]
-			   ["#8B4500", "#8B4500"],  #less dark orange (white) [2]
-			   ["#A35100", "#A35100"],  #less less dark orange [3]
-			   ["#C26100", "#C26100"],  #light orange [4]
-			   ["#E07000", "#E07000"],  #green [5]
-			   ["#FF7F00", "#FF7F00"],  #orange [6]
-			   ["#FF8E1F", "#FF8E1F"],  #pink [7]
-			   ["#FF8E1F", "#FF8E1F"],  #purple [8]
-			   ['#FF8E1F', '#FF8E1F'],  #red [9]
-			   ["#FF8E1F", "#FF8E1F"]]  #yellow [10]
-			   
-	backgroundColor = "#160B00"
-	foregroundColor = "#DE7B1B"
-	workspaceColor = "#DE7B1B"
-	foregroundColorTwo = "#DE7B1B"
-	return colors, backgroundColor, foregroundColor, workspaceColor, foregroundColorTwo
+SolarizedDark = [
+    ["#002b36", "#002b36"], # bg
+    ["#839496", "#839496"], # fg
+    ["#073642", "#073642"], # color01
+    ["#dc322f", "#dc322f"], # color02
+    ["#859900", "#859900"], # color03
+    ["#b58900", "#b58900"], # color04
+    ["#268bd2", "#268bd2"], # color05
+    ["#d33682", "#d33682"], # color06
+    ["#2aa198", "#2aa198"]  # color15
+    ]
 
+SolarizedLight = [
+    ["#fdf6e3", "#fdf6e3"], # bg
+    ["#657b83", "#657b83"], # fg
+    ["#ece5ac", "#ece5ac"], # color01
+    ["#dc322f", "#dc322f"], # color02
+    ["#859900", "#859900"], # color03
+    ["#b58900", "#b58900"], # color04
+    ["#268bd2", "#268bd2"], # color05
+    ["#d33682", "#d33682"], # color06
+    ["#2aa198", "#2aa198"]  # color15
+    ]
 
-
-
+TomorrowNight = [
+    ["#1d1f21", "#1d1f21"], # bg
+    ["#c5c8c6", "#c5c8c6"], # fg
+    ["#373b41", "#373b41"], # color01
+    ["#cc6666", "#cc6666"], # color02
+    ["#b5bd68", "#b5bd68"], # color03
+    ["#e6c547", "#e6c547"], # color04
+    ["#81a2be", "#81a2be"], # color05
+    ["#b294bb", "#b294bb"], # color06
+    ["#70c0ba", "#70c0ba"]  # color15
+    ]
