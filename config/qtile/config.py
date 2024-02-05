@@ -27,7 +27,7 @@
 import os
 import subprocess
 from libqtile import bar, extension, hook, layout, qtile, widget
-from libqtile.config import Click, Drag, Group, Key, KeyChord, Match, Screen
+from libqtile.config import Click, Drag, Group, Key, KeyChord, ScratchPad, Match, Screen, DropDown
 from libqtile.lazy import lazy
 # Make sure 'qtile-extras' is installed or this config will not work.
 from qtile_extras import widget
@@ -69,7 +69,9 @@ keys = [
     #Key([mod], "Return", lazy.spawn(myTerm), desc="Terminal"),
     #Key([mod, "shift"], "Return", lazy.spawn("rofi -show drun"), desc='Run Launcher'),
     Key([mod], "b", lazy.spawn(myBrowser), desc='Web browser'),
-    Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
+#    Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
+    Key([mod], "Tab", lazy.screen.next_group(), desc="Next workspace"),
+    Key([mod, "shift"], "Tab", lazy.screen.prev_group(), desc="Prev workspace"),
     #Key([mod, "shift"], "c", lazy.window.kill(), desc="Kill focused window"),
     Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "shift"], "q", lazy.window.kill(), desc="Kill focused window"),
@@ -183,60 +185,14 @@ keys = [
     ])
 ]
 
-def window_to_previous_screen(qtile, switch_group=False, switch_screen=False):
-    i = qtile.screens.index(qtile.current_screen)
-    if i != 0:
-        group = qtile.screens[i - 1].group.name
-        qtile.current_window.togroup(group, switch_group=switch_group)
-        if switch_screen == True:
-            qtile.cmd_to_screen(i - 1)
-
-def window_to_next_screen(qtile, switch_group=False, switch_screen=False):
-    i = qtile.screens.index(qtile.current_screen)
-    if i + 1 != len(qtile.screens):
-        group = qtile.screens[i + 1].group.name
-        qtile.current_window.togroup(group, switch_group=switch_group)
-        if switch_screen == True:
-            qtile.cmd_to_screen(i + 1)
-
-keys.extend([
-    # MOVE WINDOW TO NEXT SCREEN
-    Key([mod,"shift"], "Right", lazy.function(window_to_next_screen, switch_screen=True)),
-    Key([mod,"shift"], "Left", lazy.function(window_to_previous_screen, switch_screen=True)),
-])
-
-
-for i in range(len(group_names)):
-    groups.append(
-        Group(
-            name=group_names[i],
-            layout=group_layouts[i].lower(),
-            label=group_labels[i],
-        ))
-
-for i in groups:
-    keys.extend([
-
-#CHANGE WORKSPACES
-        Key([mod], i.name, lazy.group[i.name].toscreen()),
-        Key([mod], "Tab", lazy.screen.next_group()),
-        Key([mod, "shift" ], "Tab", lazy.screen.prev_group()),
-        Key(["mod1"], "Tab", lazy.screen.next_group()),
-        Key(["mod1", "shift"], "Tab", lazy.screen.prev_group()),
-
-# MOVE WINDOW TO SELECTED WORKSPACE 1-10 AND STAY ON WORKSPACE
-        #Key([mod, "shift"], i.name, lazy.window.togroup(i.name)),
-# MOVE WINDOW TO SELECTED WORKSPACE 1-10 AND FOLLOW MOVED WINDOW TO WORKSPACE
-        Key([mod, "shift"], i.name, lazy.window.togroup(i.name) , lazy.group[i.name].toscreen()),
-    ])
 
 groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
 group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
-group_layouts = ["monadtall", "monadtall", "tile", "tile", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall"]
+group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall"]
 
 # group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "minus", "equal"]
-# group_labels = ["  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ",]
+# group_labels = ["", "", "", "", "", "", "", "", "", "", "", "",]
 # group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadwide", "monadtall", "monadtall", "monadtall", "monadtall"]
 
 
@@ -296,7 +252,7 @@ layouts = [
          ),
     #layout.Stack(**layout_theme, num_stacks=2),
     #layout.Columns(**layout_theme),
-    # layout.TreeTab(
+    #layout.TreeTab(
     #     font = "Ubuntu Bold",
     #     fontsize = 11,
     #     border_width = 0,
@@ -321,9 +277,9 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font = "JetbrainsMono Nerd Font",
-    fontsize = 14,
-    padding = 2,
+    font="Ubuntu Bold",
+    fontsize = 12,
+    padding = 0,
     background=colors[0]
 )
 
@@ -342,8 +298,7 @@ def init_widgets_list():
                  foreground = colors[1]
         ),
         widget.GroupBox(
-                 font="JetBrainsMono Nerd Font",
-                 fontsize = 14,
+                 fontsize = 11,
                  margin_y = 5,
                  margin_x = 5,
                  padding_y = 0,
@@ -390,7 +345,7 @@ def init_widgets_list():
             # borderwidth = 0,
             # border = colors[1],
             # margin = 0,
-            # padding = 8,
+            padding = 2,
             highlight_method = "block",
             title_width_method = "uniform",
             urgent_alert_method = "border",
