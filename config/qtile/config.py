@@ -182,13 +182,14 @@ keys = [
 ]
 
 groups = []
-group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9",]
+group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
+group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
+group_layouts = ["monadtall", "monadtall", "tile", "tile", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall"]
 
-group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9",]
-#group_labels = ["DEV", "WWW", "SYS", "DOC", "VBOX", "CHAT", "MUS", "VID", "GFX",]
-#group_labels = ["", "", "", "", "", "", "", "", "",]
+#group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "minus", "equal"]
+#group_labels = ["", "", "", "", "", "", "", "", "", "", "", "",]
+#group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadwide", "monadtall", "monadtall", "monadtall", "monadtall"]
 
-group_layouts = ["monadtall", "monadtall", "tile", "tile", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall"]
 
 for i in range(len(group_names)):
     groups.append(
@@ -218,7 +219,7 @@ for i in groups:
         ]
     )
 
-colors = colors.DoomOne
+colors = colors.Dracula
 
 layout_theme = {"border_width": 2,
                 "margin": 8,
@@ -227,26 +228,26 @@ layout_theme = {"border_width": 2,
                 }
 
 layouts = [
-    #layout.Bsp(**layout_theme),
+    layout.Bsp(**layout_theme),
     #layout.Floating(**layout_theme)
-    #layout.RatioTile(**layout_theme),
-    #layout.VerticalTile(**layout_theme),
-    #layout.Matrix(**layout_theme),
+    layout.RatioTile(**layout_theme),
+    layout.VerticalTile(**layout_theme),
+    layout.Matrix(**layout_theme),
     layout.MonadTall(**layout_theme),
-    #layout.MonadWide(**layout_theme),
-    layout.Tile(
-         shift_windows=True,
-         border_width = 0,
-         margin = 0,
-         ratio = 0.335,
-         ),
+    layout.MonadWide(**layout_theme),
+    # layout.Tile(
+    #      shift_windows=True,
+    #      border_width = 0,
+    #      margin = 0,
+    #      ratio = 0.335,
+    #      ),
     layout.Max(
          border_width = 0,
          margin = 0,
          ),
     #layout.Stack(**layout_theme, num_stacks=2),
     #layout.Columns(**layout_theme),
-    #layout.TreeTab(
+    # layout.TreeTab(
     #     font = "Ubuntu Bold",
     #     fontsize = 11,
     #     border_width = 0,
@@ -271,9 +272,9 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="Ubuntu Bold",
-    fontsize = 12,
-    padding = 0,
+    font = "Ubuntu Mono",
+    fontsize = 14,
+    padding = 2,
     background=colors[0]
 )
 
@@ -292,7 +293,8 @@ def init_widgets_list():
                  foreground = colors[1]
         ),
         widget.GroupBox(
-                 fontsize = 11,
+                 font="JetBrainsMono Nerd Font",
+                 fontsize = 14,
                  margin_y = 5,
                  margin_x = 5,
                  padding_y = 0,
@@ -332,10 +334,27 @@ def init_widgets_list():
                  padding = 2,
                  fontsize = 14
                  ),
-        widget.WindowName(
-                 foreground = colors[6],
-                 max_chars = 40
-                 ),
+         widget.TaskList(
+            icon_size = 0,
+            # foreground = colors[10],
+            # background = colors[4],
+            # borderwidth = 0,
+            # border = colors[1],
+            # margin = 0,
+            # padding = 8,
+            highlight_method = "block",
+            title_width_method = "uniform",
+            urgent_alert_method = "border",
+            # urgent_border = colors[1],
+            # rounded = False,
+            # txt_floating = "🗗 ",
+            # txt_maximized = "🗖 ",
+            # txt_minimized = "🗕 ",
+        ),
+        # widget.WindowName(
+        #          foreground = colors[6],
+        #          max_chars = 40
+        #          ),
         widget.GenPollText(
                  update_interval = 300,
                  func = lambda: subprocess.check_output("printf $(uname -r)", shell=True, text=True),
