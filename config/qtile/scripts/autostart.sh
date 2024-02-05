@@ -1,6 +1,6 @@
 #!/usr/bin/env bash 
 
-COLORSCHEME=DoomOne
+COLORSCHEME=Dracula
 
 
 ### AUTOSTART PROGRAMS ###
@@ -40,7 +40,7 @@ function run {
 #xrandr --output LVDS1 --mode 1366x768 --output DP3 --mode 1920x1080 --right-of LVDS1
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 #autorandr horizontal
-setxkbmap -layout us -variant intl
+
 .screenlayout/monitor.sh &
 export BROWSER=/usr/bin/google-chrome-stable
 export QT_QPA_PLATFORM="wayland;xcb"
@@ -50,6 +50,7 @@ xsettingsd &
 
 ##changed via give-me-azerty-qtile
 #setxkbmap be
+setxkbmap -layout us -variant intl &
 
 #autostart ArcoLinux Welcome App
 run dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &

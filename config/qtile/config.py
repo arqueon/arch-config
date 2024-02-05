@@ -182,13 +182,13 @@ keys = [
 ]
 
 groups = []
-# group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
-# group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
-# group_layouts = ["monadtall", "monadtall", "tile", "tile", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall"]
+group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
+group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
+group_layouts = ["monadtall", "monadtall", "tile", "tile", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall"]
 
-group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "minus", "equal"]
-group_labels = [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ",]
-group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadwide", "monadtall", "monadtall", "monadtall", "monadtall"]
+# group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "minus", "equal"]
+# group_labels = ["  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ",]
+# group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadwide", "monadtall", "monadtall", "monadtall", "monadtall"]
 
 
 for i in range(len(group_names)):
@@ -272,7 +272,7 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font = "Ubuntu Mono",
+    font = "JetbrainsMono Nerd Font",
     fontsize = 14,
     padding = 2,
     background=colors[0]
@@ -419,17 +419,17 @@ def init_widgets_list():
                      )
                  ],
                  ),
-        widget.Spacer(length = 8),
-        widget.KeyboardLayout(
-                 foreground = colors[4],
-                 fmt = '⌨  Kbd: {}',
-                 decorations=[
-                     BorderDecoration(
-                         colour = colors[4],
-                         border_width = [0, 0, 2, 0],
-                     )
-                 ],
-                 ),
+        # widget.Spacer(length = 8),
+        # widget.KeyboardLayout(
+        #          foreground = colors[4],
+        #          fmt = '⌨  Kbd: {}',
+        #          decorations=[
+        #              BorderDecoration(
+        #                  colour = colors[4],
+        #                  border_width = [0, 0, 2, 0],
+        #              )
+        #          ],
+        #          ),
         widget.Spacer(length = 8),
         widget.Clock(
                  foreground = colors[8],
@@ -455,7 +455,8 @@ def init_widgets_screen1():
 # All other monitors' bars will display everything but widgets 22 (systray) and 23 (spacer).
 def init_widgets_screen2():
     widgets_screen2 = init_widgets_list()
-    del widgets_screen2[22:24]
+    #del widgets_screen2[22:24]
+    del widgets_screen2[20:22]
     return widgets_screen2
 
 # For adding transparency to your bar, add (background="#00000000") to the "Screen" line(s)
