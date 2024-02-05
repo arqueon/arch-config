@@ -187,7 +187,7 @@ groups = []
 # group_layouts = ["monadtall", "monadtall", "tile", "tile", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall"]
 
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "minus", "equal"]
-group_labels = ["", "", "", "", "", "", "", "", "", "", "", "",]
+group_labels = [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ",]
 group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadwide", "monadtall", "monadtall", "monadtall", "monadtall"]
 
 
