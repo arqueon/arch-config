@@ -1,19 +1,5 @@
-@define-color critical #ff0000; /* critical color */
-@define-color warning #f3f809;  /* warning color */
-@define-color fgcolor #ffffff;  /* foreground color */
-@define-color bgcolor #303030;  /* background color */
-@define-color bgcolor #222436;  /* background color */
-@define-color alert   #df3320;
-
-@define-color accent1 #ff7a93;
-@define-color accent2 #b9f27c;
-@define-color accent3 #ff9e64;
-@define-color accent4 #bb9af7;
-@define-color accent5 #7da6ff;
-@define-color accent6 #0db9d7;
-
 /* ---- 💫 https://github.com/JaKooLit 💫 ---- */
-/* Translucent */
+/* Chroma Glow */
 
 * {
 font-family: "JetBrainsMono Nerd Font";
@@ -26,7 +12,7 @@ padding: 1px;
 }
 
 window#waybar {
-    background-color: rgba(0,0,0,0.3);
+    background-color: transparent;
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -44,11 +30,11 @@ window#waybar.empty {
 window#waybar.empty #window {
     padding: 0px;
     border: 0px;
-    /*  background-color: rgba(66,66,66,0.5); */ /* transparent */
     background-color: transparent;
 }
 
 tooltip {
+	color: #40a02b;
     background: #1e1e2e;
     opacity: 0.8;
     border-radius: 10px;
@@ -63,7 +49,7 @@ tooltip label{
 
 #workspaces button {
     background-color: transparent;
-    color: #ffffff;
+    color: grey;
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
@@ -76,7 +62,7 @@ tooltip label{
 
 #workspaces button.active {
     background-color: transparent;
-    color: @accent1;
+    color: #D3D3D3;
     padding-left: 8px;
     padding-right: 8px;
     animation: gradient_f 20s ease-in infinite;
@@ -85,7 +71,7 @@ tooltip label{
 
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0.2);
-	color: @accent3;
+	color: #D3D3D3;
     padding-left: 2px;
     padding-right: 2px;
     animation: gradient_f 20s ease-in infinite;
@@ -94,7 +80,7 @@ tooltip label{
 
 #workspaces button.focused {
     background-color: #bbccdd;
-    color: @accent2;
+    color: #323232;
     /* box-shadow: inset 0 -3px #ffffff; */
 }
 
@@ -156,6 +142,10 @@ tooltip label{
 	padding-left: 6px;
 }
 
+#window,
+#workspaces {
+}
+
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
 }
@@ -165,7 +155,7 @@ tooltip label{
 }
 
 #clock {
-    color: @accent2;
+    color: #fe640b;
 }
 
 #custom-updater {
@@ -173,7 +163,7 @@ tooltip label{
 }
 
 #battery {
-    color: @accent5;
+    color: #32CD32;
 }
 
 /* #battery.charging {
@@ -201,87 +191,78 @@ label:focus {
     background-color: #000000;
 }
 
+#custom-keyboard,
 #custom-menu{
-    color: #FFFFFF;
+    color: yellow;
     /*padding: 3px;*/
 }
 
-#custom-keyboard,
 #cpu {
-    color: @accent1;
+    color: blue;
 }
 
 #memory {
-    color: @accent3;
+    color: green;
 }
 
+#custom-light_dark,
 #backlight {
-    color: #cdd6f4;
+    color: white;
 }
 
 #bluetooth {
-    color: #1e66f5;
+    color: blue;
 }
 
 #network {
-    color: @accent3;
+    color: #dd7878;
 }
 
 #network.disconnected {
-    color: @alert;
+    color: #df3320;
 }
 
+#custom-swaync,
+#custom-keybinds {
+	color: #1e66f5;	
+}
+
+#wireplumber,
 #pulseaudio {
-    color: @accent4;
+    color: green;
 }
 
-#pulseaudio-muted {
-    color: @accent2;
-}
-#wireplumber {
-    color: @accent4;
-}
-
-#wireplumber-muted {
-    color: @accent2;
-}
-
-#pluseaudio-source-muted{
-    color: #a0a0a0;
+#wireplumber.muted,
+#pulseaudio.muted {
+    color: grey;
 }
 
 #custom-power {
-    color: #cc3436;
+    color: red;
+}
+
+#keyboard-state {
+	color: #dd7878;
 }
 
 #disk {
-    color: @accent5;
-}
-#custom-power_profile {
-    color: @accent3;
-}
-#custom-media {
-    background-color: #66cc99;
-    color: #2a5c45;
-    min-width: 100px;
+    color: brown;
 }
 
 #custom-weather {
-    color: #66cc99;
+    color: #df8e1d;
 }
 
 #custom-lock {
     color: #ffa000;
 }
 
-#keyboard-state,
 #temperature {
-    color: @accent6;
-    /* background-color: #f0932b; */
+    color: #FF5349;
 }
 
 #temperature.critical {
-    background-color: @critical;
+    background-color: #ff0000;
 }
 
 #tray {
@@ -289,7 +270,7 @@ label:focus {
 }
 
 #idle_inhibitor {
-	color: #f9e2af;
+	color: #ADD8E6;
     /*background-color: #2d3436;*/
 }
 
@@ -331,7 +312,7 @@ label:focus {
 }
 
 #custom-language {
-    color: @accent5;
+    color: #7da6ff;
     min-width: 16px;
 }
 
