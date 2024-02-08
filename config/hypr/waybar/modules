@@ -486,7 +486,7 @@
     "exec": "echo ; echo 󱓟 app launcher",
     "interval" : 86400, // once every day
     "tooltip": true,
-    "on-click": "pkill rofi || rofi -show drun -modi run,drun,filebrowser,window",
+    "on-click": "~/.config/hypr/scripts/menu",
     "on-click-right": "~/.config/hypr/scripts/wallpaper",
 },
 
