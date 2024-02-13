@@ -31,7 +31,7 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
 ##################################################################################################################
 
-THEME='Catppuccin-Frappe-Standard-Mauve-Dar'
+THEME='Catppuccin-Frappe-Standard-Mauve-Dark'
 ICONS='Papirus-Dark'
 FONT='Noto Sans 11'
 CURSOR='capitaine-cursors'
