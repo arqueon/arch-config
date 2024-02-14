@@ -2,65 +2,70 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/media/8TB/organizar/1.series/Fermenting, 3 in 1 - Guide to Delicious Fermenting Recipes for Vegetables and Herbs+ Fermenting Recipes/</Item>
-      <Item>/home/ruben/.config/</Item>
-      <Item>/home/ruben/.config/hypr/</Item>
-      <Item>/home/ruben/.config/hypr/waybar-alt-5/</Item>
-      <Item>/home/ruben/.config/hypr/waybar-alt-5/scripts/</Item>
-      <Item>/home/ruben/.config/hypr/scripts/</Item>
-      <Item>/home/ruben/.config/hypr/waybar/</Item>
-      <Item>/home/ruben/.config/hypr/change/</Item>
-      <Item>/etc/skel/</Item>
-      <Item>/home/ruben/</Item>
-      <Item>/home/ruben/.bin/</Item>
-      <Item>/etc/skel/.bin/</Item>
-      <Item>/etc/skel/.config/</Item>
-      <Item>/home/ruben/.bin/stay-rolling/</Item>
-      <Item>/home/ruben/.bin/stay-rolling/2023/</Item>
-      <Item>/home/ruben/.bin/stay-rolling/2023/23.12-24.01/</Item>
-      <Item>/home/ruben/.bin/stay-rolling/2023/22.12-23.01/</Item>
-      <Item>/etc/skel/.config/hypr/</Item>
-      <Item>/etc/skel/.config/hypr/waybar-alt-9/</Item>
-      <Item>/home/ruben/.config/qtile/</Item>
-      <Item>/home/ruben/.config/qtile/scripts/</Item>
-      <Item>/home/ruben/.config/hypr/wofifull/</Item>
-      <Item>/etc/skel/.config/hypr/scripts/</Item>
-      <Item>/home/ruben/.config/hypr/wofi/</Item>
-      <Item>/media/insync/DATA/arch-config/</Item>
-      <Item>/media/insync/DATA/arch-config/config/</Item>
-      <Item>/media/insync/DATA/arch-config/config/hypr_arco/</Item>
-      <Item>/media/insync/DATA/arch-config/config/hypr_arco/scripts/</Item>
-      <Item>/etc/</Item>
-      <Item>/</Item>
-      <Item>/media/</Item>
-      <Item>/media/insync/</Item>
+      <Item>/media/insync/DATA/logseq_online/.git/hooks/</Item>
+      <Item>/media/insync/DATA/logseq_online/.git/</Item>
+      <Item>/media/insync/DATA/logseq_online/.git/info/</Item>
+      <Item>/media/insync/DATA/logseq_online/</Item>
       <Item>/media/insync/DATA/</Item>
-      <Item>/media/insync/DATA/arch-config/config/hypr_hyprdots/</Item>
-      <Item>/media/insync/DATA/arch-config/config/hypr_hyprdots/scripts/</Item>
-      <Item>/home/ruben/ExpanDrive/</Item>
-      <Item>/home/ruben/Imágenes/</Item>
-      <Item>/media/8TB/</Item>
-      <Item>/media/8TB/organizar/</Item>
       <Item>/home/ruben/Descargas/</Item>
-      <Item>/run/</Item>
-      <Item>/run/media/</Item>
-      <Item>/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/DATA/arch-config/</Item>
-      <Item>/run/media/ruben/e6ef8186-c362-48e2-a243-5753d2f12ad6/DATA/arch-config/config/</Item>
+      <Item>/home/ruben/</Item>
+      <Item>/media/insync/DATA/arch-config/</Item>
+      <Item>/media/8TB/Tv/</Item>
+      <Item>/media/8TB/organizar/1.series/</Item>
+      <Item>/media/8TB/organizar/1.series/Monarch.Legacy.of.Monsters.S01E10.Beyond.Logic.1080p.ATVP.WEB-DL.DDP5.1.H.264-NTb[TGx]/</Item>
+      <Item>/media/8TB/Tv/Monarch.Legacy.of.Monsters/</Item>
+      <Item>/home/ruben/Descargas/x/</Item>
+      <Item>/media/8TB/</Item>
+      <Item>/media/8TB/organizar/1.series/Monsieur.Spade.S01E05.1080p.WEB.h264-ETHEL[TGx]/</Item>
+      <Item>/media/8TB/organizar/1.series/Monsieur.Spade.S01E04.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb[TGx]/</Item>
+      <Item>/media/8TB/organizar/1.series/Monsieur.Spade.S01E03.1080p.WEB.h264-ETHEL[TGx]/</Item>
+      <Item>/media/8TB/organizar/1.series/Monsieur.Spade.S01E02.1080p.WEB.h264-ETHEL[TGx]/</Item>
+      <Item>/media/8TB/Tv/Monsieur.Spade/</Item>
+      <Item>/media/8TB/organizar/1.series/Monsieur.Spade.S01E01.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb[TGx]/</Item>
+      <Item>/media/8TB/organizar/1.series/True.Detective.S04E05.1080p.WEB.h264-ETHEL[TGx]/</Item>
+      <Item>/media/insync/DATA/arch-config/config/hypr/scripts/</Item>
+      <Item>/media/insync/DATA/arch-config/config/hypr/</Item>
+      <Item>/media/insync/DATA/arch-config/config/</Item>
+      <Item>/home/ruben/.config/hypr/</Item>
+      <Item>/home/ruben/.config/hypr/scripts/</Item>
+      <Item>/home/ruben/.config/</Item>
+      <Item>/media/insync/DATA/arch-config/bin/</Item>
+      <Item>/home/ruben/.config/fusuma/</Item>
+      <Item>/home/ruben/.config/qtile/</Item>
+      <Item>/media/insync/DATA/arch-config/config/qtile/</Item>
+      <Item>/media/insync/DATA/arch-config/config/qtile.bak/</Item>
+      <Item>/media/insync/DATA/arch-config/config/qtile.bak/sxhkd/</Item>
+      <Item>/etc/skel/.config/qtile/</Item>
+      <Item>/home/ruben/.config/qtile/scripts/</Item>
+      <Item>/home/ruben/.config/qtile/__pycache__/</Item>
+      <Item>/etc/skel/.config/qtile/scripts/</Item>
+      <Item>/etc/skel/.config/</Item>
+      <Item>/etc/skel/</Item>
+      <Item>/media/insync/DATA/arch-config/savedesktop/</Item>
+      <Item>/media/insync/DATA/arch-config/config/qtile.original/</Item>
+      <Item>/home/ruben/Descargas/x/LegalPorno.24.01.18.Karolina.Geiman.XXX.1080p.HEVC.x265.PRT[XvX]/</Item>
+      <Item>/media/8TB/organizar/1.series/True.Detective.S04E02.1080p.WEB.H264-SuccessfulCrab[TGx]/</Item>
+      <Item>/media/8TB/Tv/True.Detective/</Item>
       <Item>/media/insync/Insync/Transfer.Arqueonautis/logseq/pages/</Item>
-      <Item>/media/insync/Insync/Transfer.Arqueonautis/logseq/pages/Notas/</Item>
       <Item>/media/insync/Insync/Transfer.Arqueonautis/logseq/pages/climate-visuals/</Item>
-      <Item>/media/insync/Insync/Transfer.Arqueonautis/logseq/pages/.trash/</Item>
-      <Item>/media/insync/Insync/Transfer.Arqueonautis/logseq/pages/.trash/Untitled/</Item>
+      <Item>/media/insync/Insync/Transfer.Arqueonautis/logseq/pages/Notas/</Item>
       <Item>/media/insync/Insync/Transfer.Arqueonautis/logseq/</Item>
-      <Item>/media/insync/Insync/Transfer.Arqueonautis/logseq/journals/</Item>
+      <Item>/media/insync/Insync/Transfer.Arqueonautis/</Item>
+      <Item>/home/ruben/ExpanDrive/Google Drive/</Item>
+      <Item>/media/8TB/organizar/</Item>
     </Navigation>
     <CommandLine/>
-    <FileMask/>
+    <FileMask>
+      <Item>*.*</Item>
+    </FileMask>
+    <VolumeSize/>
+    <CreateDirectories>
+      <Item Tag="0">x</Item>
+    </CreateDirectories>
     <SearchText/>
     <SearchTextPath/>
     <ReplaceText/>
     <ReplaceTextPath/>
-    <CreateDirectories/>
     <RenameNameMask/>
     <RenameExtMask/>
     <SearchDirectories/>
