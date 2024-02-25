@@ -148,8 +148,7 @@ window#waybar.empty #window {
 /* -----------------------------------------------------
  * Custom Quicklinks
  * ----------------------------------------------------- */
-#mpris,
-#custom-brave, 
+#custom-brave,
 #custom-browser, 
 #custom-keybindings, 
 #custom-outlook, 
@@ -433,7 +432,7 @@ window#waybar.empty #window {
     -gtk-icon-effect: highlight;
 }
 
-#custom-weather {
+#custom-weather, #mpris {
 	padding-top: 3px;
 	padding-bottom: 3px;
 	padding-right: 16px;
