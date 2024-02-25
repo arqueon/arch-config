@@ -390,6 +390,27 @@
         "icon": false,
     },
 
+"custom/weather": {
+    "format": "{} °",
+    "tooltip": true,
+    "interval": 3600,
+    "exec": "wttrbar",
+    "return-type": "json"
+},
+
+"mpris": {
+    "format": " : {player_icon} {dynamic}",
+    "format-paused": " : {status_icon} <i>{dynamic}</i>",
+    "player-icons": {
+        "default": "▶",
+        "mpv": ""
+    },
+    "status-icons": {
+        "paused": "⏸"
+    },
+    // "ignored-players": ["firefox"]
+},
+
     // Idle Inhibator
     "idle_inhibitor": {
         "format": "{icon}",

@@ -149,12 +149,12 @@ window#waybar.empty #window {
 /* -----------------------------------------------------
  * Custom Quicklinks
  * ----------------------------------------------------- */
-
+#mpris,
 #custom-brave, 
 #custom-browser, 
 #custom-keybindings, 
 #custom-outlook, 
-#custom-filemanager, 
+#custom-filemanager,
 #custom-teams, 
 #custom-chatgpt, 
 #custom-calculator, 
@@ -433,4 +433,10 @@ window#waybar.empty #window {
     -gtk-icon-effect: highlight;
 }
 
+#custom-weather {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 16px;
+	padding-left: 16px;
+}
 
