@@ -33,7 +33,8 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
 THEME='Catppuccin-Frappe-Standard-Sapphire-Dark'
 ICONS='Papirus-Dark'
-FONT='Varela 11'
+#FONT='Inter 11'
+FONT='Hack 11'
 CURSOR='capitaine-cursors'
 
 SCHEMA='gsettings set org.gnome.desktop.interface'
