@@ -313,7 +313,8 @@
         "format-disabled": "",
         "format-off": "",
         "interval": 30,
-        "on-click": "blueman-manager"
+        "on-click": "blueman-manager",
+        "format-no-controller": ""
     },
 
     // Other
@@ -334,4 +335,3 @@
         "on-click-right": "hyprlock"        
     }
 }
-

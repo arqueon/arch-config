@@ -55,7 +55,7 @@
         "group/hardware",
         "custom/cliphist",
         // START IDLE TOOGLE
-        "idle_inhibitor",
+"idle_inhibitor",
         // END IDLE TOOGLE
         "custom/exit",
         "clock",
