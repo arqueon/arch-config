@@ -11,7 +11,6 @@
 
 # My screen resolution
 # xrandr --rate 120
-.screenlayout/monitor.sh &
 
 # For Virtual Machine 
 # xrandr --output Virtual-1 --mode 1920x1080

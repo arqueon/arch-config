@@ -148,11 +148,12 @@ window#waybar.empty #window {
 /* -----------------------------------------------------
  * Custom Quicklinks
  * ----------------------------------------------------- */
-#custom-brave,
+
+#custom-brave, 
 #custom-browser, 
 #custom-keybindings, 
 #custom-outlook, 
-#custom-filemanager,
+#custom-filemanager, 
 #custom-teams, 
 #custom-chatgpt, 
 #custom-calculator, 
@@ -169,7 +170,7 @@ window#waybar.empty #window {
     opacity: 0.8;
     color: @iconcolor;
 }
-
+ 
 #custom-system {
     margin-right:15px;
 }

@@ -22,7 +22,7 @@
         },
         "persistent-workspaces": {
             // START WORKSPACES
-"*": 5
+    "*": 5
             // END WORKSPACES
         }       
     },
@@ -64,6 +64,11 @@
         "on-click": "~/dotfiles/apps/ML4W_Welcome-x86_64.AppImage",
         "format": " ",
         "tooltip": false
+    },
+
+    // Empty
+    "custom/empty": {
+        "format": ""
     },
 
     // Youtube Subscriber Count
@@ -115,7 +120,7 @@
     // Settings
     "custom/settings": {
         "format": "",
-        "on-click": "alacritty --class dotfiles-floating -e ~/dotfiles/hypr/start-settings.sh",
+        "on-click": "~/dotfiles/apps/ML4W_Dotfiles_Settings-x86_64.AppImage",
         "tooltip": false
     },
 
@@ -219,6 +224,8 @@
 
     // Clock
     "clock": {
+        // TIMEDATEFORMAT
+        "format": "{:%H:%M %a}",
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         // START CLOCK FORMAT
