@@ -42,7 +42,7 @@
         "pulseaudio",
         "bluetooth",
         "battery", 
-        "network",
+        //"network",
         "group/hardware",
         "group/settings",
         "custom/cliphist",

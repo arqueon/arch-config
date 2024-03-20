@@ -5,11 +5,11 @@
     },
     {
         "key": "waybar_dateformat",
-        "value": "%a"
+        "value": "%Od.%Om.%y"
     },
     {
         "key": "waybar_custom_timedateformat",
-        "value": ""
+        "value": "%H:%M %Od/%Om"
     },
     {
         "key": "waybar_workspaces",
@@ -25,11 +25,11 @@
     },
     {
         "key": "waybar_network",
-        "value": true
+        "value": false
     },
     {
         "key": "waybar_chatgpt",
-        "value": true
+        "value": false
     },
     {
         "key": "waybar_systray",
@@ -49,7 +49,7 @@
     },
     {
         "key": "hypridle_dpms_timeout",
-        "value": 680
+        "value": 660
     },
     {
         "key": "hypridle_suspend_timeout",
