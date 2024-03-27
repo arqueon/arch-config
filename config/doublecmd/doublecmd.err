@@ -38,3 +38,28 @@ Unhandled exception: EAccessViolation: Access violation
   $00007FA6D1B32683
   $0000000000004A4A
 
+--------------- 26-03-2024, 17:09:46 ---------------
+| DC v1.1.11 beta Rev. 410 -- x86_64-Linux-qt6
+| ArcoLinux -- Qt 6.6.2, libQt6Pas 6.2.1 | PID 9851
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007A030ED2A1F8
+
+--------------- 26-03-2024, 17:09:46 ---------------
+| DC v1.1.11 beta Rev. 410 -- x86_64-Linux-qt6
+| ArcoLinux -- Qt 6.6.2, libQt6Pas 6.2.1 | PID 9851
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000429EFC
+  $000000000091EBA7
+  $00000000006543BE
+  $000000000066F2C5
+  $000000000064BFE0
+  $000000000064BFB0
+  $000000000065046F
+  $000000000066F21B
+  $00000000004B8C4B
+  $00000000004BAE4D
+  $00000000004399EB
+  $00000000004B3F82
+

@@ -3,7 +3,7 @@
   <Tabs>
     <OpenedTabs>
       <Left>
-        <ActiveTab>4</ActiveTab>
+        <ActiveTab>3</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <Sortings>
@@ -16,9 +16,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="x">/home/ruben/Descargas/</Path>
-                  <Path Filename="..">/home/ruben/Descargas/x/</Path>
-                  <Path Filename="x">/home/ruben/Descargas/</Path>
+                  <Path Filename="..">/home/ruben/Descargas/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -31,21 +29,15 @@
           <FileView Type="columns">
             <Sortings>
               <Sorting>
-                <Direction>2</Direction>
-                <Function>7</Function>
+                <Direction>1</Direction>
+                <Function>12</Function>
               </Sorting>
             </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="Tv">/media/8TB/</Path>
-                  <Path Filename="Monsieur.Spade">/media/8TB/Tv/</Path>
-                  <Path Filename="..">/media/8TB/Tv/Monsieur.Spade/</Path>
-                  <Path Filename="Tv">/media/8TB/</Path>
-                  <Path Filename="Monarch.Legacy.of.Monsters">/media/8TB/Tv/</Path>
-                  <Path Filename="..">/media/8TB/Tv/Monarch.Legacy.of.Monsters/</Path>
-                  <Path Filename="Mrs. Davis (2023) Season 1 S01 (1080p PCOK WEB-DL x265 HEVC 10bit AC3 5.1 Silence) REPACK">/media/8TB/Tv/</Path>
+                  <Path Filename="">/media/8TB/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -87,7 +79,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="">/media/insync/DATA/arch-config/config/</Path>
+                  <Path Filename="mimeapps.list">/media/insync/DATA/arch-config/config/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -108,56 +100,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile.bak/sxhkd/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile.bak/</Path>
-                  <Path Filename="qtile">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="qtile">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile/</Path>
-                  <Path Filename="qtile.bak">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile.bak/</Path>
-                  <Path Filename="qtile">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="bin">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/bin/</Path>
-                  <Path Filename="bin">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/bin/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="hypr">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="hypr">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="scripts">/media/insync/DATA/arch-config/config/hypr/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/hypr/scripts/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/hypr/</Path>
-                  <Path Filename="hypr">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="scripts">/media/insync/DATA/arch-config/config/hypr/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/hypr/scripts/</Path>
-                  <Path Filename="scripts">/media/insync/DATA/arch-config/config/hypr/</Path>
-                  <Path Filename="statusbar">/media/insync/DATA/arch-config/config/hypr/scripts/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="hooks">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/hooks/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="info">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/info/</Path>
-                  <Path Filename="hooks">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="pre-commit.sample">/media/insync/DATA/logseq_online/.git/hooks/</Path>
+                  <Path Filename="">/media/insync/DATA/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -178,19 +121,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename=".config">/etc/skel/</Path>
-                  <Path Filename="qtile">/etc/skel/.config/</Path>
-                  <Path Filename="..">/etc/skel/.config/qtile/</Path>
-                  <Path Filename="qtile">/etc/skel/.config/</Path>
-                  <Path Filename="..">/etc/skel/.config/qtile/</Path>
-                  <Path Filename="qtile">/etc/skel/.config/</Path>
-                  <Path Filename="..">/etc/skel/.config/qtile/</Path>
-                  <Path Filename="btop">/etc/skel/.config/</Path>
-                  <Path Filename=".config">/etc/skel/</Path>
-                  <Path Filename="qtile">/etc/skel/.config/</Path>
-                  <Path Filename="scripts">/etc/skel/.config/qtile/</Path>
-                  <Path Filename="..">/etc/skel/.config/qtile/scripts/</Path>
-                  <Path Filename="..">/etc/skel/.config/qtile/</Path>
+                  <Path Filename="">/etc/skel/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -201,12 +132,12 @@
         </Tab>
       </Left>
       <Right>
-        <ActiveTab>7</ActiveTab>
+        <ActiveTab>0</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <Sortings>
               <Sorting>
-                <Direction>2</Direction>
+                <Direction>1</Direction>
                 <Function>12</Function>
               </Sorting>
             </Sortings>
@@ -214,8 +145,9 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="config.py">/home/ruben/.config/qtile/</Path>
+                  <Path Filename="variety">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/variety/</Path>
+                  <Path Filename="volumeicon">/home/ruben/.config/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -257,21 +189,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="True.Detective.S04E05.1080p.WEB.h264-ETHEL[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/True.Detective.S04E05.1080p.WEB.h264-ETHEL[TGx]/</Path>
-                  <Path Filename="Monsieur.Spade.S01E01.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Monsieur.Spade.S01E01.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb[TGx]/</Path>
-                  <Path Filename="Monsieur.Spade.S01E02.1080p.WEB.h264-ETHEL[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Monsieur.Spade.S01E02.1080p.WEB.h264-ETHEL[TGx]/</Path>
-                  <Path Filename="Monsieur.Spade.S01E03.1080p.WEB.h264-ETHEL[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Monsieur.Spade.S01E03.1080p.WEB.h264-ETHEL[TGx]/</Path>
-                  <Path Filename="Monsieur.Spade.S01E04.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Monsieur.Spade.S01E04.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb[TGx]/</Path>
-                  <Path Filename="Monsieur.Spade.S01E05.1080p.WEB.h264-ETHEL[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Monsieur.Spade.S01E05.1080p.WEB.h264-ETHEL[TGx]/</Path>
-                  <Path Filename="Monarch.Legacy.of.Monsters.S01E10.Beyond.Logic.1080p.ATVP.WEB-DL.DDP5.1.H.264-NTb[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Monarch.Legacy.of.Monsters.S01E10.Beyond.Logic.1080p.ATVP.WEB-DL.DDP5.1.H.264-NTb[TGx]/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/</Path>
+                  <Path Filename="">/media/8TB/organizar/1.series/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -314,135 +232,7 @@
                 <FileSource Type="FileSystem"/>
                 <Paths>
                   <Path Filename="">/home/ruben/ExpanDrive/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="nautilus">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/nautilus/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="..">/home/ruben/.config/</Path>
-                  <Path Filename=".config">/home/ruben/</Path>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="scripts">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/scripts/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="scripts">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/scripts/</Path>
-                  <Path Filename="scripts">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/scripts/</Path>
-                  <Path Filename="__pycache__">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/__pycache__/</Path>
-                  <Path Filename="scripts">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/scripts/</Path>
-                  <Path Filename="scripts">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/scripts/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="fusuma">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/fusuma/</Path>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="fusuma">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/fusuma/</Path>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="fusuma">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/fusuma/</Path>
-                  <Path Filename="..">/home/ruben/.config/</Path>
-                  <Path Filename=".config">/home/ruben/</Path>
-                  <Path Filename="hypr">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="hypr">/home/ruben/.config/</Path>
-                  <Path Filename="scripts">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/scripts/</Path>
-                  <Path Filename="scripts">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/scripts/</Path>
-                  <Path Filename="hyprland.conf">/home/ruben/.config/hypr/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry>
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="True.Detective.S04E05.1080p.WEB.h264-ETHEL[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/True.Detective.S04E05.1080p.WEB.h264-ETHEL[TGx]/</Path>
-                  <Path Filename="Monsieur.Spade.S01E01.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Monsieur.Spade.S01E01.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb[TGx]/</Path>
-                  <Path Filename="Monsieur.Spade.S01E02.1080p.WEB.h264-ETHEL[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Monsieur.Spade.S01E02.1080p.WEB.h264-ETHEL[TGx]/</Path>
-                  <Path Filename="Monsieur.Spade.S01E03.1080p.WEB.h264-ETHEL[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Monsieur.Spade.S01E03.1080p.WEB.h264-ETHEL[TGx]/</Path>
-                  <Path Filename="Monsieur.Spade.S01E04.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Monsieur.Spade.S01E04.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb[TGx]/</Path>
-                  <Path Filename="Monsieur.Spade.S01E05.1080p.WEB.h264-ETHEL[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Monsieur.Spade.S01E05.1080p.WEB.h264-ETHEL[TGx]/</Path>
-                  <Path Filename="Monarch.Legacy.of.Monsters.S01E10.Beyond.Logic.1080p.ATVP.WEB-DL.DDP5.1.H.264-NTb[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Monarch.Legacy.of.Monsters.S01E10.Beyond.Logic.1080p.ATVP.WEB-DL.DDP5.1.H.264-NTb[TGx]/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="Descargas">/home/ruben/</Path>
-                  <Path Filename="">/home/ruben/Descargas/</Path>
+                  <Path Filename="">/home/ruben/</Path>
                 </Paths>
               </Entry>
             </History>
