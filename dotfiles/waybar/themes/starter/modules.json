@@ -101,7 +101,7 @@
     // Settings
     "custom/settings": {
         "format": "",
-        "on-click": "alacritty --class dotfiles-floating -e ~/dotfiles/hypr/settings/settings.sh",
+        "on-click": "~/dotfiles/apps/ML4W_Dotfiles_Settings-x86_64.AppImage",
         "tooltip": false
     },
 
@@ -286,8 +286,7 @@
         "format": "{icon} {volume}%",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": "󰖁 mute",
-        //" {format_source}",
+        "format-muted": " {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",
         "format-icons": {
@@ -299,13 +298,7 @@
             "car": "",
             "default": ["", " ", " "]
         },
-        // "on-click": "pavucontrol"
-        "on-click": "~/dotfiles/hypr/scripts/volume --toggle",
-        "on-click-right": "pavucontrol -t 3",
-        "on-scroll-up": "~/dotfiles/hypr/scripts/volume --inc",
-        "on-scroll-down": "~/dotfiles/hypr/scripts/volume --dec",
-        "tooltip-format": "{icon} {desc} | {volume}%",
-        "smooth-scrolling-threshold": 1,
+        "on-click": "pavucontrol"
     },
 
     // Bluetooth

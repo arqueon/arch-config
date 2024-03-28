@@ -33,9 +33,7 @@
 
     // Modules Center
     "modules-center": [
-        "custom/weather",
-        "hyprland/workspaces",
-        "mpris"
+        "hyprland/workspaces"
     ],
 
     // Modules Right    
@@ -44,7 +42,7 @@
         "pulseaudio",
         "bluetooth",
         "battery", 
-        //"network",
+        "network",
         "group/hardware",
         "custom/cliphist",
         "idle_inhibitor",

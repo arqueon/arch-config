@@ -63,74 +63,83 @@
       },
       ColumnSets : [
         {
-          Unique : "",
+          Unique : "C4F692CD-5B57-4D8F-A84D-A0D67A286773",
           Name : "Default",
           CursorBorderColor : 0,
           Columns : [
             {
               Unique : "8A8A7C9F-1625-4A13-A738-F406B58DC14B",
               Title : "Nombre",
-              TextColor : -2147483640,
-              Background : -2147483643,
-              Background2 : -2147483643,
-              MarkColor : 255,
-              CursorColor : -2147483635,
-              CursorText : -2147483634,
-              InactiveCursorColor : -2147483645,
-              InactiveMarkColor : 128
+              TextColor : 0,
+              Background : 0,
+              Background2 : 0,
+              MarkColor : 0,
+              CursorColor : 0,
+              CursorText : 0,
+              InactiveCursorColor : 0,
+              InactiveMarkColor : 0
             },
             {
               Unique : "6465162E-C382-4B88-81CA-2F98EA0A32E5",
               Title : "Ext",
-              TextColor : -2147483640,
-              Background : -2147483643,
-              Background2 : -2147483643,
-              MarkColor : 255,
-              CursorColor : -2147483635,
-              CursorText : -2147483634,
-              InactiveCursorColor : -2147483645,
-              InactiveMarkColor : 128
+              TextColor : 0,
+              Background : 0,
+              Background2 : 0,
+              MarkColor : 0,
+              CursorColor : 0,
+              CursorText : 0,
+              InactiveCursorColor : 0,
+              InactiveMarkColor : 0
             },
             {
               Unique : "BAA0CECE-C3F9-43C8-B1D1-14EC79FE5D7F",
               Title : "Tamaño",
-              TextColor : -2147483640,
-              Background : -2147483643,
-              Background2 : -2147483643,
-              MarkColor : 255,
-              CursorColor : -2147483635,
-              CursorText : -2147483634,
-              InactiveCursorColor : -2147483645,
-              InactiveMarkColor : 128
+              TextColor : 0,
+              Background : 0,
+              Background2 : 0,
+              MarkColor : 0,
+              CursorColor : 0,
+              CursorText : 0,
+              InactiveCursorColor : 0,
+              InactiveMarkColor : 0
             },
             {
               Unique : "E3BADDC0-22C9-4910-B73A-26AC5CD1DB0D",
               Title : "Fecha",
-              TextColor : -2147483640,
-              Background : -2147483643,
-              Background2 : -2147483643,
-              MarkColor : 255,
-              CursorColor : -2147483635,
-              CursorText : -2147483634,
-              InactiveCursorColor : -2147483645,
-              InactiveMarkColor : 128
+              TextColor : 0,
+              Background : 0,
+              Background2 : 0,
+              MarkColor : 0,
+              CursorColor : 0,
+              CursorText : 0,
+              InactiveCursorColor : 0,
+              InactiveMarkColor : 0
             },
             {
               Unique : "8C19AA76-76EE-4B8E-B4AA-4169760142AA",
               Title : "Atributos",
-              TextColor : -2147483640,
-              Background : -2147483643,
-              Background2 : -2147483643,
-              MarkColor : 255,
-              CursorColor : -2147483635,
-              CursorText : -2147483634,
-              InactiveCursorColor : -2147483645,
-              InactiveMarkColor : 128
+              TextColor : 0,
+              Background : 0,
+              Background2 : 0,
+              MarkColor : 0,
+              CursorColor : 0,
+              CursorText : 0,
+              InactiveCursorColor : 0,
+              InactiveMarkColor : 0
             }
           ]
         }
       ],
       Highlighters : [
+        {
+          Name : "Texto sin formato",
+          Attributes : [
+            {
+              Name : "Default text",
+              Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
+            }
+          ]
+        },
         {
           Name : "C++",
           Attributes : [
@@ -574,6 +583,18 @@
             {
               Name : "Number",
               Value : "$1FFFFFFF|$00800000|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "PasDoc-Keyword",
+              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "PasDoc-Symbol",
+              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
+            },
+            {
+              Name : "PasDoc-Unknown",
+              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             },
             {
               Name : "Procedure header name",

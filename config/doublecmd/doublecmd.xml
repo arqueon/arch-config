@@ -158,10 +158,10 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Left>80</Left>
-      <Top>48</Top>
-      <Width>800</Width>
-      <Height>480</Height>
+      <Left>2</Left>
+      <Top>50</Top>
+      <Width>1720</Width>
+      <Height>1375</Height>
       <PixelsPerInch>96</PixelsPerInch>
       <Maximized>True</Maximized>
       <Splitter>50</Splitter>
@@ -174,11 +174,11 @@
     <GoToRoot>False</GoToRoot>
     <ShowCurDirTitleBar>False</ShowCurDirTitleBar>
     <ActiveRight>False</ActiveRight>
-    <RunInTerminalStayOpenCmd>konsole</RunInTerminalStayOpenCmd>
-    <RunInTerminalStayOpenParams>-e sh -c '{command}; echo -n Press ENTER to exit... ; read a'</RunInTerminalStayOpenParams>
-    <RunInTerminalCloseCmd>konsole</RunInTerminalCloseCmd>
+    <RunInTerminalStayOpenCmd>alacritty</RunInTerminalStayOpenCmd>
+    <RunInTerminalStayOpenParams/>
+    <RunInTerminalCloseCmd>alacritty</RunInTerminalCloseCmd>
     <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
-    <JustRunTerminal>konsole</JustRunTerminal>
+    <JustRunTerminal>alacritty</JustRunTerminal>
     <JustRunTermParams/>
     <OnlyOneAppInstance>False</OnlyOneAppInstance>
     <LynxLike>True</LynxLike>
@@ -225,7 +225,7 @@
   </Behaviours>
   <Tools>
     <Viewer Enabled="True">
-      <Path>suchi</Path>
+      <Path>sushi</Path>
       <Parameters/>
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>

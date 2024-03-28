@@ -432,11 +432,3 @@ window#waybar.empty #window {
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
 }
-
-#custom-weather, #mpris {
-	padding-top: 3px;
-	padding-bottom: 3px;
-	padding-right: 16px;
-	padding-left: 16px;
-}
-

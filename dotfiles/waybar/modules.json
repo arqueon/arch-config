@@ -21,9 +21,7 @@
 			"default": ""
         },
         "persistent-workspaces": {
-            // START WORKSPACES
             "*": 5
-            // END WORKSPACES
         }       
     },
 
@@ -34,8 +32,6 @@
         "tooltip-format": "{title}",
         "on-click": "activate",
         "on-click-middle": "close",
-        "all-outputs": true,
-        "active-first": false,
         "ignore-list": [
            "Alacritty"
         ],
@@ -186,7 +182,7 @@
         // START APPS LABEL
         "format": "Apps",
         // END APPS LABEL
-        "on-click": "rofi -show drun -replace",
+        "on-click": "sleep 0.2;rofi -show drun -replace",
         "on-click-right": "~/dotfiles/hypr/scripts/keybindings.sh",
         "tooltip": false
     },
@@ -225,8 +221,7 @@
 
     // Clock
     "clock": {
-        // TIMEDATEFORMAT
-        "format": "{:%H:%M %Od/%Om}",
+        "format": "{:%H:%M %a}",
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         // START CLOCK FORMAT
@@ -333,26 +328,26 @@
         "format-icons": [" ", " ", " ", " ", " "]
     },
 
-    // // Pulseaudio
-    // "pulseaudio": {
-    //     // "scroll-step": 1, // %, can be a float
-    //     "format": "{icon} {volume}%",
-    //     "format-bluetooth": "{volume}% {icon} {format_source}",
-    //     "format-bluetooth-muted": " {icon} {format_source}",
-    //     "format-muted": " {format_source}",
-    //     "format-source": "{volume}% ",
-    //     "format-source-muted": "",
-    //     "format-icons": {
-    //         "headphone": "",
-    //         "hands-free": "",
-    //         "headset": "",
-    //         "phone": "",
-    //         "portable": "",
-    //         "car": "",
-    //         "default": ["", " ", " "]
-    //     },
-    //     "on-click": "pavucontrol"
-    // },
+    // Pulseaudio
+    //"pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        //"format": "{icon} {volume}%",
+        //"format-bluetooth": "{volume}% {icon} {format_source}",
+        //"format-bluetooth-muted": " {icon} {format_source}",
+        //"format-muted": " {format_source}",
+        //"format-source": "{volume}% ",
+        //"format-source-muted": "",
+        //"format-icons": {
+            //"headphone": " ",
+            //"hands-free": " ",
+            //"headset": " ",
+            //"phone": " ",
+            //"portable": " ",
+            //"car": " ",
+            //"default": [" ", " ", " "]
+       // },
+        "on-click": "pavucontrol"
+//    },
     
     // Pulseaudio
     "pulseaudio": {
@@ -398,28 +393,6 @@
         "interval": 60,
         "icon": false,
     },
-
-"custom/weather": {
-    "format": "{} °",
-    "tooltip": true,
-    "interval": 3600,
-    "exec": "wttrbar",
-    "return-type": "json"
-},
-
-"mpris": {
-    "format": " : {player_icon} {dynamic}",
-    "format-paused": " : {status_icon} <i>{dynamic}</i>",
-	"max-length": "30",
-    "player-icons": {
-        "default": "▶",
-        "mpv": ""
-    },
-    "status-icons": {
-        "paused": "⏸"
-    },
-    // "ignored-players": ["firefox"]
-},
 
     // Idle Inhibator
     "idle_inhibitor": {
