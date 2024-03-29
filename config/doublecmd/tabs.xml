@@ -3,7 +3,7 @@
   <Tabs>
     <OpenedTabs>
       <Left>
-        <ActiveTab>3</ActiveTab>
+        <ActiveTab>2</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <Sortings>
@@ -29,49 +29,15 @@
           <FileView Type="columns">
             <Sortings>
               <Sorting>
-                <Direction>2</Direction>
-                <Function>7</Function>
+                <Direction>1</Direction>
+                <Function>12</Function>
               </Sorting>
             </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="Tv">/media/8TB/</Path>
-                  <Path Filename="Shogun">/media/8TB/Tv/</Path>
-                  <Path Filename="shogun.2024.s01e05.1080p.web.h264-successfulcrab.mkv">/media/8TB/Tv/Shogun/</Path>
-                  <Path Filename=".config">/home/ruben/</Path>
-                  <Path Filename="wal">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/wal/</Path>
-                  <Path Filename="wal">/home/ruben/.config/</Path>
-                  <Path Filename="colorschemes">/home/ruben/.config/wal/</Path>
-                  <Path Filename="..">/home/ruben/.config/wal/colorschemes/</Path>
-                  <Path Filename="templates">/home/ruben/.config/wal/</Path>
-                  <Path Filename="..">/home/ruben/.config/wal/templates/</Path>
-                  <Path Filename="..">/home/ruben/.config/wal/</Path>
-                  <Path Filename="hypr">/home/ruben/.config/</Path>
-                  <Path Filename="conf">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="keybindings">/home/ruben/.config/hypr/conf/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/conf/keybindings/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/conf/</Path>
-                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
-                  <Path Filename="wal">/home/ruben/.config/</Path>
-                  <Path Filename="templates">/home/ruben/.config/wal/</Path>
-                  <Path Filename="..">/home/ruben/.config/wal/templates/</Path>
-                  <Path Filename="colorschemes">/home/ruben/.config/wal/</Path>
-                  <Path Filename="dark">/home/ruben/.config/wal/colorschemes/</Path>
-                  <Path Filename="..">/home/ruben/.config/wal/colorschemes/dark/</Path>
-                  <Path Filename="light">/home/ruben/.config/wal/colorschemes/</Path>
-                  <Path Filename="..">/home/ruben/.config/wal/colorschemes/light/</Path>
-                  <Path Filename="..">/home/ruben/.config/wal/colorschemes/</Path>
-                  <Path Filename="..">/home/ruben/.config/wal/</Path>
-                  <Path Filename="..">/home/ruben/.config/</Path>
-                  <Path Filename="wallpaper">/home/ruben/</Path>
-                  <Path Filename="..">/home/ruben/wallpaper/</Path>
-                  <Path Filename="..">/home/ruben/</Path>
-                  <Path Filename="ruben">/home/</Path>
-                  <Path Filename=".bin">/home/ruben/</Path>
-                  <Path Filename="arco">/home/ruben/.bin/</Path>
+                  <Path Filename="">/media/8TB/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -92,7 +58,9 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="">/media/insync/Insync/</Path>
+                  <Path Filename="Transfer.Arqueonautis">/media/insync/Insync/</Path>
+                  <Path Filename="logseq">/media/insync/Insync/Transfer.Arqueonautis/</Path>
+                  <Path Filename="..">/media/insync/Insync/Transfer.Arqueonautis/logseq/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -114,35 +82,12 @@
                 <FileSource Type="FileSystem"/>
                 <Paths>
                   <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="savedesktop">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/savedesktop/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="ags_end-4">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/ags_end-4/</Path>
-                  <Path Filename="pnmixer">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/pnmixer/</Path>
-                  <Path Filename="qpdfview">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qpdfview/</Path>
-                  <Path Filename="qtile.bak">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile.bak/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="bin">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/bin/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="arch-config">/media/insync/DATA/</Path>
                   <Path Filename="dotfiles">/media/insync/DATA/arch-config/</Path>
                   <Path Filename="hypr">/media/insync/DATA/arch-config/dotfiles/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/hypr/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles/</Path>
-                  <Path Filename="dotfiles.bak">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="hypr">/media/insync/DATA/arch-config/dotfiles.bak/</Path>
-                  <Path Filename="scripts">/media/insync/DATA/arch-config/dotfiles.bak/hypr/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles.bak/hypr/scripts/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles.bak/hypr/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/dotfiles.bak/</Path>
-                  <Path Filename=".git">/media/insync/DATA/arch-config/</Path>
+                  <Path Filename="conf">/media/insync/DATA/arch-config/dotfiles/hypr/</Path>
+                  <Path Filename="keybindings">/media/insync/DATA/arch-config/dotfiles/hypr/conf/</Path>
+                  <Path Filename="default.conf">/media/insync/DATA/arch-config/dotfiles/hypr/conf/keybindings/</Path>
+                  <Path Filename="dotfiles">/media/insync/DATA/arch-config/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -165,7 +110,6 @@
                 <Paths>
                   <Path Filename="logseq_online">/media/insync/DATA/</Path>
                   <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -186,13 +130,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/etc/skel/</Path>
-                  <Path Filename="qtile">/etc/skel/.config/</Path>
-                  <Path Filename="..">/etc/skel/.config/qtile/</Path>
-                  <Path Filename="..">/etc/skel/.config/</Path>
-                  <Path Filename=".bin">/etc/skel/</Path>
-                  <Path Filename="..">/etc/skel/.bin/</Path>
-                  <Path Filename=".config">/etc/skel/</Path>
+                  <Path Filename="">/etc/skel/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -216,33 +154,11 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="variety">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/variety/</Path>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="scripts">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/scripts/</Path>
-                  <Path Filename="icons">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/icons/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
-                  <Path Filename="qtile">/home/ruben/.config/</Path>
-                  <Path Filename="..">/home/ruben/.config/qtile/</Path>
                   <Path Filename="..">/home/ruben/.config/</Path>
-                  <Path Filename="bin">/home/ruben/</Path>
-                  <Path Filename="..">/home/ruben/bin/</Path>
-                  <Path Filename=".bin">/home/ruben/</Path>
-                  <Path Filename="..">/home/ruben/.bin/</Path>
                   <Path Filename="dotfiles">/home/ruben/</Path>
-                  <Path Filename="scripts">/home/ruben/dotfiles/</Path>
-                  <Path Filename="..">/home/ruben/dotfiles/scripts/</Path>
                   <Path Filename="hypr">/home/ruben/dotfiles/</Path>
                   <Path Filename="scripts">/home/ruben/dotfiles/hypr/</Path>
-                  <Path Filename="..">/home/ruben/dotfiles/hypr/scripts/</Path>
-                  <Path Filename="hypr">/home/ruben/dotfiles/</Path>
-                  <Path Filename="dotfiles">/home/ruben/</Path>
-                  <Path Filename="hypr">/home/ruben/dotfiles/</Path>
-                  <Path Filename="..">/home/ruben/dotfiles/hypr/</Path>
-                  <Path Filename="..">/home/ruben/dotfiles/</Path>
-                  <Path Filename="dotfiles-versions">/home/ruben/</Path>
+                  <Path Filename="volume">/home/ruben/dotfiles/hypr/scripts/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -264,6 +180,7 @@
                 <FileSource Type="FileSystem"/>
                 <Paths>
                   <Path Filename="">/media/8TB/organizar/1.ordenar/</Path>
+                  <Path Filename="">/media/8TB/organizar/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -276,7 +193,7 @@
           <FileView Type="columns">
             <Sortings>
               <Sorting>
-                <Direction>2</Direction>
+                <Direction>1</Direction>
                 <Function>12</Function>
               </Sorting>
             </Sortings>
@@ -284,10 +201,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="Shogun.2024.S01E06.1080p.WEB.H264-SuccessfulCrab[TGx]">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/Shogun.2024.S01E06.1080p.WEB.H264-SuccessfulCrab[TGx]/</Path>
-                  <Path Filename="..">/media/8TB/organizar/1.series/</Path>
-                  <Path Filename="1.series">/media/8TB/organizar/</Path>
+                  <Path Filename="">/media/8TB/organizar/1.series/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -329,26 +243,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="savedesktop">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/savedesktop/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="config">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="ags_end-4">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/ags_end-4/</Path>
-                  <Path Filename="pnmixer">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/pnmixer/</Path>
-                  <Path Filename="qpdfview">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qpdfview/</Path>
-                  <Path Filename="qtile.bak">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/qtile.bak/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/config/</Path>
-                  <Path Filename="bin">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/bin/</Path>
-                  <Path Filename="..">/media/insync/DATA/arch-config/</Path>
-                  <Path Filename="arch-config">/media/insync/DATA/</Path>
-                  <Path Filename="bin">/media/insync/DATA/arch-config/</Path>
+                  <Path Filename="">/home/ruben/ExpanDrive/</Path>
                 </Paths>
               </Entry>
             </History>
