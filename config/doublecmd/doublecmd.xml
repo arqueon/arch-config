@@ -440,8 +440,8 @@
     <NtfsHourTimeDelay>False</NtfsHourTimeDelay>
     <AutoExtractOpenMask/>
     <SearchDefaultTemplate/>
-    <ProgressKind>0</ProgressKind>
-    <Confirmations>15</Confirmations>
+    <ProgressKind>2</ProgressKind>
+    <Confirmations>4</Confirmations>
     <Options>
       <Symlink>0</Symlink>
       <CorrectLinks>False</CorrectLinks>
@@ -561,7 +561,18 @@
   <IgnoreList Enabled="False">
     <IgnoreListFile>%DC_CONFIG_PATH%/ignorelist.txt</IgnoreListFile>
   </IgnoreList>
-  <DirectoryHotList/>
+  <DirectoryHotList>
+    <HotDir Name="8TB" Path="/media/8TB/"/>
+    <HotDir Name="1.ordenar" Path="/media/8TB/organizar/1.ordenar/"/>
+    <HotDir Name="1.series" Path="/media/8TB/organizar/1.series/"/>
+    <HotDir Name="DATA" Path="/media/insync/DATA/"/>
+    <HotDir Name="arch-config" Path="/media/insync/DATA/arch-config/"/>
+    <HotDir Name="logseq_online" Path="/media/insync/DATA/logseq_online/"/>
+    <HotDir Name="Insync" Path="/media/insync/Insync/"/>
+    <HotDir Name="Transfer.Arqueonautis" Path="/media/insync/Insync/Transfer.Arqueonautis/"/>
+    <HotDir Name="readwise" Path="/media/insync/Insync/Transfer.Arqueonautis/readwise/"/>
+    <HotDir Name="VMs" Path="/media/insync/VMs/"/>
+  </DirectoryHotList>
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
     <ImageStretch>False</ImageStretch>
@@ -692,7 +703,7 @@
     <DfltRightGoTo>1</DfltRightGoTo>
     <DfltKeep>5</DfltKeep>
     <DfltSaveDirHistory>False</DfltSaveDirHistory>
-    <FavTabsLastUniqueID>{F8C7DB06-A146-4950-914F-46CAF4BADE87}</FavTabsLastUniqueID>
+    <FavTabsLastUniqueID>{D9E1E65C-F71E-43F2-9178-121CE3066C59}</FavTabsLastUniqueID>
   </FavoriteTabsOptions>
   <Lua>
     <PathToLibrary>liblua5.1.so.0</PathToLibrary>
@@ -722,7 +733,7 @@
           <Title>Nombre</Title>
           <Unique>8A8A7C9F-1625-4A13-A738-F406B58DC14B</Unique>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>741</Width>
+          <Width>726</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>

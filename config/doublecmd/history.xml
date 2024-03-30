@@ -2,69 +2,79 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/media/insync/Insync/Transfer.Arqueonautis/logseq/</Item>
-      <Item>/media/insync/Insync/Transfer.Arqueonautis/</Item>
-      <Item>/media/insync/DATA/logseq_online/</Item>
-      <Item>/media/insync/DATA/arch-config/</Item>
-      <Item>/home/ruben/dotfiles/hypr/scripts/</Item>
-      <Item>/home/ruben/dotfiles/hypr/</Item>
-      <Item>/home/ruben/dotfiles/</Item>
+      <Item>/home/ruben/.config/</Item>
       <Item>/home/ruben/</Item>
+      <Item>/media/insync/DATA/arch-config/config/</Item>
+      <Item>/media/insync/</Item>
+      <Item>/media/insync/DATA/</Item>
+      <Item>/media/insync/Insync/</Item>
+      <Item>/media/insync/Insync/Transfer.Arqueonautis/</Item>
+      <Item>/media/</Item>
+      <Item>/media/8TB/</Item>
+      <Item>/media/8TB/organizar/</Item>
+      <Item>/media/8TB/Anime/</Item>
+      <Item>/media/8TB/Anime/The Legend of Korra/</Item>
+      <Item>/media/insync/DATA/Arch-Hyprland/</Item>
+      <Item>/media/8TB/Respaldos/</Item>
+      <Item>/media/insync/DATA/logseq_online/</Item>
+      <Item>/media/insync/DATA/logseq_online/assets/</Item>
+      <Item>/media/insync/DATA/logseq_online_orig/</Item>
+      <Item>/media/insync/DATA/logseq_online_orig/pages/</Item>
+      <Item>/media/insync/DATA/logseq_online/.git/</Item>
+      <Item>/media/insync/DATA/logseq_online/.git/hooks/</Item>
+      <Item>/media/insync/DATA/logseq_online_orig/.git/</Item>
+      <Item>/media/insync/DATA/logseq_online_orig/.git/hooks/</Item>
+      <Item>/media/insync/Insync/Transfer.Arqueonautis/readwise/</Item>
+      <Item>/media/insync/DATA/arch-config/</Item>
+      <Item>/media/insync/DATA/arch-config/Hyprland-Dots/</Item>
+      <Item>/media/insync/DATA/arch-config/Hyprland-Dots/config/</Item>
+      <Item>/media/insync/DATA/arch-config/config/hypr_arco/</Item>
+      <Item>/home/ruben/.config/hypr/</Item>
+      <Item>/home/ruben/.config/Kvantum/</Item>
+      <Item>/media/insync/DATA/arch-config/Hyprland-Dots/config/Kvantum/</Item>
+      <Item>/media/insync/DATA/arch-config/Hyprland-Dots/config/qt6ct/</Item>
+      <Item>/media/insync/DATA/arch-config/Hyprland-Dots/config/qt5ct/</Item>
+      <Item>/media/insync/DATA/arch-config/Hyprland-Dots/config/wal/</Item>
+      <Item>/media/insync/DATA/arch-config/Hyprland-Dots/config/wal/templates/</Item>
+      <Item>/media/insync/DATA/arch-config/jaKooLit/</Item>
+      <Item>/media/insync/DATA/arch-config/jaKooLit/Hyprland-Dots/</Item>
+      <Item>/media/insync/DATA/arch-config/jaKooLit/Hyprland-Dots/config/</Item>
+      <Item>/media/insync/DATA/arch-config/jaKooLit/Hyprland-Dots/wallpapers/</Item>
+      <Item>/media/insync/DATA/arch-config/jaKooLit/Hyprland-Dots/wallpapers/Dynamic-Wallpapers/</Item>
+      <Item>/media/insync/DATA/arch-config/config/hypr_end-4/</Item>
+      <Item>/home/ruben/.config/waybar/</Item>
+      <Item>/home/ruben/.config/waybar/style/</Item>
+      <Item>/home/ruben/.bin/</Item>
       <Item>/media/insync/DATA/arch-config/dotfiles/hypr/conf/keybindings/</Item>
       <Item>/media/insync/DATA/arch-config/dotfiles/hypr/conf/</Item>
       <Item>/media/insync/DATA/arch-config/dotfiles/hypr/</Item>
+      <Item>/home/ruben/.config/hypr/configs/</Item>
+      <Item>/home/ruben/.config/hypr/scripts/</Item>
+      <Item>/media/insync/DATA/arch-config/dotfiles/hypr/scripts/</Item>
+      <Item>/media/insync/DATA/arch-config/dotfiles/hypr/conf/environments/</Item>
       <Item>/media/insync/DATA/arch-config/dotfiles/</Item>
-      <Item>/home/ruben/Descargas/</Item>
-      <Item>/media/8TB/Tv/Constellation/</Item>
-      <Item>/media/8TB/Tv/</Item>
-      <Item>/home/ruben/dotfiles/waybar/</Item>
-      <Item>/media/insync/DATA/arch-config/dotfiles/waybar/</Item>
-      <Item>/media/insync/DATA/arch-config/dotfiles/waybar/themes/</Item>
-      <Item>/media/insync/DATA/</Item>
-      <Item>/media/insync/DATA/arch-config/config/</Item>
-      <Item>/home/ruben/.config/</Item>
-      <Item>/home/ruben/.bin/</Item>
-      <Item>/media/insync/DATA/arch-config/bin/</Item>
-      <Item>/media/insync/DATA/arch-config/dotfiles.bak/</Item>
-      <Item>/media/insync/DATA/arch-config/dotfiles.bak/hypr/</Item>
-      <Item>/media/insync/DATA/arch-config/dotfiles.bak/hypr/scripts/</Item>
-      <Item>/etc/skel/.bin/</Item>
-      <Item>/etc/skel/</Item>
-      <Item>/home/</Item>
-      <Item>/home/ruben/wallpaper/</Item>
-      <Item>/etc/skel/.config/</Item>
-      <Item>/home/ruben/.config/wal/</Item>
-      <Item>/home/ruben/.config/wal/colorschemes/</Item>
-      <Item>/home/ruben/.config/wal/colorschemes/light/</Item>
-      <Item>/home/ruben/.config/wal/colorschemes/dark/</Item>
-      <Item>/home/ruben/.config/wal/templates/</Item>
-      <Item>/home/ruben/.config/hypr/</Item>
-      <Item>/etc/skel/.config/variety/</Item>
-      <Item>/etc/skel/.config/variety/scripts/</Item>
-      <Item>/home/ruben/.config/hypr/conf/</Item>
-      <Item>/home/ruben/.config/hypr/conf/keybindings/</Item>
-      <Item>/home/ruben/dotfiles/scripts/</Item>
-      <Item>/home/ruben/bin/</Item>
-      <Item>/home/ruben/.config/qtile/</Item>
-      <Item>/media/insync/DATA/arch-config/config/qtile.bak/</Item>
-      <Item>/home/ruben/.config/qtile/icons/</Item>
-      <Item>/etc/skel/.config/qtile/</Item>
-      <Item>/home/ruben/.config/qtile/scripts/</Item>
-      <Item>/media/insync/DATA/arch-config/config/qpdfview/</Item>
-      <Item>/media/insync/DATA/arch-config/config/pnmixer/</Item>
-      <Item>/media/insync/DATA/arch-config/config/ags_end-4/</Item>
     </Navigation>
     <CommandLine/>
-    <FileMask/>
+    <FileMask>
+      <Item>(highlights)</Item>
+    </FileMask>
     <VolumeSize/>
-    <CreateDirectories/>
+    <CreateDirectories>
+      <Item Tag="0">The Legend of Korra</Item>
+      <Item Tag="0">jaKooLit</Item>
+      <Item Tag="0">merge</Item>
+      <Item Tag="0">pages</Item>
+      <Item Tag="0">readwise bak</Item>
+    </CreateDirectories>
     <SearchText/>
     <SearchTextPath/>
     <ReplaceText/>
     <ReplaceTextPath/>
     <RenameNameMask/>
     <RenameExtMask/>
-    <SearchDirectories/>
+    <SearchDirectories>
+      <Item>/media/insync/Insync/Transfer.Arqueonautis/logseq/pages/</Item>
+    </SearchDirectories>
     <SearchExcludeFiles/>
     <SearchExcludeDirectories/>
   </History>
