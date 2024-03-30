@@ -331,12 +331,11 @@ window#waybar {
 }
 
 #custom-power {
-    color: @base;
-    background-color: @red;
+    color: @mauve;
     border-radius: 10px;
-    margin-left: 5px;
-    margin-right: 15px;
-    padding: 5px 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px 10px;
 }
 
 #window {

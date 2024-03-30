@@ -1,195 +1,247 @@
-@define-color critical #ff0000; /* critical color */
-@define-color warning #f3f809;  /* warning color */
-@define-color fgcolor #ffffff;  /* foreground color */
-@define-color bgcolor #303030;  /* background color */
-@define-color bgcolor #222436;  /* background color */
-@define-color alert   #df3320;
+/* =============================================================================
+ *
+ * Waybar configuration
+ *
+ * Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
+ *
+ * =========================================================================== */
 
-@define-color accent1 #ff7a93;
-@define-color accent2 #b9f27c;
-@define-color accent3 #ff9e64;
-@define-color accent4 #bb9af7;
-@define-color accent5 #7da6ff;
-@define-color accent6 #0db9d7;
+/* -----------------------------------------------------------------------------
+ * Keyframes
+ * -------------------------------------------------------------------------- */
 
-/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
-/* Translucent */
+@import "machiatto.css";
+
+/*
+  Polar Night
+  nord0  #2e3440
+  nord1  #3b4252
+  nord2  #434c5e
+  nord3  #4c566a
+  Snow Storm
+  nord4  #d8dee9
+  nord5  #e5e9f0
+  nord6  #eceff4
+  Frost
+  nord7  #8fbcbb
+  nord8  #88c0d0
+  nord9  #81a1c1
+  nord10 #5e81ac
+  Aurora
+  nord11 #bf616a
+  nord12 #d08770
+  nord13 #ebcb8b
+  nord14 #a3be8c
+  nord15 #b48ead
+  */
+
+/* -----------------------------------------------------------------------------
+   * Base styles
+   * -------------------------------------------------------------------------- */
+
+/* Reset all styles */
 
 * {
-font-family: "JetBrainsMono Nerd Font";
-font-weight: bold;
-min-height: 0;
-/* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
-font-size: 97%;
-font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
-padding: 1px;
+    color: @lavender;
+    border: 0;
+    padding: 0 0;
+    font-family: UbuntuMono;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-family: "Hack Nerd Font"; */
+    font-size: 16px;
+    font-weight: bold;
+    /* padding-bottom:4px;
+      padding-top: 4px; */
+    transition: all 0.5s ease;
 }
 
 window#waybar {
-    background-color: rgba(0,0,0,0.3);
-    color: #ffffff;
-    transition-property: background-color;
-    transition-duration: .5s;
-    border-radius: 10px;
-}
-
-window#waybar.hidden {
-    opacity: 0.1;
-}
-
-window#waybar.empty {
-    background-color: transparent;
-}
-
-window#waybar.empty #window {
-    padding: 0px;
-    border: 0px;
-    /*  background-color: rgba(66,66,66,0.5); */ /* transparent */
-    background-color: transparent;
-}
-
-tooltip {
-    background: #1e1e2e;
-    opacity: 0.8;
-    border-radius: 10px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #11111b;
-}
-
-tooltip label{
-    color: #cdd6f4;
+    border-bottom: 4px solid shade(@base, 1.1);
+    /* border-radius: 10px; */
+    /* background:#2d2a2e; */
+    /* background-color: rgba(36, 39, 58, 0.85); */
+    /* background-color: rgba(0, 0, 0, 0); */
+    background-color: shade(#1e1e2e, 0.95);
 }
 
 #workspaces button {
-    background-color: transparent;
-    color: #ffffff;
-    box-shadow: none;
-	text-shadow: none;
-    padding: 0px;
-    border-radius: 9px;
-    padding-left: 4px;
-    padding-right: 4px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+    color: @base;
+    border-radius: 50%;
+    /* background-color: @base; */
+    margin: 0px 8px 0px 8px;
+    padding: 2 6 2 0;
 }
 
-#workspaces button.active {
-    background-color: transparent;
-    color: @accent1;
-    padding-left: 8px;
-    padding-right: 8px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+#workspaces button:hover * {
+    color: @lavender;
 }
 
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
-	color: @accent3;
-    padding-left: 2px;
-    padding-right: 2px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+    color: @lavender;
+    /* border-radius: 20px; */
+    box-shadow: none;
+    /* Remove predefined box-shadow */
+    text-shadow: none;
+    /* Remove predefined text-shadow */
+    border: 0px;
+    background: none;
 }
 
-#workspaces button.focused {
-    background-color: #bbccdd;
-    color: @accent2;
-    /* box-shadow: inset 0 -3px #ffffff; */
+#workspaces * {
+    color: whitesmoke;
 }
 
-#workspaces button.urgent {
-    background-color: #eb4d4b;
+#workspaces {
+    border-style: solid;
+    background-color: @base;
+    opacity: 1;
+    border-radius: 10px;
+    margin: 8px 6px 8px 8px;
+}
+
+#workspaces button.active {
+    color: @lavender;
+    border-radius: 20px;
+    /* background-color: @flamingo; */
+}
+
+#workspaces button.active * {
+    color: @lavender;
 }
 
 #mode {
-    background-color: #64727D;
-    border-bottom: 3px solid #ffffff;
+    color: #ebcb8b;
 }
 
-#backlight,
-#backlight-slider,
-#battery,
-#bluetooth,
 #clock,
+#custom-swap,
+#custom-changewaybar,
+#custom-background,
+#custom-cava-internal,
+#battery,
 #cpu,
-#disk,
-#idle_inhibitor,
-#keyboard-state,
 #memory,
-#mode,
-#mpris,
+#idle_inhibitor,
+#temperature,
+#custom-keyboard-layout,
+#language,
+#backlight,
 #network,
 #pulseaudio,
-#pulseaudio-slider,
-#taskbar,
-#temperature,
+#mode,
 #tray,
-#window,
-#wireplumber,
-#workspaces,
-#custom-backlight,
-#custom-cycle_wall,
-#custom-keybinds,
-#custom-keyboard,
-#custom-light_dark,
-#custom-lock,
-#custom-menu,
-#custom-power_vertical,
 #custom-power,
-#custom-swaync,
-#custom-updater,
-#custom-weather,
-#custom-weather.clearNight,
-#custom-weather.cloudyFoggyDay,
-#custom-weather.cloudyFoggyNight,
-#custom-weather.default, 
-#custom-weather.rainyDay,
-#custom-weather.rainyNight,
-#custom-weather.severe,
-#custom-weather.showyIcyDay,
-#custom-weather.snowyIcyNight,
-#custom-weather.sunnyDay {
-	padding-top: 3px;
-	padding-bottom: 3px;
-	padding-right: 6px;
-	padding-left: 6px;
+#custom-pacman,
+#custom-launcher,
+#mpd {
+    padding: 5px 8px;
+    border-style: solid;
+    background-color: shade(@base, 1.1);
+    opacity: 1;
+    margin: 8px 0;
 }
 
-/* If workspaces is the leftmost module, omit left margin */
-.modules-left > widget:first-child > #workspaces {
+/* -----------------------------------------------------------------------------
+   * Module styles
+   * -------------------------------------------------------------------------- */
+#custom-cava-internal {
+    border-radius: 10px;
+    color: @lavender;
 }
 
-/* If workspaces is the rightmost module, omit right margin */
-.modules-right > widget:last-child > #workspaces {
+#mpd {
+    border-radius: 10px;
+    color: @lavender;
+    margin-left: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#mpd.2 {
+    border-radius: 10px 0px 0px 10px;
+    margin: 8px 0px 8px 6px;
+    padding: 4px 12px 4px 10px;
+}
+
+#mpd.3 {
+    border-radius: 0px 0px 0px 0px;
+    margin: 8px 0px 8px 0px;
+    padding: 4px;
+}
+
+#mpd.4 {
+    border-radius: 0px 10px 10px 0px;
+    margin: 8px 0px 8px 0px;
+    padding: 4px 10px 4px 14px;
+}
+
+#mpd.2,
+#mpd.3,
+#mpd.4 {
+    background-color: @base;
+    font-size: 14px;
+}
+
+#custom-cava-internal {
+    border-radius: 10px;
+    color: @lavender;
+}
+
+#custom-swap {
+    border-radius: 10px;
+    color: @base;
+    margin-left: 5px;
+    background-color: @lavender;
+}
+
+#custom-changewaybar {
+    border-radius: 10px;
+    color: @base;
+    margin-left: 5px;
+    background-color: @lavender;
+}
+
+#custom-background {
+    border-radius: 0px 10px 10px 0px;
+    background-color: @base;
+    color: white;
+    padding: 5px 14px 5px 5px;
 }
 
 #clock {
-    color: @accent2;
+    /* background-color:#a3be8c; */
+    color: @sky;
+    border-radius: 10px;
+    margin: 8px 10px;
 }
 
-#custom-updater {
-    color: #7287fd;
+#backlight {
+    color: @yellow;
+    /* border-bottom: 2px solid @yellow; */
+    border-radius: 10px 0 0 10px;
 }
 
 #battery {
-    color: @accent5;
+    color: #d8dee9;
+    /* border-bottom: 2px solid #d8dee9; */
+    border-radius: 0 10px 10px 0;
+    margin-right: 10px;
 }
 
-/* #battery.charging {
-    color: #ffffff;
-    background-color: #26A65B;
-} */
+#battery.charging {
+    color: #81a1c1;
+    /* border-bottom: 2px solid #81a1c1; */
+}
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
-        color: #333333;
+        color: @red;
+        /* border-bottom: 2px solid @red; */
     }
 }
 
 #battery.critical:not(.charging) {
-    color: #f53c3c;
+    color: #bf616a;
+    /* border-bottom: 2px solid #bf616a; */
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -197,183 +249,196 @@ tooltip label{
     animation-direction: alternate;
 }
 
-label:focus {
-    background-color: #000000;
-}
-
-#custom-menu{
-    color: #FFFFFF;
-    /*padding: 3px;*/
-}
-
-#custom-keyboard,
 #cpu {
-    color: @accent1;
+    color: @sky;
+    /* border-bottom: 2px solid @sky; */
+}
+
+#cpu #cpu-icon {
+    color: @sky;
 }
 
 #memory {
-    color: @accent3;
+    color: @sky;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
-#backlight {
-    color: #cdd6f4;
-}
-
-#bluetooth {
-    color: #1e66f5;
+#network.disabled {
+    color: #bf616a;
+    /* border-bottom: 2px solid #bf616a; */
 }
 
 #network {
-    color: @accent3;
+    color: @green;
+    /* border-bottom: 2px solid @green; */
+    border-radius: 10px;
+    margin-right: 5px;
 }
 
 #network.disconnected {
-    color: @alert;
+    color: #bf616a;
+    /* border-bottom: 2px solid #bf616a; */
 }
 
 #pulseaudio {
-    color: @accent4;
+    color: @flamingo;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
-#pulseaudio-muted {
-    color: @accent2;
-}
-#wireplumber {
-    color: @accent4;
+#pulseaudio.muted {
+    color: #3b4252;
+    /* border-bottom: 2px solid #3b4252; */
 }
 
-#wireplumber-muted {
-    color: @accent2;
-}
-
-#pluseaudio-source-muted{
-    color: #a0a0a0;
-}
-
-#custom-power {
-    color: #cc3436;
-}
-
-#disk {
-    color: @accent5;
-}
-#custom-power_profile {
-    color: @accent3;
-}
-#custom-media {
-    background-color: #66cc99;
-    color: #2a5c45;
-    min-width: 100px;
-}
-
-#custom-weather {
-    color: #66cc99;
-}
-
-#custom-lock {
-    color: #ffa000;
-}
-
-#keyboard-state,
 #temperature {
-    color: @accent6;
-    /* background-color: #f0932b; */
+    color: @teal;
+    /* border-bottom: 2px solid @teal; */
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 #temperature.critical {
-    background-color: @critical;
-}
-
-#tray {
-    /* background-color: #505050; */
+    color: @red;
+    /* border-bottom: 2px solid @red; */
 }
 
 #idle_inhibitor {
-	color: #f9e2af;
-    /*background-color: #2d3436;*/
+    background-color: #ebcb8b;
+    color: @base;
 }
 
-#idle_inhibitor.activated {
-    /*background-color: #ecf0f1;*/
-    color: #2dcc36;
-    /*color: #2d3436;*/
+#tray {
+    /* background-color: @base; */
+    margin: 8px 10px;
+    border-radius: 10px;
 }
 
-#taskbar button.active {
-    background-color: #7f849c;
-    padding-left: 12px;
-    padding-right: 12px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+#custom-launcher,
+#custom-power {}
+
+#custom-launcher {
+    background-color: @lavender;
+    /* background-image: url("/home/lightcrimson/.config/icons/svg/arch.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;  */
+    color: @base;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 15px;
 }
 
-#taskbar button:hover {
-    padding-left: 3px;
-    padding-right: 3px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+#custom-power {
+    color: @base;
+    background-color: @lavender;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 15px;
+    padding: 5px 10px;
 }
 
-#mpd {
-    color: #2a5c45;
+#window {
+    border-style: hidden;
+    margin-left: 10px;
+    /* margin-top:1px;  
+    padding: 8px 1rem; */
+    margin-right: 10px;
+    color: #eceff4;
 }
 
-#mpd.disconnected {
-    background-color: #f53c3c;
+#mode {
+    margin-bottom: 3px;
 }
 
-#mpd.stopped {
-    background-color: #90b1b1;
+#custom-keyboard-layout {
+    color: @peach;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
-#mpd.paused {
-    background-color: #51a37a;
+#language {
+    color: @peach;
+    /* border-bottom: 2px solid @peach; */
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
-#custom-language {
-    color: @accent5;
-    min-width: 16px;
-}
-
-#custom-separator {
-    color: #606060;
-}
-#pulseaudio-slider slider {
-	min-width: 0px;
-	min-height: 0px;
-	opacity: 0;
-	background-image: none;
-	border: none;
-	box-shadow: none;
-}
-
-#pulseaudio-slider trough {
-	min-width: 80px;
-	min-height: 5px;
-	border-radius: 5px;
-}
-
-#pulseaudio-slider highlight {
-	min-height: 10px;
-	border-radius: 5px;
-}
-
-#backlight-slider slider {
-	min-width: 0px;
-	min-height: 0px;
-	opacity: 0;
-	background-image: none;
-	border: none;
-	box-shadow: none;
-}
-
-#backlight-slider trough {
-	min-width: 80px;
-	min-height: 10px;
-	border-radius: 5px;
-}
-
-#backlight-slider highlight {
-	min-width: 10px;
-	border-radius: 5px;
-}
+/* window#waybar {
+      background: #2d2a2e;
+  }
+  
+  * {
+      color: #c8b9a9;
+      font-family: Ubuntu Mono, sans-serif;
+      font-size: 12px;
+  }
+  
+  #workspaces button.focused {
+      color: #f2e5bc;
+  }
+  
+  #workspaces button {
+      color: #c8b9a9;
+  }
+  
+  .separator {
+      background-color: #c8b9a9;
+  }
+  
+  #mode {
+      color: #ebcb8b;
+  }
+  
+  #clock {
+      color: #a3be8c;
+  }
+  
+  #battery {
+      color: #d8dee9;
+  }
+  
+  #battery.charging {
+      color: #b48ead;
+  }
+  
+  #battery.critical:not(.charging) {
+      color: #bf616a;
+  }
+  
+  #cpu {
+      color: #a3be8c;
+  }
+  
+  #memory {
+      color: #d3869b;
+  }
+  
+  #network {
+      color: #8fbcbb;
+  }
+  
+  #network.disabled {
+      color: #bf616a;
+  }
+  
+  #network.disconnected {
+      color: #bf616a;
+  }
+  
+  #pulseaudio {
+      color: #b48ead;
+  }
+  
+  #pulseaudio.muted {
+      color: #bf616a;
+  }
+  
+  #temperature {
+      color: #8fbcbb;
+  }
+  
+  #temperature.critical {
+      color: #bf616a;
+  } */
