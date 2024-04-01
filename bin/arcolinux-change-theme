@@ -31,13 +31,15 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
 ##################################################################################################################
 
-THEME='Catppuccin-Frappe-Standard-Sapphire-Dark'
-ICONS='Papirus-Dark'
+THEME='Tokyonight-Dark-BL-LB'
+#THEME='Catppuccin-Frappe-Standard-Sapphire-Dark'
+ICONS='Tokyonight-Dark'
+#ICONS='Papirus-Dark'
 #FONT='Inter 11'
 FONT='Roboto 11'
 #FONT='Fira Sans 11'
 #FONT='Hack 11'
-CURSOR='Capitaine Cursors - White'
+CURSOR='Capitaine'
 
 SCHEMA='gsettings set org.gnome.desktop.interface'
 
