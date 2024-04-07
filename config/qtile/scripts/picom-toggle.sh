@@ -3,5 +3,5 @@ if pgrep -x "picom" > /dev/null
 then
 	killall picom
 else
-	picom --daemon &
+	picom -b --config ~/.config/qtile/scripts/picom.conf
 fi
