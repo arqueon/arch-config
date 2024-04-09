@@ -18,11 +18,11 @@ effect="--transition-bezier .43,1.19,1,.4 --transition-fps 30 --transition-type 
 if [ ! -f ~/.config/hypr/.initial_startup_done ]; then
 
     # Initialize pywal and wallpaper
-	if [ -f "$wallpaper" ]; then
-		wal -i $wallpaper -s -t > /dev/null 
-		swww init && $swww $wallpaper $effect
-	    "$scriptsDir/PywalSwww.sh" > /dev/null 2>&1 & 
-	fi
+	# if [ -f "$wallpaper" ]; then
+	# 	wal -i $wallpaper -s -t > /dev/null 
+	# 	swww init && $swww $wallpaper $effect
+	#     "$scriptsDir/PywalSwww.sh" > /dev/null 2>&1 & 
+	# fi
      
     # Initial symlink for Pywal Dark and Light for Rofi Themes
     ln -sf "$HOME/.cache/wal/colors-rofi-dark.rasi" "$HOME/.config/rofi/pywal-color/pywal-theme.rasi" > /dev/null 2>&1 &
