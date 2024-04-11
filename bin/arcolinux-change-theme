@@ -39,7 +39,7 @@ ICONS='Tokyonight-Dark'
 FONT='Roboto 11'
 #FONT='Fira Sans 11'
 #FONT='Hack 11'
-CURSOR='BreezeX-RoséPine'
+CURSOR='BreezeX-RosePine'
 #CURSOR='Capitaine'
 
 SCHEMA='gsettings set org.gnome.desktop.interface'
