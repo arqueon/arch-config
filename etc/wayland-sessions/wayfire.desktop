@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Wayfire
+Exec=run-wayfire
+TryExec=run-wayfire
+Icon=
+Type=Application
+DesktopNames=Wayfire

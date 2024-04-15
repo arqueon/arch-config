@@ -385,7 +385,7 @@ def init_widgets_list(monitor_num):
 
 def init_secondary_widgets_list(monitor_num):
     secondary_widgets_list = init_widgets_list(monitor_num)
-    del secondary_widgets_list[16:17]
+    del secondary_widgets_list[13:14]
     return secondary_widgets_list
 
 widgets_list = init_widgets_list("1")
