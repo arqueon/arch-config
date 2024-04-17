@@ -13,7 +13,7 @@ RANDOMPICS=$1
 # Transition config
 FPS=60
 TYPE="random"
-DURATION=1
+DURATION=0
 BEZIER=".43,1.19,1,.4"
 SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION --transition-bezier $BEZIER"
 
