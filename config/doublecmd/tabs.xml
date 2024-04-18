@@ -3,7 +3,7 @@
   <Tabs>
     <OpenedTabs>
       <Left>
-        <ActiveTab>3</ActiveTab>
+        <ActiveTab>0</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <Sortings>
@@ -16,126 +16,22 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="">/media/insync/Insync/Transfer.Arqueonautis/logseq/</Path>
-                  <Path Filename="readwise">/media/insync/Insync/Transfer.Arqueonautis/</Path>
-                  <Path Filename="..">/media/insync/Insync/Transfer.Arqueonautis/readwise/</Path>
-                  <Path Filename="readwise">/media/insync/Insync/Transfer.Arqueonautis/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="hooks_logseq_git">/media/insync/DATA/arch-config/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online_orig">/media/insync/DATA/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online_orig">/media/insync/DATA/</Path>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online_orig/</Path>
-                  <Path Filename="hooks">/media/insync/DATA/logseq_online_orig/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/.git/hooks/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="hooks">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/hooks/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="assets">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/assets/</Path>
-                  <Path Filename="git-v1.sh">/media/insync/DATA/logseq_online/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online_orig">/media/insync/DATA/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online_orig">/media/insync/DATA/</Path>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online_orig/</Path>
-                  <Path Filename="hooks">/media/insync/DATA/logseq_online_orig/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/.git/hooks/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="hooks">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/hooks/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="assets">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/assets/</Path>
-                  <Path Filename="git-v1.sh">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="..">/media/8TB/Respaldos/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/</Path>
+                  <Path Filename="arch-config">/home/ruben/</Path>
+                  <Path Filename="config">/home/ruben/arch-config/</Path>
+                  <Path Filename="..">/home/ruben/arch-config/config/</Path>
+                  <Path Filename="hypr other dots">/home/ruben/arch-config/</Path>
+                  <Path Filename="hyprdots">/home/ruben/arch-config/hypr other dots/</Path>
+                  <Path Filename="config">/home/ruben/arch-config/hypr other dots/hyprdots/</Path>
+                  <Path Filename="..">/home/ruben/arch-config/hypr other dots/hyprdots/config/</Path>
+                  <Path Filename="..">/home/ruben/arch-config/hypr other dots/hyprdots/</Path>
+                  <Path Filename="..">/home/ruben/arch-config/hypr other dots/</Path>
+                  <Path Filename="config">/home/ruben/arch-config/</Path>
+                  <Path Filename="..">/home/ruben/arch-config/config/</Path>
+                  <Path Filename="hypr other dots">/home/ruben/arch-config/</Path>
+                  <Path Filename="hyprdots">/home/ruben/arch-config/hypr other dots/</Path>
+                  <Path Filename="config">/home/ruben/arch-config/hypr other dots/hyprdots/</Path>
+                  <Path Filename="doublecmd">/home/ruben/arch-config/hypr other dots/hyprdots/config/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -159,38 +55,13 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online_orig">/media/insync/DATA/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online_orig">/media/insync/DATA/</Path>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online_orig/</Path>
-                  <Path Filename="hooks">/media/insync/DATA/logseq_online_orig/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/.git/hooks/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/</Path>
-                  <Path Filename="logseq_online">/media/insync/DATA/</Path>
-                  <Path Filename=".git">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="hooks">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/hooks/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/.git/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online/</Path>
-                  <Path Filename="logseq_online_orig">/media/insync/DATA/</Path>
-                  <Path Filename="pages">/media/insync/DATA/logseq_online_orig/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/pages/</Path>
-                  <Path Filename="..">/media/insync/DATA/logseq_online_orig/</Path>
-                  <Path Filename="Arch-Hyprland">/media/insync/DATA/</Path>
-                  <Path Filename="..">/media/insync/DATA/Arch-Hyprland/</Path>
-                  <Path Filename="Arch-Hyprland">/media/insync/DATA/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/</Path>
+                  <Path Filename="arch-config">/home/ruben/</Path>
+                  <Path Filename="..">/home/ruben/arch-config/</Path>
+                  <Path Filename=".config">/home/ruben/</Path>
+                  <Path Filename="doublecmd">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/doublecmd/</Path>
+                  <Path Filename="doublecmd">/home/ruben/.config/</Path>
                 </Paths>
               </Entry>
             </History>

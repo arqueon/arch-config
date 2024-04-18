@@ -63,69 +63,69 @@
       },
       ColumnSets : [
         {
-          Unique : "C4F692CD-5B57-4D8F-A84D-A0D67A286773",
+          Unique : "",
           Name : "Default",
           CursorBorderColor : 0,
           Columns : [
             {
-              Unique : "8A8A7C9F-1625-4A13-A738-F406B58DC14B",
+              Unique : "E6163007-A313-4486-8A3E-89901E40987B",
               Title : "Nombre",
-              TextColor : 0,
-              Background : 0,
-              Background2 : 0,
-              MarkColor : 0,
-              CursorColor : 0,
-              CursorText : 0,
-              InactiveCursorColor : 0,
-              InactiveMarkColor : 0
+              TextColor : -2147483640,
+              Background : -2147483643,
+              Background2 : -2147483643,
+              MarkColor : 255,
+              CursorColor : -2147483635,
+              CursorText : -2147483634,
+              InactiveCursorColor : -2147483645,
+              InactiveMarkColor : 128
             },
             {
-              Unique : "6465162E-C382-4B88-81CA-2F98EA0A32E5",
+              Unique : "419164F7-26A0-412B-85AA-DE3F9AFE8EAF",
               Title : "Ext",
-              TextColor : 0,
-              Background : 0,
-              Background2 : 0,
-              MarkColor : 0,
-              CursorColor : 0,
-              CursorText : 0,
-              InactiveCursorColor : 0,
-              InactiveMarkColor : 0
+              TextColor : -2147483640,
+              Background : -2147483643,
+              Background2 : -2147483643,
+              MarkColor : 255,
+              CursorColor : -2147483635,
+              CursorText : -2147483634,
+              InactiveCursorColor : -2147483645,
+              InactiveMarkColor : 128
             },
             {
-              Unique : "BAA0CECE-C3F9-43C8-B1D1-14EC79FE5D7F",
+              Unique : "B66BB307-28E3-4174-9E2E-28109A6E2454",
               Title : "Tamaño",
-              TextColor : 0,
-              Background : 0,
-              Background2 : 0,
-              MarkColor : 0,
-              CursorColor : 0,
-              CursorText : 0,
-              InactiveCursorColor : 0,
-              InactiveMarkColor : 0
+              TextColor : -2147483640,
+              Background : -2147483643,
+              Background2 : -2147483643,
+              MarkColor : 255,
+              CursorColor : -2147483635,
+              CursorText : -2147483634,
+              InactiveCursorColor : -2147483645,
+              InactiveMarkColor : 128
             },
             {
-              Unique : "E3BADDC0-22C9-4910-B73A-26AC5CD1DB0D",
+              Unique : "D08CCBFB-7E94-431D-8E30-8FD31C426465",
               Title : "Fecha",
-              TextColor : 0,
-              Background : 0,
-              Background2 : 0,
-              MarkColor : 0,
-              CursorColor : 0,
-              CursorText : 0,
-              InactiveCursorColor : 0,
-              InactiveMarkColor : 0
+              TextColor : -2147483640,
+              Background : -2147483643,
+              Background2 : -2147483643,
+              MarkColor : 255,
+              CursorColor : -2147483635,
+              CursorText : -2147483634,
+              InactiveCursorColor : -2147483645,
+              InactiveMarkColor : 128
             },
             {
-              Unique : "8C19AA76-76EE-4B8E-B4AA-4169760142AA",
+              Unique : "E775086F-9FFC-418F-A0B0-524EF94C359A",
               Title : "Atributos",
-              TextColor : 0,
-              Background : 0,
-              Background2 : 0,
-              MarkColor : 0,
-              CursorColor : 0,
-              CursorText : 0,
-              InactiveCursorColor : 0,
-              InactiveMarkColor : 0
+              TextColor : -2147483640,
+              Background : -2147483643,
+              Background2 : -2147483643,
+              MarkColor : 255,
+              CursorColor : -2147483635,
+              CursorText : -2147483634,
+              InactiveCursorColor : -2147483645,
+              InactiveMarkColor : 128
             }
           ]
         }
@@ -1476,12 +1476,12 @@
       },
       ColumnSets : [
         {
-          Unique : "C4F692CD-5B57-4D8F-A84D-A0D67A286773",
+          Unique : "495FD921-3E7A-4C6E-8FDB-D4F0DD4AA833",
           Name : "Default",
           CursorBorderColor : 0,
           Columns : [
             {
-              Unique : "8A8A7C9F-1625-4A13-A738-F406B58DC14B",
+              Unique : "E6163007-A313-4486-8A3E-89901E40987B",
               Title : "Nombre",
               TextColor : 0,
               Background : 0,
@@ -1493,7 +1493,7 @@
               InactiveMarkColor : 0
             },
             {
-              Unique : "6465162E-C382-4B88-81CA-2F98EA0A32E5",
+              Unique : "419164F7-26A0-412B-85AA-DE3F9AFE8EAF",
               Title : "Ext",
               TextColor : 0,
               Background : 0,
@@ -1505,7 +1505,7 @@
               InactiveMarkColor : 0
             },
             {
-              Unique : "BAA0CECE-C3F9-43C8-B1D1-14EC79FE5D7F",
+              Unique : "B66BB307-28E3-4174-9E2E-28109A6E2454",
               Title : "Tamaño",
               TextColor : 0,
               Background : 0,
@@ -1517,7 +1517,7 @@
               InactiveMarkColor : 0
             },
             {
-              Unique : "E3BADDC0-22C9-4910-B73A-26AC5CD1DB0D",
+              Unique : "D08CCBFB-7E94-431D-8E30-8FD31C426465",
               Title : "Fecha",
               TextColor : 0,
               Background : 0,
@@ -1529,7 +1529,7 @@
               InactiveMarkColor : 0
             },
             {
-              Unique : "8C19AA76-76EE-4B8E-B4AA-4169760142AA",
+              Unique : "E775086F-9FFC-418F-A0B0-524EF94C359A",
               Title : "Atributos",
               TextColor : 0,
               Background : 0,
