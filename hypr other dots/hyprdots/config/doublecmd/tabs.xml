@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <Tabs>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="DATA">/home/ruben/</Path>
+                  <Path Filename="arch-config">/home/ruben/DATA/</Path>
+                  <Path Filename="config">/home/ruben/DATA/arch-config/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/config/</Path>
+                  <Path Filename="jaKooLit">/home/ruben/DATA/arch-config/</Path>
+                  <Path Filename="Hyprland-Dots">/home/ruben/DATA/arch-config/jaKooLit/</Path>
+                  <Path Filename="config">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/</Path>
+                  <Path Filename="hypr">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/</Path>
+                  <Path Filename="UserConfigs">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/UserConfigs/</Path>
+                  <Path Filename="configs">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/configs/</Path>
+                  <Path Filename="UserConfigs">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/UserConfigs/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/</Path>
+                  <Path Filename="config">/home/ruben/DATA/arch-config/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/config/</Path>
+                  <Path Filename="jaKooLit">/home/ruben/DATA/arch-config/</Path>
+                  <Path Filename="Hyprland-Dots">/home/ruben/DATA/arch-config/jaKooLit/</Path>
+                  <Path Filename="config">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/</Path>
+                  <Path Filename="hypr">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/</Path>
+                  <Path Filename="UserScripts">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/UserScripts/</Path>
+                  <Path Filename="UserConfigs">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/UserConfigs/</Path>
+                  <Path Filename="scripts">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/scripts/</Path>
+                  <Path Filename="UserConfigs">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/UserConfigs/</Path>
+                  <Path Filename="scripts">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/scripts/</Path>
+                  <Path Filename="configs">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/configs/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/jaKooLit/</Path>
+                  <Path Filename="config">/home/ruben/DATA/arch-config/</Path>
+                  <Path Filename="hypr_arco">/home/ruben/DATA/arch-config/config/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/config/hypr_arco/</Path>
+                  <Path Filename="..">/home/ruben/DATA/arch-config/config/</Path>
+                  <Path Filename="jaKooLit">/home/ruben/DATA/arch-config/</Path>
+                  <Path Filename="Hyprland-Dots">/home/ruben/DATA/arch-config/jaKooLit/</Path>
+                  <Path Filename="config">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/</Path>
+                  <Path Filename="hypr">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/</Path>
+                  <Path Filename="UserConfigs">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Path>
+                  <Path Filename="UserKeybinds.conf">/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/UserConfigs/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/usr/lib/doublecmd/</Path>
+                  <Path Filename=".config">/home/ruben/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="hyde">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hyde/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="waybar">/home/ruben/.config/</Path>
+                  <Path Filename="modules">/home/ruben/.config/waybar/</Path>
+                  <Path Filename="..">/home/ruben/.config/waybar/modules/</Path>
+                  <Path Filename="..">/home/ruben/.config/waybar/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/.config/</Path>
+                  <Path Filename=".config">/home/ruben/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="waybar">/home/ruben/.config/</Path>
+                  <Path Filename="modules">/home/ruben/.config/waybar/</Path>
+                  <Path Filename="..">/home/ruben/.config/waybar/modules/</Path>
+                  <Path Filename="..">/home/ruben/.config/waybar/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="keybindings.conf">/home/ruben/.config/hypr/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/usr/lib/doublecmd/</Path>
+                  <Path Filename=".config">/home/ruben/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="hyde">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hyde/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="waybar">/home/ruben/.config/</Path>
+                  <Path Filename="modules">/home/ruben/.config/waybar/</Path>
+                  <Path Filename="..">/home/ruben/.config/waybar/modules/</Path>
+                  <Path Filename="..">/home/ruben/.config/waybar/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="..">/home/ruben/.config/</Path>
+                  <Path Filename=".config">/home/ruben/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="waybar">/home/ruben/.config/</Path>
+                  <Path Filename="modules">/home/ruben/.config/waybar/</Path>
+                  <Path Filename="..">/home/ruben/.config/waybar/modules/</Path>
+                  <Path Filename="..">/home/ruben/.config/waybar/</Path>
+                  <Path Filename="hypr">/home/ruben/.config/</Path>
+                  <Path Filename="..">/home/ruben/.config/hypr/</Path>
+                  <Path Filename="waybar">/home/ruben/.config/</Path>
+                  <Path Filename="modules">/home/ruben/.config/waybar/</Path>
+                  <Path Filename="..">/home/ruben/.config/waybar/modules/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+  </Tabs>
+</doublecmd>

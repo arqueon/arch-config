@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <History>
+    <Navigation>
+      <Item>/home/ruben/.config/waybar/modules/</Item>
+      <Item>/home/ruben/.config/hypr/</Item>
+      <Item>/home/ruben/.config/</Item>
+      <Item>/home/ruben/.config/waybar/</Item>
+      <Item>/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/UserConfigs/</Item>
+      <Item>/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/</Item>
+      <Item>/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/</Item>
+      <Item>/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/</Item>
+      <Item>/home/ruben/DATA/arch-config/jaKooLit/</Item>
+      <Item>/home/ruben/DATA/arch-config/</Item>
+      <Item>/home/ruben/</Item>
+      <Item>/home/ruben/DATA/arch-config/config/</Item>
+      <Item>/home/ruben/DATA/arch-config/config/hypr_arco/</Item>
+      <Item>/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/configs/</Item>
+      <Item>/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/scripts/</Item>
+      <Item>/home/ruben/DATA/arch-config/jaKooLit/Hyprland-Dots/config/hypr/UserScripts/</Item>
+      <Item>/home/ruben/.config/hyde/</Item>
+      <Item>/home/ruben/DATA/</Item>
+    </Navigation>
+    <CommandLine/>
+    <FileMask/>
+    <VolumeSize/>
+    <CreateDirectories>
+      <Item Tag="0">DATA</Item>
+    </CreateDirectories>
+    <SearchText/>
+    <SearchTextPath/>
+    <ReplaceText/>
+    <ReplaceTextPath/>
+    <RenameNameMask/>
+    <RenameExtMask/>
+    <SearchDirectories/>
+    <SearchExcludeFiles/>
+    <SearchExcludeDirectories/>
+  </History>
+</doublecmd>
