@@ -140,12 +140,13 @@
         "active-only": false,
         "on-click": "activate",
         "disable-scroll": false,
-        "on-scroll-down": "hyprctl dispatch workspace -1",
+        "on-scroll-up": "hyprctl dispatch workspace -1",
         "on-scroll-down": "hyprctl dispatch workspace +1",
         "persistent-workspaces": {
         }
     },
-    	"wlr/taskbar": {
+
+	"wlr/taskbar": {
 		"format": "{icon}",
 		"rotate": 0,
 		"icon-size": 18,
@@ -154,7 +155,6 @@
 		"tooltip-format": "{title}",
 		"on-click": "activate",
 		"on-click-middle": "close",
-		"all-outputs": "true",
 		"ignore-list": [
 			"Alacritty"
 		],
