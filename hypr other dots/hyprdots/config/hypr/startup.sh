@@ -48,4 +48,5 @@ variety &
 #ferdium &
 kdeconnect-indicator &
 nm-applet --indicator
+google-chrome-stable --ozone-platform=wayland %U
 
