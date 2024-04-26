@@ -1,11 +1,18 @@
 daemonize
 show-failed-attempts
 clock
+<<<<<<< HEAD
 #screenshot
 #effect-blur=15x15
 effect-vignette=1:1
 color=000000
 #1f1d2e80
+=======
+screenshot
+effect-blur=15x15
+effect-vignette=1:1
+color=1f1d2e80
+>>>>>>> 087f5766ffac101d648a59d39c4a3dc1d78ed148
 font="Inter"
 indicator
 indicator-radius=200
