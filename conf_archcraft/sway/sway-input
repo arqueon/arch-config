@@ -13,11 +13,11 @@ input "*" {
 }
 
 ## Keyboard Layout
-#input "type:keyboard" {
-#    xkb_layout us,de
-#    xkb_variant ,nodeadkeys
-#    xkb_options grp:alt_shift_toggle
+input "type:keyboard" {
+    xkb_layout us
+    xkb_variant intl
+    xkb_options grp:alt_shift_toggle
 #    repeat_delay 300
 #    repeat_rate 30
-#}
+}
 

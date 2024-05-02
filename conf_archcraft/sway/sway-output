@@ -4,7 +4,7 @@
 ## You can get a list of output names with: swaymsg -t get_outputs
 
 ## Set wallpaper on all monitors
-output * bg ~/.config/sway/wallpapers/wallpaper.jpg fill
+output * bg /home/ruben/Imágenes/wallpapers/qrfi3fxqguxc1.jpeg fill
 
 ## Set wallpaper on specific monitors
 #output eDP-1    bg ~/.config/sway/wallpapers/wallpaper.jpg fill
@@ -14,7 +14,8 @@ output * bg ~/.config/sway/wallpapers/wallpaper.jpg fill
 #~ Laptop screen (internal monitor), mode: 1920x1080
 #output eDP-1 resolution 1920x1080 position 0,0
 #~ External monitor, right of laptop screen, mode: 1920x1080
-#output HDMI-A-1 resolution 1920x1080 position 1920,0
+output HDMI-A-1 resolution 1920x1080 position 0,0
+output DP-2 resolution 3440x1440 position 1920,0
 #~ And just like above (working) examples, you can setup your monitors here.
 
 ## HiDPI
