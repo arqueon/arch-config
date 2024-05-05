@@ -13,7 +13,7 @@
     },
     {
         "key": "waybar_workspaces",
-        "value": 5
+        "value": 6
     },
     {
         "key": "rofi_bordersize",
@@ -21,6 +21,10 @@
     },
     {
         "key": "waybar_toggle",
+        "value": true
+    },
+    {
+        "key": "waybar_taskbar",
         "value": true
     },
     {
@@ -49,7 +53,7 @@
     },
     {
         "key": "hypridle_dpms_timeout",
-        "value": 680
+        "value": 660
     },
     {
         "key": "hypridle_suspend_timeout",

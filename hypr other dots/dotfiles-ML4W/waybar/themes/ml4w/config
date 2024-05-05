@@ -24,6 +24,7 @@
     // Modules Left
     "modules-left": [
         "custom/appmenu",
+        "group/links",
         "group/settings",
         "wlr/taskbar",
         "group/quicklinks",
