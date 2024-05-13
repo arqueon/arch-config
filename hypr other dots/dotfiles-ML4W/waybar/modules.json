@@ -352,7 +352,8 @@
             "car": " ",
             "default": [" ", " ", " "]
         },
-        "on-click": "pavucontrol"
+        "on-click": "~/dotfiles/hypr/scripts/volume --toggle",
+        "on-click-right": "pavucontrol",
     },
     
     // // Pulseaudio
