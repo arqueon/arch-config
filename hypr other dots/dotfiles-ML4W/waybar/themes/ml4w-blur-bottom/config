@@ -26,7 +26,7 @@
         "custom/appmenu",
         "group/links",
         "group/settings",
-        "wlr/taskbar",
+        //"wlr/taskbar",
         "group/quicklinks",
         "hyprland/window",
         "custom/empty"
@@ -43,7 +43,7 @@
         "pulseaudio",
         "bluetooth",
         "battery", 
-        "network",
+        //"network",
         "group/hardware",
         "group/settings",
         "custom/cliphist",
