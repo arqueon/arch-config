@@ -41,7 +41,7 @@
         "pulseaudio",
         "bluetooth",
         "battery", 
-        "network",
+        //"network",
         "group/hardware",
         "custom/cliphist",
         "idle_inhibitor",
