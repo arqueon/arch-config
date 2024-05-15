@@ -274,7 +274,7 @@
     "group/links": {
         "orientation": "horizontal",
         "modules": [
-//            "custom/chatgpt",
+            //"custom/chatgpt",
             "custom/empty"
         ]
     },
