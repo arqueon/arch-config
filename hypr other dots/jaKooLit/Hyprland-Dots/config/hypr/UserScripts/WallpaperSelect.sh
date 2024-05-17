@@ -4,6 +4,8 @@
 
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 
+focused_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{print name}')
+
 # WALLPAPERS PATH
 wallDIR="$HOME/Pictures/wallpapers"
 
@@ -25,7 +27,7 @@ RANDOM_PIC="${PICS[$((RANDOM % ${#PICS[@]}))]}"
 RANDOM_PIC_NAME="${#PICS[@]}. random"
 
 # Rofi command
-rofi_command="rofi -show -dmenu -config ~/.config/rofi/config-wallpaper.rasi"
+rofi_command="rofi -i -show -dmenu -config ~/.config/rofi/config-wallpaper.rasi"
 
 menu() {
   for i in "${!PICS[@]}"; do
@@ -40,7 +42,7 @@ menu() {
   printf "$RANDOM_PIC_NAME\n"
 }
 
-swww query || swww init
+swww query || swww-daemon --format xrgb
 
 main() {
   choice=$(menu | ${rofi_command})
@@ -67,7 +69,7 @@ main() {
   done
 
   if [[ $pic_index -ne -1 ]]; then
-    swww img "${wallDIR}/${PICS[$pic_index]}" $SWWW_PARAMS
+    swww img -o $focused_monitor "${wallDIR}/${PICS[$pic_index]}" $SWWW_PARAMS
   else
     echo "Image not found."
     exit 1
@@ -83,6 +85,6 @@ fi
 main
 
 sleep 0.5
-${SCRIPTSDIR}/PywalSwww.sh
+${SCRIPTSDIR}/WallustSwww.sh
 sleep 0.2
 ${SCRIPTSDIR}/Refresh.sh

@@ -6,7 +6,7 @@
     "layer": "top",
     "position": "top",
     "mod": "dock",
-    "height": 34,
+    "height": 31,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -17,7 +17,7 @@
 
 	"modules-left": ["custom/padd","custom/l_end","cpu","memory","custom/cpuinfo","custom/gpuinfo","custom/r_end","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/l_end","hyprland/workspaces","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","wlr/taskbar","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","backlight","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","tray","battery","custom/r_end","custom/l_end","custom/wallchange","custom/theme","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","backlight","network","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","tray","battery","custom/r_end","custom/l_end","custom/wallchange","custom/theme","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
@@ -147,15 +147,14 @@
     },
 
 	"wlr/taskbar": {
-		"format": "{icon} {name}",
+		"format": "{icon}",
 		"rotate": 0,
-		"icon-size": 20,
-		"icon-theme": "Nordzy",
+		"icon-size": 18,
+		"icon-theme": "Tela-circle-dracula",
         "spacing": 0,
 		"tooltip-format": "{title}",
 		"on-click": "activate",
 		"on-click-middle": "close",
-		"all-outputs": "false",
 		"ignore-list": [
 			"Alacritty"
 		],
@@ -185,21 +184,6 @@
         "tooltip-format-disconnected": "Disconnected",
         "format-alt": "<span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>",
         "interval": 2,
-    },
-
-    "bluetooth": {
-        "format": "",
-        "rotate": 0,
-        "format-disabled": "",
-        "format-connected": " {num_connections}",
-        "format-connected-battery": "{icon} {num_connections}",
-        // "format-connected-battery": "{icon} {device_alias}-{device_battery_percentage}%",
-        "format-icons": ["󰥇", "󰤾", "󰤿", "󰥀", "󰥁", "󰥂", "󰥃", "󰥄", "󰥅", "󰥆", "󰥈"],
-        // "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device If this config option is not defined or none of the devices in the list are connected, it will fall back to showing the last connected device.
-        "tooltip-format": "{controller_alias}\n{num_connections} connected",
-        "tooltip-format-connected": "{controller_alias}\n{num_connections} connected\n\n{device_enumerate}",
-        "tooltip-format-enumerate-connected": "{device_alias}",
-        "tooltip-format-enumerate-connected-battery": "{device_alias}\t{icon} {device_battery_percentage}%"
     },
 
     "pulseaudio": {
@@ -241,12 +225,11 @@
         "return-type": "json",
         "format": "{}",
         "rotate": 0,
-        "on-click": "systemupdate.sh up",
+        "on-click": "hyprctl dispatch exec 'systemupdate.sh up'",
         "interval": 86400, // once every day
         "tooltip": true,
         "signal": 20,
     },
-
     "custom/keybindhint": {
         "format": " ",
         "rotate": 0,
@@ -254,7 +237,7 @@
     },
 
     "tray": {
-        "icon-size": 20,
+        "icon-size": 18,
         "rotate": 0,
         "spacing": 5
     },
