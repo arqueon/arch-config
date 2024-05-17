@@ -76,7 +76,11 @@ ZSH_THEME="random"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+<<<<<<< HEAD
 plugins=( git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting )
+=======
+plugins=(git)
+>>>>>>> b1cf15e5f280b65ecf11054def7d8b231d26e221
 
 if [ -f $ZSH/oh-my-zsh.sh ]; then
   source $ZSH/oh-my-zsh.sh
@@ -528,7 +532,11 @@ alias personal='cp -Rf /personal/* ~'
 [[ -f ~/.zshrc-personal ]] && . ~/.zshrc-personal
 
 # reporting tools - install when not installed
+<<<<<<< HEAD
 pokemon-colorscripts -r
+=======
+#fastfetch
+>>>>>>> b1cf15e5f280b65ecf11054def7d8b231d26e221
 neofetch
 #screenfetch
 #alsi
@@ -543,4 +551,8 @@ neofetch
 #sysinfo-retro
 #cpufetch
 #colorscript random
+<<<<<<< HEAD
 #hyfetch
+=======
+#hyfetch
+>>>>>>> b1cf15e5f280b65ecf11054def7d8b231d26e221
