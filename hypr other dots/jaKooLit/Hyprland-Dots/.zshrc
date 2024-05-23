@@ -393,6 +393,7 @@ alias lxorgo="bat /var/log/Xorg.0.log.old"
 
 #reading logs with sublime-text-4
 alias scal="subl /var/log/Calamares.log"
+alias spac="subl /etc/pacman.conf"
 
 #gpg
 #verify signature for isos
@@ -416,8 +417,8 @@ alias fix-keys="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
 #alias fix-sddm-config="/usr/local/bin/arcolinux-fix-sddm-config"
 alias fix-pacman-conf="/usr/local/bin/arcolinux-fix-pacman-conf"
 alias fix-pacman-keyserver="/usr/local/bin/arcolinux-fix-pacman-gpg-conf"
-alias fix-grub="/usr/local/bin/arcolinux-fix-grub"
-alias fixgrub="/usr/local/bin/arcolinux-fix-grub"
+alias fix-grub="sudo /usr/local/bin/arcolinux-fix-grub"
+alias fixgrub="sudo /usr/local/bin/arcolinux-fix-grub"
 
 #maintenance
 alias big="expac -H M '%m\t%n' | sort -h | nl"
@@ -532,7 +533,8 @@ alias personal='cp -Rf /personal/* ~'
 pokemon-colorscripts --no-title -s -r
 
 # reporting tools - install when not installed
-neofetch
+fastfetch
+#neofetch
 #screenfetch
 #alsi
 #paleofetch
