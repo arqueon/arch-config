@@ -3,7 +3,7 @@ sort=-time
 
 # BINDING OPTIONS
 on-button-left=dismiss
-on-button-middle=invoke-default-action
+on-button-middle=none
 on-button-right=dismiss-all
 on-touch=dismiss
 #on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga

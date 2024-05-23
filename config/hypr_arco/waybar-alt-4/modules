@@ -276,8 +276,7 @@
              "focused": "",
              "default": ""
          },
-         //"on-click": "activate",
-         "on-click": "focusworkspaceoncurrentmonitor",
+         "on-click": "activate",
     },
 
 	// waybar-tray
