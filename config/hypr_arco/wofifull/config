@@ -3,7 +3,7 @@
 ## General
 show=drun
 prompt=Apps
-normal_window=false
+normal_window=true
 layer=overlay
 term=kitty
 columns=5
