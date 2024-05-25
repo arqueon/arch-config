@@ -49,9 +49,9 @@ then
 
 
 
-THEME='Arc-Dark'
-ICONS='a-candy-beauty-icon-theme'
-FONT='Noto Sans 11'
+THEME='Catppuccin-Frappe-Standard-Sapphire-Dark'
+ICONS='Papirus-Dark'
+FONT='Roboto 11'
 CURSOR='Bibata-Modern-Ice'
 
 SCHEMA='gsettings set org.gnome.desktop.interface'
