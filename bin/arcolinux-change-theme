@@ -31,16 +31,28 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
 ##################################################################################################################
 
-THEME='Tokyonight-Dark-BL-LB'
-#THEME='Catppuccin-Frappe-Standard-Sapphire-Dark'
-ICONS='Tokyonight-Dark'
-#ICONS='Papirus-Dark'
-#FONT='Inter 11'
-FONT='Roboto 11'
-#FONT='Fira Sans 11'
-#FONT='Hack 11'
-CURSOR='BreezeX-RosePine'
-#CURSOR='Capitaine'
+tput setaf 3
+echo "We will apply these settings"
+echo
+echo "THEME='Arc-Dark'"
+echo "ICONS='a-candy-beauty-icon-theme'"
+echo "FONT='Noto Sans 11'"
+echo "CURSOR='Bibata-Modern-Ice'"
+echo "SCHEMA='gsettings set org.gnome.desktop.interface'"
+tput sgr0
+echo
+read -p "Do you want to continue? (Y/y) " -n 1 -r
+echo    # move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    echo "Continuing..."
+
+
+
+THEME='Arc-Dark'
+ICONS='a-candy-beauty-icon-theme'
+FONT='Noto Sans 11'
+CURSOR='Bibata-Modern-Ice'
 
 SCHEMA='gsettings set org.gnome.desktop.interface'
 
@@ -166,3 +178,7 @@ echo "Font     : "$FONT
 echo "Cursor   : "$CURSOR
 echo "################################################################"
 tput sgr0
+
+else
+    echo "No changes. Exiting..."
+fi
