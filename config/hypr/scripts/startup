@@ -38,6 +38,7 @@ dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
 #telegram-desktop &
 #discord &
 kdeconnectd &
+
 insync start &
 copyq &
 #flameshot &
@@ -46,6 +47,7 @@ copyq &
 variety &
 /opt/ExpanDrive/expandrive %U &
 ferdium &
+kdeconnect-cli --refresh &
 kdeconnect-indicator &
 nm-applet --indicator
 
