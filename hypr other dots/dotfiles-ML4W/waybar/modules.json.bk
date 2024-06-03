@@ -20,9 +20,9 @@
 			"active": "",
 			"default": ""
         },
-        "persistent-workspaces": {
-            "*": 5
-        }       
+        //"persistent-workspaces": {
+        //        "*": 5
+        //}       
     },
 
     // Taskbar
@@ -292,7 +292,7 @@
     "group/links": {
         "orientation": "horizontal",
         "modules": [
-            //"custom/chatgpt",
+//            "custom/chatgpt",
             "custom/empty"
         ]
     },
@@ -371,7 +371,8 @@
             "car": " ",
             "default": [" ", " ", " "]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pulsemixer --toggle-mute",
+        "on-click-right": "pavucontrol"
     },
 
     // Bluetooth
