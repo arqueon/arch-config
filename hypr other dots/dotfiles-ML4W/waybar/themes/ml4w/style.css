@@ -164,12 +164,30 @@ window#waybar.empty #window {
 #custom-settings, 
 #custom-wallpaper, 
 #custom-system,
+#custom-hyprshade,
+#custom-hypridle,
 #custom-waybarthemes {
     margin-right: 23px;
     font-size: 20px;
     font-weight: bold;
     opacity: 0.8;
     color: @iconcolor;
+}
+
+#custom-hyprshade {
+    margin-right:12px;
+}
+
+#custom-hypridle {
+    margin-right:18px;
+}
+
+#custom-hypridle.active {
+    color: @iconcolor;
+}
+
+#custom-hypridle.notactive {
+    color: #dc2f2f;
 }
 
 #custom-system {
@@ -185,7 +203,7 @@ window#waybar.empty #window {
 }
 
 #custom-chatgpt {
-    margin-right: 15px;
+    margin-right: 12px;
     background-image: url("../assets/ai-icon.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -193,11 +211,19 @@ window#waybar.empty #window {
 }
 
 #custom-ml4w-welcome {
-    margin-right: 15px;
+    margin-right: 12px;
     background-image: url("../assets/ml4w-icon.png");
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 24px;
+}
+
+#custom-ml4w-hyprland-settings {
+    margin-right: 12px;
+    background-image: url("../assets/hyprland-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 16px;
 }
 
 /* -----------------------------------------------------

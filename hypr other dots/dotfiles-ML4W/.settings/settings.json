@@ -13,7 +13,7 @@
     },
     {
         "key": "waybar_workspaces",
-        "value": 5
+        "value": 8
     },
     {
         "key": "rofi_bordersize",
@@ -24,8 +24,12 @@
         "value": true
     },
     {
+        "key": "waybar_taskbar",
+        "value": false
+    },
+    {
         "key": "waybar_network",
-        "value": true
+        "value": false
     },
     {
         "key": "waybar_chatgpt",
@@ -49,10 +53,10 @@
     },
     {
         "key": "hypridle_dpms_timeout",
-        "value": 680
+        "value": 660
     },
     {
         "key": "hypridle_suspend_timeout",
-        "value": 1800
+        "value": 0
     }
 ]
