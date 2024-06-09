@@ -46,7 +46,6 @@ copyq &
 variety &
 /opt/ExpanDrive/expandrive %U &
 #ferdium &
+kdeconnect-cli --refresh &
 kdeconnect-indicator &
 nm-applet --indicator
-google-chrome-stable --ozone-platform=wayland %U
-
