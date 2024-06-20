@@ -54,29 +54,42 @@ input {
     // position x=1280 y=0
 }
 
+/-output "HDMI-A-1" {
+    // off
+    //mode "1920x1080@60.0"
+    //scale 1.0
+    // for portrait mode
+    // transform "90"
+    //position x=0 y=0
+}
+
+/- output "DP-2" {
+    // off
+    //mode "13440x1440@165.0"
+    //scale 1.0
+    // for portrait mode
+    // transform "90"
+    //position x=1920 y=0
+}
+
 output "HDMI-A-1" {
     // off
     mode "1920x1080@60.0"
     scale 1.0
-
     // for portrait mode
     // transform "90"
-
-    position x=0 y=0
-
-}
-
-output "DP-" {
-    // off
-    mode "13440x1440@165.0"
-    scale 1.0
-
-    // for portrait mode
-    // transform "90"
-
     position x=1920 y=0
-
 }
+
+output "DP-2" {
+    // off
+    mode "1920x1080@60.0"
+    scale 1.0
+    // for portrait mode
+    // transform "90"
+    position x=0 y=0
+}
+
 
 layout {
     gaps 14
@@ -137,6 +150,7 @@ spawn-at-startup "swww img ~/.wallpapers/red.jpeg"
 spawn-at-startup "swayosd-server"
 spawn-at-startup "~/.scripts/swayidle.sh"
 spawn-at-startup "swaync -c ~/.config/swaync/config.json -s ~/.config/swaync/style.css"
+spawn-at-startup "~.local/share/bin/polkitkdeauth.sh"
 
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 
