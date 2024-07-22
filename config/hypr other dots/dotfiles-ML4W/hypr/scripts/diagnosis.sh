@@ -42,10 +42,10 @@ _commandExists "hypridle" "hyprpaper"
 _commandExists "wal" "python-pywal"
 _commandExists "gum" "gum"
 _commandExists "wlogout" "wlogout"
-_commandExists "swww" "swww"
 _commandExists "eww" "eww"
 _commandExists "magick" "imagemagick"
 _commandExists "figlet" "figlet"
+_commandExists "waypaper" "waypaper"
 
 echo
 echo "Press return to exit"

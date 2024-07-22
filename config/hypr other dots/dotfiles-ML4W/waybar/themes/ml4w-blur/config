@@ -19,7 +19,10 @@
     "spacing": 0,
 
     // Load Modules
-    "include": ["~/dotfiles/waybar/modules.json"],
+    "include": [
+        "~/dotfiles/.settings/waybar-quicklinks.json",
+        "~/dotfiles/waybar/modules.json"
+    ],
 
     // Modules Left
     "modules-left": [
@@ -43,11 +46,9 @@
         "pulseaudio",
         "bluetooth",
         "battery", 
-        //"network",
+        "network",
         "group/hardware",
-        "custom/cliphist",
-        "custom/hypridle",
-        "custom/hyprshade",
+        "group/tools",
         "tray",
         "custom/exit",
         "custom/ml4w-welcome",

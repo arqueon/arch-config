@@ -11,14 +11,16 @@
 {
     // Workspaces
     "hyprland/workspaces" : {
+        "on-scroll-up": "hyprctl dispatch workspace r-1",
+        "on-scroll-down": "hyprctl dispatch workspace r+1",        
         "on-click": "activate",
         "active-only": false,
         "all-outputs": true,
         "format": "{}",
         "format-icons": {
-			"urgent": "",
-			"active": "",
-			"default": ""
+            "urgent": "",
+            "active": "",
+            "default": ""
         },
         "persistent-workspaces": {
             "*": 5
@@ -64,7 +66,7 @@
         "tooltip-format": "Open Sidebar"
     },
 
-    // ML4W Welcome App
+    // ML4W Hyprland Settings App
     "custom/ml4w-hyprland-settings": {
         "on-click": "~/dotfiles/apps/ML4W_Hyprland_Settings-x86_64.AppImage",
         "format": " ",
@@ -76,13 +78,10 @@
         "format": ""
     },
 
-    // Youtube Subscriber Count
-    "custom/youtube": {
-        "format": " {}",
-        "exec": "python ~/private/youtube.py",
-        "restart-interval": 600,
-        "on-click": "chromium https://studio.youtube.com",
-        "tooltip": false
+    // Empty
+    "custom/tools": {
+        "format": "",
+        "tooltip-format": "Tools"
     },
     
     // Cliphist
@@ -108,7 +107,7 @@
     // Wallpaper
     "custom/wallpaper": {
         "format": "",
-        "on-click": "~/dotfiles/hypr/scripts/wallpaper.sh select",
+        "on-click": "waypaper",
         "on-click-right": "~/dotfiles/hypr/scripts/wallpaper-effects.sh",
         "tooltip-format": "Left: Select a wallpaper\nRight: Select wallpaper effect"
     },
@@ -134,32 +133,18 @@
         "tooltip": false
     },
 
-    // Filemanager Launcher
-    "custom/filemanager": {
-        "format": "",
-        "on-click": "~/dotfiles/.settings/filemanager.sh",
-        "tooltip-format": "Open the filemanager"
-    },
-
-    // Browser Launcher
-    "custom/browser": {
-        "format": "",
-        "on-click": "~/dotfiles/.settings/browser.sh",
-        "tooltip-format": "Open the browser"
-    },    
-
     // ChatGPT Launcher
     "custom/chatgpt": {
         "format": " ",
-        "on-click": "chromium --app=https://chat.openai.com",
-        "tooltip-format": "Open ChatGPT"
+        "on-click": "~/dotfiles/.settings/ai.sh",
+        "tooltip-format": "AI Support"
     },
 
     // Calculator
     "custom/calculator": {
         "format": "",
         "on-click": "qalculate-gtk",
-        "tooltip": false
+        "tooltip-format": "Open calculator"
     },
 
     // Windows VM
@@ -250,13 +235,13 @@
     // CPU
     "cpu": {
         "format": "/ C {usage}% ",
-        "on-click": "alacritty -e htop"
+        "on-click": "~/dotfiles/.settings/systeminfo.sh"
     },
 
     // Memory
     "memory": {
         "format": "/ M {}% ",
-        "on-click": "alacritty -e htop"
+        "on-click": "~/dotfiles/.settings/systeminfo.sh"
     },
 
     // Harddisc space used
@@ -264,7 +249,7 @@
         "interval": 30,
         "format": "D {percentage_used}% ",
         "path": "/",
-        "on-click": "alacritty -e htop"
+        "on-click": "~/dotfiles/.settings/systeminfo.sh"
     }, 
 
     "hyprland/language": {
@@ -288,11 +273,27 @@
         ]
     },
     
-    // Group Settings
+    // Group Tools
+    "group/tools": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 300,
+            "children-class": "not-memory",
+            "transition-left-to-right": false
+        },            
+        "modules": [
+            "custom/tools",
+            "custom/cliphist",
+            "custom/hypridle",
+            "custom/hyprshade"
+        ]
+    },
+
+    // Group Links
     "group/links": {
         "orientation": "horizontal",
         "modules": [
-            //"custom/chatgpt",
+            "custom/chatgpt",
             "custom/empty"
         ]
     },
@@ -311,15 +312,6 @@
             "custom/wallpaper",
             "custom/ml4w-hyprland-settings"
         ]
-    },
-
-    // Group Quicklinks
-    "group/quicklinks": {
-        "orientation": "horizontal",
-        "modules": [
-            "custom/browser",
-            "custom/filemanager",
-         ]
     },
 
     // Network
@@ -372,6 +364,8 @@
             "default": [" ", " ", " "]
         },
         "on-click": "pavucontrol"
+        "on-middle-click": "pactl set-sink-mute $(pactl get-default-sink) $(($(date +%H) / 12))"
+
     },
 
     // Bluetooth
@@ -388,6 +382,6 @@
     "user": {
         "format": "{user}",
         "interval": 60,
-        "icon": false,
+        "icon": false
     }
 }

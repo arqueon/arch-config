@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-{
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  "logo": {
-    "type": "small"
-  },
-  "modules": [
-    "title",
-    "os",
-    "kernel",
-    "uptime",
-    "packages",
-    "memory",
-    "shell",
-    "display",
-    "de",
-    "wmtheme",
-    "font",
-    "cpu"
-  ]
-}
-=======
 //  Thanks to Bina
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
@@ -130,4 +108,3 @@
       "break",
   ]
 }
->>>>>>> d2772f2a17d5715a44ed67d98dd8e1dd3c983742
