@@ -33,7 +33,7 @@
     },
     {
         "key": "waybar_chatgpt",
-        "value": true
+        "value": false
     },
     {
         "key": "waybar_systray",
