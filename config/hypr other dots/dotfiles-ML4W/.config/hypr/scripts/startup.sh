@@ -13,7 +13,7 @@ copyq &
 #redshift-gtk &
 variety &
 /opt/ExpanDrive/expandrive %U &
-ferdium &
+#ferdium &
 kdeconnect-cli --refresh &
 kdeconnect-indicator &
 nm-applet --indicator
