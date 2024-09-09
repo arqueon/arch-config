@@ -5,7 +5,8 @@
 #telegram-desktop &
 #discord &
 kdeconnectd &
-
+kdeconnect-indicator &
+kdeconnect-app
 insync start &
 copyq &
 #flameshot &
@@ -15,6 +16,5 @@ variety &
 /opt/ExpanDrive/expandrive %U &
 #ferdium &
 kdeconnect-cli --refresh &
-kdeconnect-indicator &
 nm-applet --indicator
 

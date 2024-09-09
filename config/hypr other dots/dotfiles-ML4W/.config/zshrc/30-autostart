@@ -21,3 +21,26 @@ else
         echo "Start Hyprland with command Hyprland"
     fi
 fi
+
+# Display Pokemon-colorscripts
+# Project page: https://gitlab.com/phoneybadger/pokemon-colorscripts#on-other-distros-and-macos
+pokemon-colorscripts --no-title -s -r
+
+# reporting tools - install when not installed
+#fastfetch
+#neofetch
+#screenfetch
+#alsi
+#paleofetch
+#fetch
+#hfetch
+#sfetch
+#ufetch
+#ufetch-arco
+#pfetch
+#sysinfo
+#sysinfo-retro
+#cpufetch
+#colorscript random
+#hyfetch
+
