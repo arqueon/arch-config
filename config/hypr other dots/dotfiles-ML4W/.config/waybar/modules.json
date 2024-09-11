@@ -206,8 +206,7 @@
 
   // Clock
   "clock": {
-	"timezone": "America/Mexico_City",
-    "format": "{:%H:%M %a %Od.%Om.%y}",
+    "format": "{:%H:%M %a}",
     "on-click": "ags -t calendar",
     "tooltip": false
   },
