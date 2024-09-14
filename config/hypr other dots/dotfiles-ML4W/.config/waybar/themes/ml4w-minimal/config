@@ -61,7 +61,7 @@
         "hyprland/workspaces",
         "group/links",
         "group/settings",
-        "group/quicklinks",
+        //"group/quicklinks",
         "custom/empty"
     ],
 
@@ -78,7 +78,7 @@
 //"backlight",
         "bluetooth",
         "battery", 
-"network",
+//"network",
         "group/hardware",
         "group/tools",
         "custom/exit",
