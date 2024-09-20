@@ -137,6 +137,7 @@ window#waybar {
 
 #cpu {
     color:#a3be8c;
+    font-family:ConkySymbols;
 }
 
 #temperature {
@@ -149,6 +150,7 @@ window#waybar {
 
 #memory {
     color: #b48ead;
+    font-family:ConkySymbols;
 }
 
 #idle_inhibitor {
@@ -169,7 +171,6 @@ window#waybar {
 
 #battery {
     color: #d8dee9;
-    font-family:JetBrainsMono;
 }
 
 #battery.charging {
@@ -203,12 +204,4 @@ window#waybar {
 #custom-power{
     border-style: hidden;
     margin-top:2px;
-}
-
-#custom-workspaces{
-    font-size:15px;
-}
-
-#custom-focused-window{
-    font-size:15px;
 }

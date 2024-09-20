@@ -327,7 +327,7 @@ spawn-at-startup "swww img ~/Imágenes/Wallpapers/Espeon.jpg"
 spawn-at-startup "swayosd-server"
 spawn-at-startup "~/.scripts/swayidle.sh"
 spawn-at-startup "swaync -c ~/.config/swaync/config.json -s ~/.config/swaync/style.css"
-spawn-at-startup "wlsunset" "-l" "39.01" "-L" "125.44"
+spawn-at-startup "wlsunset" "-l" "20.69" "-L" "-103.34"
 spawn-at-startup "xwayland-satellite"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 // Dark theme
