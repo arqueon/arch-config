@@ -25,7 +25,7 @@ input {
         // dwt
         // dwtp
         // natural-scroll
-        accel-speed 1.2
+        accel-speed 1.0
         accel-profile "flat"
     }
 
