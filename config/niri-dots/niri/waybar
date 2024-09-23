@@ -148,11 +148,9 @@
     //"on-click-middle": "~/.config/hypr/scripts/volumecontrol.sh -o m",
     //"on-scroll-up": "~/.config/hypr/scripts/volumecontrol.sh -o i",
     //"on-scroll-down": "~/.config/hypr/scripts/volumecontrol.sh -o d"
-	"on-scroll-down": "swayosd-client --output-volume lower"
+	"on-scroll-down": "swayosd-client --output-volume lower",
     "on-click-middle": "swayosd-client --output-volume mute-toggle",
     "on-scroll-up": "swayosd-client --output-volume raise",
-
-
     },
     "custom/weather": {
     "exec": "curl 'https://wttr.in/guadalajara+jalisco?format=2'",
