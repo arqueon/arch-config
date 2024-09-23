@@ -292,6 +292,7 @@ binds {
     Mod+Return { spawn "konsole"; }
     Alt+Space { spawn "fuzzel"; }
     Ctrl+Alt+Escape { spawn "swaylock"; }
+    Mod+l { spawn "swaylock"; }
     Mod+o { spawn "firedragon"; }
     Mod+n { spawn "dolphin"; }
     Mod+z { spawn "kate"; }
