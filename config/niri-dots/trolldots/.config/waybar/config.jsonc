@@ -9,13 +9,10 @@
         "wlr/taskbar"
     ],
     "modules-center": [
-        "idle_inhibitor",
-        "custom/weather",
         "clock",
         "niri/window"
     ],
     "modules-right": [
-        "pulseaudio",
         "cpu",
         "memory",
         "temperature",
@@ -114,12 +111,10 @@
     },
     "cpu": {
         "format": "{usage}% ",
-        "tooltip": false,
-        "on-click": "footclient -T waybar_btop -e btop"
+        "tooltip": false
     },
     "memory": {
-        "format": "{}% ",
-        "on-click": "footclient -T waybar_btop -e btop"
+        "format": "{}% "
     },
     "temperature": {
         "critical-threshold": 80,
@@ -165,28 +160,22 @@
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
-        "scroll-step": 5,
-        "format": "{icon}{volume: >3}%",
-        "format-bluetooth": "{icon}{volume: >3}%",
-        "format-muted":" muted",
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
         "format-icons": {
-            "headphones": "",
-            "handsfree": "",
-            "headset": "",
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", ""]
+            "default": ["", "", ""]
         },
-        "on-cick": "pavucontrol",
-        "on-scroll-down": "swayosd-client --output-volume lower",
-        "on-click-middle": "swayosd-client --output-volume mute-toggle",
-        "on-scroll-up": "swayosd-client --output-volume raise",
-    },
-    "custom/weather": {
-    "exec": "curl 'https://wttr.in/guadalajara+jalisco?format=2'",
-    "interval": 900,
-    "on-click": "yad --html --uri='https://wttr.in/guadalajara+jalisco' --center --fixed --width=1000 --height=680 --timeout=60 --timeout-indicator=right"
+        "on-click": "pavucontrol"
     },
     "custom/media": {
         "format": "{icon} {}",
