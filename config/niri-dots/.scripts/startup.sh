@@ -5,7 +5,7 @@
 #telegram-desktop &
 #discord &
 kdeconnectd &
-kdeconnect-app
+#kdeconnect-app
 insync start &
 copyq &
 #flameshot &

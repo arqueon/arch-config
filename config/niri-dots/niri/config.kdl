@@ -187,7 +187,7 @@ layout {
         // If you enable the border, you probably want to disable the focus ring.
         off
 
-        width 8
+        width 10
         active-color "#ffc87f"
         inactive-color "#505050"
 
@@ -225,7 +225,7 @@ spawn-at-startup "/home/ruben/.scripts/startup.sh"
 spawn-at-startup "swayosd-server"
 spawn-at-startup "mako"
 //spawn-at-startup "swaync -c ~/.config/swaync/config.json -s ~/.config/swaync/style.css"
-spawn-at-startup "wlsunset" "-l" "39.01" "-L" "125.44"
+spawn-at-startup "wlsunset" "-l" "20.70" "-L" "-103.34"
 spawn-at-startup "xwayland-satellite"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 
@@ -237,7 +237,7 @@ prefer-no-csd
 // You can change the path where screenshots are saved.
 // A ~ at the front will be expanded to the home directory.
 // The path is formatted with strftime(3) to give you the screenshot date and time.
-screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+screenshot-path "~/Imágenes/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 
 // You can also set this to null to disable saving screenshots to disk.
 // screenshot-path null
@@ -284,20 +284,25 @@ window-rule {
     clip-to-geometry true
 }
 
-// window-rule {
-//     match app-id="meld"
-//     open-maximized true
-// }
+window-rule {
+    match app-id="Zotero"
+    open-maximized true
+}
 
 window-rule {
-    match app-id="ferdium"
-    open-on-workspace "2"
+    match app-id="Logseq"
+    open-maximized true
+}
+
+window-rule {
+    match app-id="Ferdium"
+    //open-on-workspace "2"
     open-maximized true
 }
 
 window-rule {
     match app-id="chrome"
-    open-on-workspace "1"
+    //open-on-workspace "1"
     open-maximized true
 }
 
@@ -337,6 +342,8 @@ binds {
     Mod+F8 { spawn "qbittorrent"; }
     Mod+F9 { spawn "jdownloader"; }
     Mod+F10 { spawn "youtube-music"; }
+    Mod+Shift+C { spawn "guvcview-qt"; }
+    //"~/.scripts/camaras.sh"; }
 
     Mod+period { spawn "anyrun"; }
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
