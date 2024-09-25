@@ -285,11 +285,6 @@ window-rule {
 }
 
 window-rule {
-    match app-id="Zotero"
-    open-maximized true
-}
-
-window-rule {
     match app-id="Logseq"
     open-maximized true
 }
