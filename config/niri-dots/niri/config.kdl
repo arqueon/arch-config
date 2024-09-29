@@ -548,4 +548,5 @@ hotkey-overlay {
 environment {
     DISPLAY ":1"
     QT_QPA_PLATFORM "wayland"
+    wmname "LG3D"
 }
