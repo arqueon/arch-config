@@ -1,14 +1,9 @@
 #!/bin/bash
 
-#insync start &
-#dropbox &
-#telegram-desktop &
 #discord &
 kdeconnectd &
 #kdeconnect-app
-insync start &
 copyq &
-#flameshot &
 #/usr/lib/geoclue-2.0/demos/agent &
 #redshift-gtk &
 variety &
@@ -17,4 +12,5 @@ variety &
 kdeconnect-cli --refresh &
 kdeconnect-indicator &
 nm-applet --indicator
+insync start &
 
