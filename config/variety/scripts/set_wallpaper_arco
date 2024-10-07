@@ -248,13 +248,18 @@ if [[ -n $PID || $XDG_CURRENT_DESKTOP == "Hyprland" ]]; then
         # Grey background flicker is prevented by killing old swaybg process after new one.
         # See https://github.com/swaywm/swaybg/issues/17#issuecomment-851680720
         swaybg -i "$WP" -m fill &
-        if [ ! -z "$PID" ]; then
+       if [ ! -z "$PID" ]; then
             sleep 1
             kill $PID 2>/dev/null
         fi
     else
         swaymsg output "*" bg "$WP" fill 2> /dev/null
     fi
+#    swww img "$WP"
+#    hyprctl hyprpaper preload ""$WP""
+#    hyprctl hyprpaper wallpaper "$,"$WP""
+
+
 fi
 
 if [[ -n $PID || $XDG_CURRENT_DESKTOP == "niri" ]]; then
