@@ -36,7 +36,7 @@ sudo git config --system core.editor nano
 #git config --global credential.helper 'cache --timeout=32000'
 git config --global push.default simple
 
-git remote set-url origin git@github.com:arqueonautis/arch-config
+git remote set-url origin git@github.com:arqueon/arch-config
 #$project
 
 echo "Everything set"
