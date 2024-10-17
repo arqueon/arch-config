@@ -2,14 +2,6 @@
     (
         modifiers: [
             Super,
-            Shift,
-        ],
-        key: "F10",
-        description: Some("mute swayosd"),
-    ): Spawn("swayosd-client --output-volume mute-toggle"),
-    (
-        modifiers: [
-            Super,
         ],
         key: "Return",
         description: Some("kitty"),
@@ -25,16 +17,30 @@
         modifiers: [
             Super,
         ],
-        key: "F10",
-        description: Some("youtube-music"),
-    ): Spawn("youtube-music"),
+        key: "F5",
+        description: Some("zettlr"),
+    ): Spawn("zettlr"),
     (
         modifiers: [
             Super,
         ],
-        key: "F2",
-        description: Some("ferdium"),
-    ): Spawn("ferdium"),
+        key: "F8",
+        description: Some("qbittorrent"),
+    ): Spawn("qbittorrent"),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "F6",
+        description: Some("doublecmd"),
+    ): Spawn("doublecmd"),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "F1",
+        description: Some("chrome"),
+    ): Spawn("google-chrome-stable"),
     (
         modifiers: [
             Super,
@@ -47,9 +53,17 @@
         modifiers: [
             Super,
         ],
-        key: "F1",
-        description: Some("chrome"),
-    ): Spawn("google-chrome-stable"),
+        key: "F10",
+        description: Some("youtube-music"),
+    ): Spawn("youtube-music"),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "F10",
+        description: Some("mute swayosd"),
+    ): Spawn("swayosd-client --output-volume mute-toggle"),
     (
         modifiers: [
             Super,
@@ -61,23 +75,16 @@
         modifiers: [
             Super,
         ],
+        key: "F2",
+        description: Some("ferdium"),
+    ): Spawn("ferdium"),
+    (
+        modifiers: [
+            Super,
+        ],
         key: "F7",
         description: Some("virt-manager"),
     ): Spawn("virt-manager"),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "F6",
-        description: Some("doublecmd"),
-    ): Spawn("doublecmd"),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "F5",
-        description: Some("zettlr"),
-    ): Spawn("zettlr"),
     (
         modifiers: [
             Super,
@@ -89,7 +96,7 @@
         modifiers: [
             Super,
         ],
-        key: "F8",
-        description: Some("qbittorrent"),
-    ): Spawn("qbittorrent"),
+        key: "F11",
+        description: Some("planify"),
+    ): Spawn("planify"),
 }
