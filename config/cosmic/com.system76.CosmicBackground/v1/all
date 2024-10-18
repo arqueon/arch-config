@@ -1,6 +1,6 @@
 (
     output: "all",
-    source: Path("/home/ruben/.config/variety/Downloaded"),
+    source: Path("/home/ruben/.config/variety/Favorites"),
     filter_by_theme: true,
     rotation_frequency: 300,
     filter_method: Lanczos,

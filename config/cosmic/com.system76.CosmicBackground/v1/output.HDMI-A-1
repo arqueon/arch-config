@@ -1,0 +1,9 @@
+(
+    output: "HDMI-A-1",
+    source: Path("/home/ruben/.config/variety/Favorites/wallhaven-1pewpw.jpg"),
+    filter_by_theme: false,
+    rotation_frequency: 600,
+    filter_method: Lanczos,
+    scaling_mode: Zoom,
+    sampling_method: Alphanumeric,
+)
