@@ -35,6 +35,8 @@
 # The default is to simply set WP=$1.
 WP=$1
 
+# copia a favoritos todos
+cp "$WP" ~/.config/variety/Favorites
 
 # Enlightenment
 # Needs Modules/System/DBus Extension loaded to work
