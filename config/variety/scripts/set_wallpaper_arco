@@ -36,7 +36,7 @@
 WP=$1
 
 # copia a favoritos todos
-cp "$WP" ~/.config/variety/Favorites
+cp "$WP" ~/wallpaper
 
 # Enlightenment
 # Needs Modules/System/DBus Extension loaded to work
@@ -246,18 +246,19 @@ PID=`pidof swaybg`
 if [[ -n $PID || $XDG_CURRENT_DESKTOP == "Hyprland" ]]; then
     # If swaybg is available, use it as prevents system freeze.
     # See https://github.com/swaywm/sway/issues/5606
-    if command -v "swaybg" >/dev/null 2>&1; then
-        # Grey background flicker is prevented by killing old swaybg process after new one.
-        # See https://github.com/swaywm/swaybg/issues/17#issuecomment-851680720
-        swaybg -i "$WP" -m fill &
-       if [ ! -z "$PID" ]; then
-            sleep 1
-            kill $PID 2>/dev/null
-        fi
-    else
-        swaymsg output "*" bg "$WP" fill 2> /dev/null
+    # if command -v "swaybg" >/dev/null 2>&1; then
+    #     # Grey background flicker is prevented by killing old swaybg process after new one.
+    #     # See https://github.com/swaywm/swaybg/issues/17#issuecomment-851680720
+    #     swaybg -i "$WP" -m fill &
+    #    if [ ! -z "$PID" ]; then
+    #         sleep 1
+    #         kill $PID 2>/dev/null
+    #     fi
+    # else
+    #     swaymsg output "*" bg "$WP" fill 2> /dev/null
+    swww img "$WP"
+    ~/.config/hypr/scripts/wallpaper.sh "$WP"
     fi
-#    swww img "$WP"
 #    hyprctl hyprpaper preload ""$WP""
 #    hyprctl hyprpaper wallpaper "$,"$WP""
 

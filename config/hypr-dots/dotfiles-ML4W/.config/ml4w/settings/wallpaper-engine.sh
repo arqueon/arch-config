@@ -1,1 +1,1 @@
-hyprpaper
+waypaper

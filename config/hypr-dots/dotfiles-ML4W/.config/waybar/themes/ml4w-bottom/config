@@ -30,7 +30,7 @@
         "group/links",
 "group/settings",
 //"wlr/taskbar",
-        "group/quicklinks",
+        //"group/quicklinks",
 "hyprland/window",
     ],
 
