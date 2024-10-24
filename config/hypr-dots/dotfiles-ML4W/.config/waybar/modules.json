@@ -341,14 +341,20 @@
       "car": " ",
       "default": ["", "", ""]
     },
-    "on-click": "pavucontrol",
-//    "on-click-right": "~/.config/hypr/scripts/volumecontrol.sh -s ''",
-//    "on-click-middle": "~/.config/hypr/scripts/volumecontrol.sh -o m",
-//    "on-scroll-up": "~/.config/hypr/scripts/volumecontrol.sh -o i",
-//    "on-scroll-down": "~/.config/hypr/scripts/volumecontrol.sh -o d"
-    "on-scroll-down": "swayosd-client --output-volume lower",
-    "on-click-middle": "swayosd-client --output-volume mute-toggle",
-    "on-scroll-up": "swayosd-client --output-volume raise",
+    //"on-click": "pavucontrol",
+    //"on-click-right": "~/.config/hypr/scripts/volumecontrol.sh -s ''",
+    //"on-click-middle": "~/.config/hypr/scripts/volumecontrol.sh -o m",
+    //"on-scroll-up": "~/.config/hypr/scripts/volumecontrol.sh -o i",
+    //"on-scroll-down": "~/.config/hypr/scripts/volumecontrol.sh -o d"
+    // "on-scroll-down": "swayosd-client --output-volume lower",
+    // "on-click-middle": "swayosd-client --output-volume mute-toggle",
+    // "on-scroll-up": "swayosd-client --output-volume raise",
+    "scroll-step": 5.0,
+    "on-click": "pulsemixer --toggle-mute",
+    "on-click-right": "pavucontrol",
+    "on-scroll-up": "~/.config/hypr/scripts/volume --inc",
+    "on-scroll-down": "~/.config/hypr/scripts/volume --dec",
+    "smooth-scrolling-threshold": 1,
   },
 
   // Bluetooth
